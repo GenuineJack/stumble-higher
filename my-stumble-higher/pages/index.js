@@ -59,87 +59,110 @@ export default function Home() {
   }
 
   return (
-    <div>
-      {/* StumbleHigher-1: Homepage */}
-      <div className="homepage">
-        <h1>A smarter way to scroll.</h1>
-        <p>Stumble into curated ideas that elevate your mind, inspire your journey, and take you higher.</p>
-        <button onClick={handleStumbleClick} className="pressButton">
-          PRESS TO GO HIGHER
-        </button>
-
-        <div onClick={handleQuestionClick} className="questionIcon">
-          ?
-        </div>
-      </div>
-
-      {/* StumbleHigher-2: How It Works Modal */}
-      {modalOpen && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={handleModalClose}>
-              &times;
-            </span>
-            <h2>How It Works</h2>
-            <ol>
-              <li>
-                <strong>Press the Button</strong> - Hit "PRESS TO GO HIGHER" to start your journey.
-                Each press takes you to a curated idea or resource.
-              </li>
-              <li>
-                <strong>Explore and Learn</strong> - Discover inspiring content that helps you
-                think differently, grow, and go higher.
-              </li>
-              <li>
-                <strong>Press Again</strong> - Ready for more? Just press "Go Higher" to find your
-                next discovery.
-              </li>
-              <li>
-                <strong>Share the Inspiration</strong> - If you love what you find, share it with
-                others to keep the inspiration going.
-              </li>
-            </ol>
-          </div>
-        </div>
-      )}
-
-      {/* StumbleHigher-3: Content Experience Page */}
-      {resource && (
-        <div className="content-page">
-          <iframe src={resource.Link} />
-
-          <footer>
-            <div className="footer-left">
-              <Link href="/">
-                <a className="logo">Stumble Higher</a>
-              </Link>
-              <span className="resource-info">
-                {resource.Title} by {resource.Author}
-              </span>
-            </div>
-            <button onClick={handleStumbleClick} className="go-higher-button">
-              Go Higher
+    <div className="container">
+      {!resource ? (
+        <>
+          {/* StumbleHigher-1: Homepage */}
+          <div className="homepage">
+            <h1>A smarter way to scroll.</h1>
+            <p>Stumble into curated ideas that elevate your mind, inspire your journey, and take you higher.</p>
+            <button onClick={handleStumbleClick} className="press-button">
+              PRESS TO GO HIGHER
             </button>
-            <div className="footer-right">
-              <span onClick={handleWorldClick} className="world-icon" title="Open in New Tab">
-                🌐
-              </span>
-              <span onClick={handleShareClick} className="share-icon" title="Share">
-                📢
-              </span>
+            <div onClick={handleQuestionClick} className="question-icon">
+              ?
             </div>
-          </footer>
-        </div>
+          </div>
+
+          {/* StumbleHigher-2: How It Works Modal */}
+          {modalOpen && (
+            <div className="modal">
+              <div className="modal-content">
+                <span className="close" onClick={handleModalClose}>
+                  &times;
+                </span>
+                <h2>How It Works</h2>
+                <ol>
+                  <li>
+                    <strong>Press the Button</strong> - Hit "PRESS TO GO HIGHER" to start your journey.
+                    Each press takes you to a curated idea or resource.
+                  </li>
+                  <li>
+                    <strong>Explore and Learn</strong> - Discover inspiring content that helps you
+                    think differently, grow, and go higher.
+                  </li>
+                  <li>
+                    <strong>Press Again</strong> - Ready for more? Just press "Go Higher" to find your
+                    next discovery.
+                  </li>
+                  <li>
+                    <strong>Share the Inspiration</strong> - If you love what you find, share it with
+                    others to keep the inspiration going.
+                  </li>
+                </ol>
+              </div>
+            </div>
+          )}
+        </>
+      ) : (
+        <>
+          {/* StumbleHigher-3: Content Experience Page */}
+          <div className="content-page">
+            <iframe src={resource.Link} className="content-iframe" />
+            <footer className="footer">
+              <div className="footer-left">
+                <Link href="/">
+                  <a className="logo">Stumble Higher</a>
+                </Link>
+                <span className="resource-info">
+                  {resource.Title} by {resource.Author}
+                </span>
+              </div>
+              <button onClick={handleStumbleClick} className="go-higher-button">
+                Go Higher
+              </button>
+              <div className="footer-right">
+                <span onClick={handleWorldClick} className="world-icon" title="Open in New Tab">
+                  🌐
+                </span>
+                <span onClick={handleShareClick} className="share-icon" title="Share">
+                  📢
+                </span>
+              </div>
+            </footer>
+          </div>
+        </>
       )}
+
+      <footer className="app-footer">
+        <Link href="https://highermarket.xyz/">
+          <a target="_blank">A Higher Market Project</a>
+        </Link>
+        {' | '}
+        <Link href="https://warpcast.com/genuinejack">
+          <a target="_blank">Built by Genuine Jack</a>
+        </Link>
+      </footer>
 
       <style jsx>{`
         /* CSS styles for the components */
+        .container {
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+        }
+
         .homepage {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           text-align: center;
           padding: 2rem;
         }
 
-        .pressButton {
+        .press-button {
           padding: 1rem 2rem;
           font-size: 1.2rem;
           background-color: #ff6600;
@@ -147,14 +170,23 @@ export default function Home() {
           border: none;
           border-radius: 5px;
           cursor: pointer;
+          margin-top: 2rem;
         }
 
-        .questionIcon {
+        .question-icon {
           position: absolute;
           top: 1rem;
           right: 1rem;
           font-size: 1.5rem;
           cursor: pointer;
+          background-color: #ff6600;
+          color: white;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         .modal {
@@ -174,6 +206,7 @@ export default function Home() {
           padding: 2rem;
           border-radius: 5px;
           max-width: 500px;
+          position: relative;
         }
 
         .close {
@@ -185,17 +218,17 @@ export default function Home() {
         }
 
         .content-page {
+          flex: 1;
           display: flex;
           flex-direction: column;
-          min-height: 100vh;
         }
 
-        iframe {
+        .content-iframe {
           flex: 1;
           border: none;
         }
 
-        footer {
+        .footer {
           display: flex;
           justify-content: space-between;
           align-items: center;
@@ -241,6 +274,12 @@ export default function Home() {
           font-size: 1.2rem;
           margin-left: 1rem;
           cursor: pointer;
+        }
+
+        .app-footer {
+          padding: 1rem;
+          text-align: center;
+          background-color: #f5f5f5;
         }
       `}</style>
     </div>
