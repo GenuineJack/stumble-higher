@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stumble Higher</title>
+  <script src="https://cdn.jsdelivr.net/npm/@farcaster/frames"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      margin-top: 40px;
+    }
+    p {
+      margin-bottom: 20px; 
+    }
+    iframe {
+      width: 90%;
+      height: 80vh;
+      border: none;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 30px;
+      font-size: 18px;
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    #modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.4);
+    }
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 600px;
+    }
+    .close {
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>A smarter way to scroll.</h1>
+  <p>Stumble into curated ideas that elevate your mind, inspire your journey, and take you higher.</p>
+  <button id="stumble-button">PRESS TO GO HIGHER</button>
+
+  <iframe id="stumble-iframe"></iframe>
+
+  <footer>
+    <div id="left">
+      <span id="title">Stumble Higher</span> by <span id="author"></span>
+    </div>
+    <button id="go-higher">Go Higher</button>
+    <div id="right">
+      <span id="world-icon" title="Open in New Tab">🌐</span>
+      <span id="share-icon" title="Share">📢</span> 
+    </div>
+  </footer>
+
+  <div id="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>How It Works</h2>
+      <ol>
+        <li><strong>Press the Button</strong> - Hit "PRESS TO GO HIGHER" to start your journey. Each press takes you to a curated idea or resource.</li>
+        <li><strong>Explore and Learn</strong> - Discover inspiring content that helps you think differently, grow, and go higher.</li>  
+        <li><strong>Press Again</strong> - Ready for more? Just press "Go Higher" to find your next discovery.</li>
+        <li><strong>Share the Inspiration</strong> - If you love what you find, share it with others to keep the inspiration going.</li>
+      </ol>
+    </div>
+  </div>
+
+  <script>
+    const resources = [
+      { url: "https://example.com", title: "Example Resource", author: "John Doe" },
+      { url: "https://another.com", title: "Another Resource", author: "Jane Smith" }
+    ];
+
+    function getRandomResource() {
+      return resources[Math.floor(Math.random() * resources.length)];
+    }
+
+    const iframe = document.querySelector("#stumble-iframe");
+    const titleSpan = document.querySelector("#title");
+    const authorSpan = document.querySelector("#author");
+    const stumbleButton = document.querySelector("#stumble-button");
+    const goHigherButton = document.querySelector("#go-higher");
+    const worldIcon = document.querySelector("#world-icon");
+    const shareIcon = document.querySelector("#share-icon");
+    const modal = document.querySelector("#modal");
+    const closeButton = document.querySelector(".close");
+
+    function loadRandomResource() {
+      const resource = getRandomResource();
+      iframe.src = resource.url;
+      titleSpan.textContent = resource.title;
+      authorSpan.textContent = resource.author;
+    }
+
+    stumbleButton.addEventListener("click", loadRandomResource);
+    goHigherButton.addEventListener("click", loadRandomResource);
+
+    worldIcon.addEventListener("click", () => {
+      window.open(iframe.src, "_blank");
+    });
+
+    shareIcon.addEventListener("click", () => {
+      if (navigator.share) {
+        navigator.share({
+          title: titleSpan.textContent,
+          text: `Check out ${titleSpan.textContent} by ${authorSpan.textContent} on StumbleHigher.press!`,
+          url: iframe.src,
+        });
+      }
+    });
+
+    window.onload = function() {
+      modal.style.display = "block";
+    };
+
+    closeButton.onclick = function() {
+      modal.style.display = "none";
+    };
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+</body>
+</html>
