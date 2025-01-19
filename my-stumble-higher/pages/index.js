@@ -29,7 +29,10 @@ export default function Home() {
   }
 
   function getRandomResource(resources) {
-    // ... existing getRandomResource function ...
+    const categories = Object.keys(resources);
+    const randomCategory = categories[Math.floor(Math.random() * categories.length)];
+    const items = resources[randomCategory];
+    return items[Math.floor(Math.random() * items.length)];
   }
 
   function handleStumbleClick() {
@@ -64,8 +67,11 @@ export default function Home() {
         <>
           {/* StumbleHigher-1: Homepage */}
           <div className="homepage">
-            <h1>A smarter way to scroll.</h1>
-            <p>Stumble into curated ideas that elevate your mind, inspire your journey, and take you higher.</p>
+            <h1 className="logo">STUMBLE HIGHER</h1>
+            <p className="tagline">A smarter way to scroll.</p>
+            <p className="description">
+              Stumble into curated ideas that elevate your mind, inspire your journey, and take you higher.
+            </p>
             <button onClick={handleStumbleClick} className="press-button">
               PRESS TO GO HIGHER
             </button>
@@ -147,6 +153,7 @@ export default function Home() {
       <style jsx>{`
         /* CSS styles for the components */
         .container {
+          font-family: 'Helvetica', sans-serif;
           display: flex;
           flex-direction: column;
           min-height: 100vh;
@@ -162,6 +169,22 @@ export default function Home() {
           padding: 2rem;
         }
 
+        .logo {
+          font-size: 3rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+
+        .tagline {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+
+        .description {
+          font-size: 1.2rem;
+          margin-bottom: 2rem;
+        }
+
         .press-button {
           padding: 1rem 2rem;
           font-size: 1.2rem;
@@ -170,7 +193,11 @@ export default function Home() {
           border: none;
           border-radius: 5px;
           cursor: pointer;
-          margin-top: 2rem;
+          transition: background-color 0.3s ease;
+        }
+
+        .press-button:hover {
+          background-color: #e65c00;
         }
 
         .question-icon {
@@ -187,6 +214,11 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          transition: background-color 0.3s ease;
+        }
+
+        .question-icon:hover {
+          background-color: #e65c00;
         }
 
         .modal {
@@ -241,9 +273,7 @@ export default function Home() {
           align-items: center;
         }
 
-        .logo {
-          font-family: 'Helvetica', sans-serif;
-          font-weight: 900;
+        .footer-left .logo {
           font-size: 1.5rem;
           margin-right: 1rem;
           text-decoration: none;
@@ -262,6 +292,11 @@ export default function Home() {
           border: none;
           border-radius: 5px;
           cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+
+        .go-higher-button:hover {
+          background-color: #e65c00;
         }
 
         .footer-right {
@@ -274,6 +309,12 @@ export default function Home() {
           font-size: 1.2rem;
           margin-left: 1rem;
           cursor: pointer;
+          transition: color 0.3s ease;
+        }
+
+        .world-icon:hover,
+        .share-icon:hover {
+          color: #ff6600;
         }
 
         .app-footer {
