@@ -1,0 +1,16 @@
+{
+  "Books": [
+    {
+      "id": "B001",
+      "title": "The Creative Act: A Way of Being",
+      "author": "Rick Rubin",
+      "year": 2023,
+      "link": "https://en.wikipedia.org/wiki/The_Creative_Act:_A_Way_of_Being",
+      "description": "Essential meditation on creativity as a fundamental human quality.",
+      "category": "Creative Process"
+    }
+  ],
+  "Blogs": [],
+  "Videos": [],
+  "Essays": []
+}
