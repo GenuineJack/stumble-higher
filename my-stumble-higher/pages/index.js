@@ -46,12 +46,14 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>STUMBLE HIGHER</h1>
-      <p>Explore curated ideas to inspire your higher self.</p>
+      <h1 className="logo">STUMBLE HIGHER</h1>
+      <p className="tagline">Explore curated ideas to inspire your higher self.</p>
       {!resource ? (
-        <button onClick={handleStumbleClick}>Press to Go Higher</button>
+        <button onClick={handleStumbleClick} className="press-button">Press to Go Higher</button>
       ) : (
-        <iframe src={resource.link} title={resource.title} className="stumble-iframe"></iframe>
+        <div className="content">
+          <iframe src={resource.link} title={resource.title} className="stumble-iframe"></iframe>
+        </div>
       )}
     </div>
   );
