@@ -1,13 +1,4594 @@
 {
   "Books": [
     {
+      "id": "ID",
+      "title": "Title",
+      "author": "Author",
+      "year": null,
+      "link": "Link",
+      "description": "Description",
+      "category": "Category"
+    },
+    {
+      "id": "----",
+      "title": "-------",
+      "author": "--------",
+      "year": null,
+      "link": "------",
+      "description": "-------------",
+      "category": "----------"
+    },
+    {
       "id": "B001",
-      "title": "The Creative Act: A Way of Being",
+      "title": "\"The Creative Act: A Way of Being\"",
       "author": "Rick Rubin",
       "year": 2023,
-      "link": "https://en.wikipedia.org/wiki/The_Creative_Act:_A_Way_of_Being",
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Creative_Act:_A_Way_of_Being)",
       "description": "Essential meditation on creativity as a fundamental human quality.",
       "category": "Creative Process"
+    },
+    {
+      "id": "B002",
+      "title": "\"Zero to One\"",
+      "author": "Peter Thiel",
+      "year": 2014,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Zero_to_One)",
+      "description": "Progressive thoughts on creating truly new things.",
+      "category": "Business/Innovation"
+    },
+    {
+      "id": "B003",
+      "title": "\"Show Your Work!\"",
+      "author": "Austin Kleon",
+      "year": 2014,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Austin_Kleon#Show_Your_Work!)",
+      "description": "Guide to sharing creative work and building audience.",
+      "category": "Creative Process"
+    },
+    {
+      "id": "B004",
+      "title": "\"The Design of Everyday Things\"",
+      "author": "Don Norman",
+      "year": 1988,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)",
+      "description": "Foundational text on user-centered design principles.",
+      "category": "Design"
+    },
+    {
+      "id": "B005",
+      "title": "\"The Power of Habit\"",
+      "author": "Charles Duhigg",
+      "year": 2012,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Power_of_Habit)",
+      "description": "Understanding habit formation and change.",
+      "category": "Personal Development"
+    },
+    {
+      "id": "B006",
+      "title": "\"Thinking in Systems\"",
+      "author": "Donella H. Meadows",
+      "year": 2008,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer)",
+      "description": "Primer on systems thinking and interconnections.",
+      "category": "Systems Thinking"
+    },
+    {
+      "id": "B007",
+      "title": "\"The War of Art\"",
+      "author": "Steven Pressfield",
+      "year": 2002,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_War_of_Art_(book))",
+      "description": "Overcoming creative resistance and doing the work.",
+      "category": "Creative Process"
+    },
+    {
+      "id": "B008",
+      "title": "\"Creativity, Inc.\"",
+      "author": "Ed Catmull",
+      "year": 2014,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Creativity,_Inc.)",
+      "description": "Fostering creativity in organizations.",
+      "category": "Leadership/Creativity"
+    },
+    {
+      "id": "B009",
+      "title": "\"The Psychology of Money\"",
+      "author": "Morgan Housel",
+      "year": 2020,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Psychology_of_Money)",
+      "description": "Timeless lessons on wealth and value.",
+      "category": "Finance/Psychology"
+    },
+    {
+      "id": "B010",
+      "title": "\"Essentialism\"",
+      "author": "Greg McKeown",
+      "year": 2014,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Essentialism:_The_Disciplined_Pursuit_of_Less)",
+      "description": "The disciplined pursuit of less.",
+      "category": "Personal Development"
+    },
+    {
+      "id": "B011",
+      "title": "\"Deep Work\"",
+      "author": "Cal Newport",
+      "year": 2016,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Deep_Work)",
+      "description": "Rules for focused success in a distracted world.",
+      "category": "Productivity"
+    },
+    {
+      "id": "B012",
+      "title": "\"Mindset\"",
+      "author": "Carol S. Dweck",
+      "year": 2006,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Mindset_(book))",
+      "description": "The psychology of growth and development.",
+      "category": "Psychology"
+    },
+    {
+      "id": "B013",
+      "title": "\"The Innovator's Dilemma\"",
+      "author": "Clayton Christensen",
+      "year": 1997,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma)",
+      "description": "Understanding disruptive innovation.",
+      "category": "Business/Innovation"
+    },
+    {
+      "id": "B014",
+      "title": "\"The Artist's Way\"",
+      "author": "Julia Cameron",
+      "year": 1992,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Artist%27s_Way)",
+      "description": "Spiritual path to higher creativity.",
+      "category": "Creative Process"
+    },
+    {
+      "id": "B015",
+      "title": "\"Atomic Habits\"",
+      "author": "James Clear",
+      "year": 2018,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Atomic_Habits)",
+      "description": "Building good habits and breaking bad ones.",
+      "category": "Personal Development"
+    },
+    {
+      "id": "B016",
+      "title": "\"Flow\"",
+      "author": "Mihaly Csikszentmihalyi",
+      "year": 1990,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Flow_(psychology))",
+      "description": "Psychology of optimal experience.",
+      "category": "Psychology"
+    },
+    {
+      "id": "B017",
+      "title": "\"Start with Why\"",
+      "author": "Simon Sinek",
+      "year": 2009,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Start_with_Why)",
+      "description": "How great leaders inspire action.",
+      "category": "Leadership"
+    },
+    {
+      "id": "B018",
+      "title": "\"The Lean Startup\"",
+      "author": "Eric Ries",
+      "year": 2011,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Lean_Startup)",
+      "description": "Building sustainable businesses through iteration.",
+      "category": "Business/Innovation"
+    },
+    {
+      "id": "B019",
+      "title": "\"The Power of Now\"",
+      "author": "Eckhart Tolle",
+      "year": 1997,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Power_of_Now)",
+      "description": "Guide to spiritual enlightenment.",
+      "category": "Personal Development"
+    },
+    {
+      "id": "B020",
+      "title": "\"Making Ideas Happen\"",
+      "author": "Scott Belsky",
+      "year": 2010,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Scott_Belsky)",
+      "description": "Overcoming obstacles between vision and reality.",
+      "category": "Creative Process"
+    },
+    {
+      "id": "B021",
+      "title": "\"Sapiens\"",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind)",
+      "description": "Brief history of humankind and progress.",
+      "category": "History/Anthropology"
+    },
+    {
+      "id": "B022",
+      "title": "\"The Alchemist\"",
+      "author": "Paulo Coelho",
+      "year": 1988,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Alchemist_(novel))",
+      "description": "Following your dreams and personal legend.",
+      "category": "Fiction/Philosophy"
+    },
+    {
+      "id": "B023",
+      "title": "\"Thinking, Fast and Slow\"",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)",
+      "description": "Understanding human decision making.",
+      "category": "Psychology"
+    },
+    {
+      "id": "B024",
+      "title": "\"The 4-Hour Work Week\"",
+      "author": "Timothy Ferriss",
+      "year": 2007,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_4-Hour_Work_Week)",
+      "description": "Escape 9-5, live anywhere, join new rich.",
+      "category": "Business/Lifestyle"
+    },
+    {
+      "id": "B025",
+      "title": "\"Dune\"",
+      "author": "Frank Herbert",
+      "year": 1965,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Dune_(novel))",
+      "description": "Epic science fiction about power and progress.",
+      "category": "Fiction"
+    },
+    {
+      "id": "B026",
+      "title": "\"Drive\"",
+      "author": "Daniel H. Pink",
+      "year": 2009,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Drive:_The_Surprising_Truth_About_What_Motivates_Us)",
+      "description": "The surprising truth about what motivates us.",
+      "category": "Psychology/Business"
+    },
+    {
+      "id": "B027",
+      "title": "\"Good to Great\"",
+      "author": "Jim Collins",
+      "year": 2001,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Good_to_Great)",
+      "description": "Why some companies make the leap and others don't.",
+      "category": "Business"
+    },
+    {
+      "id": "B028",
+      "title": "\"The Tipping Point\"",
+      "author": "Malcolm Gladwell",
+      "year": 2000,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Tipping_Point)",
+      "description": "How little things make big differences.",
+      "category": "Sociology"
+    },
+    {
+      "id": "B029",
+      "title": "\"Snow Crash\"",
+      "author": "Neal Stephenson",
+      "year": 1992,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Snow_Crash)",
+      "description": "Cyberpunk vision of future markets.",
+      "category": "Fiction"
+    },
+    {
+      "id": "B030",
+      "title": "\"Steal Like an Artist\"",
+      "author": "Austin Kleon",
+      "year": 2012,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Austin_Kleon#Steal_Like_an_Artist)",
+      "description": "10 things nobody told you about creativity.",
+      "category": "Creative Process"
+    },
+    {
+      "id": "B031",
+      "title": "\"Hooked\"",
+      "author": "Nir Eyal",
+      "year": 2014,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Hooked:_How_to_Build_Habit-Forming_Products)",
+      "description": "Building habit-forming products.",
+      "category": "Business/Psychology"
+    },
+    {
+      "id": "B032",
+      "title": "\"The $100 Startup\"",
+      "author": "Chris Guillebeau",
+      "year": 2012,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Chris_Guillebeau)",
+      "description": "Reinvent the way you make a living.",
+      "category": "Business"
+    },
+    {
+      "id": "B033",
+      "title": "\"Rework\"",
+      "author": "Jason Fried & DHH",
+      "year": 2010,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Rework_(book))",
+      "description": "Change the way you work forever.",
+      "category": "Business"
+    },
+    {
+      "id": "B034",
+      "title": "\"The Dip\"",
+      "author": "Seth Godin",
+      "year": 2007,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Dip)",
+      "description": "When to quit and when to stick.",
+      "category": "Business/Psychology"
+    },
+    {
+      "id": "B035",
+      "title": "\"The Hard Thing About Hard Things\"",
+      "author": "Ben Horowitz",
+      "year": 2014,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Ben_Horowitz#The_Hard_Thing_About_Hard_Things)",
+      "description": "Building a business when there are no easy answers.",
+      "category": "Business"
+    },
+    {
+      "id": "B036",
+      "title": "\"The Laws of Simplicity\"",
+      "author": "John Maeda",
+      "year": 2006,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/John_Maeda)",
+      "description": "Design, technology, business, life.",
+      "category": "Design"
+    },
+    {
+      "id": "B037",
+      "title": "\"The Talent Code\"",
+      "author": "Daniel Coyle",
+      "year": 2009,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Talent_Code)",
+      "description": "Greatness isn't born, it's grown.",
+      "category": "Personal Development"
+    },
+    {
+      "id": "B038",
+      "title": "\"This Is Marketing\"",
+      "author": "Seth Godin",
+      "year": 2018,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Seth_Godin)",
+      "description": "You can't be seen until you learn to see.",
+      "category": "Marketing"
+    },
+    {
+      "id": "B039",
+      "title": "\"Linchpin\"",
+      "author": "Seth Godin",
+      "year": 2010,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Linchpin_(book))",
+      "description": "Are you indispensable?",
+      "category": "Business/Career"
+    },
+    {
+      "id": "B040",
+      "title": "\"The Fountainhead\"",
+      "author": "Ayn Rand",
+      "year": 1943,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Fountainhead)",
+      "description": "Novel about individualism and creativity.",
+      "category": "Fiction"
+    },
+    {
+      "id": "B041",
+      "title": "\"The Art of Possibility\"",
+      "author": "Rosamund Stone Zander",
+      "year": 2000,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Art_of_Possibility)",
+      "description": "Transforming professional and personal life.",
+      "category": "Personal Development"
+    },
+    {
+      "id": "B042",
+      "title": "\"Originals\"",
+      "author": "Adam Grant",
+      "year": 2016,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Originals:_How_Non-Conformists_Move_the_World)",
+      "description": "How non-conformists move the world.",
+      "category": "Psychology/Innovation"
+    },
+    {
+      "id": "B043",
+      "title": "\"The Culture Code\"",
+      "author": "Daniel Coyle",
+      "year": 2018,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Culture_Code)",
+      "description": "Secrets of highly successful groups.",
+      "category": "Leadership/Culture"
+    },
+    {
+      "id": "B044",
+      "title": "\"Blue Ocean Strategy\"",
+      "author": "W. Chan Kim",
+      "year": 2004,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Blue_Ocean_Strategy)",
+      "description": "Creating uncontested market space.",
+      "category": "Business/Strategy"
+    },
+    {
+      "id": "B045",
+      "title": "\"The Obstacle Is the Way\"",
+      "author": "Ryan Holiday",
+      "year": 2014,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Ryan_Holiday#The_Obstacle_Is_the_Way)",
+      "description": "Turning trials into triumph.",
+      "category": "Philosophy"
+    },
+    {
+      "id": "B046",
+      "title": "\"Art & Fear\"",
+      "author": "David Bayles",
+      "year": 1994,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Art_%26_Fear)",
+      "description": "Observations on the perils of artmaking.",
+      "category": "Art/Psychology"
+    },
+    {
+      "id": "B047",
+      "title": "\"Made to Stick\"",
+      "author": "Chip & Dan Heath",
+      "year": 2007,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Made_to_Stick)",
+      "description": "Why some ideas survive and others die.",
+      "category": "Communication"
+    },
+    {
+      "id": "B048",
+      "title": "\"The Power of Myth\"",
+      "author": "Joseph Campbell",
+      "year": 1988,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Power_of_Myth)",
+      "description": "Understanding the human experience.",
+      "category": "Philosophy/Mythology"
+    },
+    {
+      "id": "B049",
+      "title": "\"The Third Wave\"",
+      "author": "Steve Case",
+      "year": 2016,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Third_Wave:_An_Entrepreneur%27s_Vision_of_the_Future)",
+      "description": "An entrepreneur's vision of the future.",
+      "category": "Business/Technology"
+    },
+    {
+      "id": "B050",
+      "title": "\"The Gifts of Imperfection\"",
+      "author": "Brené Brown",
+      "year": 2010,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Bren%C3%A9_Brown)",
+      "description": "Let go of who you think you're supposed to be.",
+      "category": "Personal Development"
+    },
+    {
+      "id": "B051",
+      "title": "\"Purple Cow\"",
+      "author": "Seth Godin",
+      "year": 2003,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Purple_Cow:_Transform_Your_Business_by_Being_Remarkable)",
+      "description": "Transform your business by being remarkable.",
+      "category": "Marketing"
+    },
+    {
+      "id": "B052",
+      "title": "\"The Art Spirit\"",
+      "author": "Robert Henri",
+      "year": 1923,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Robert_Henri)",
+      "description": "Notes and articles on art and education.",
+      "category": "Art/Education"
+    },
+    {
+      "id": "B053",
+      "title": "\"Mindfulness for Creativity\"",
+      "author": "Danny Penman",
+      "year": 2015,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Danny_Penman)",
+      "description": "Adapt, create and thrive in a frantic world.",
+      "category": "Creativity/Mindfulness"
+    },
+    {
+      "id": "B054",
+      "title": "\"The Art of Learning\"",
+      "author": "Josh Waitzkin",
+      "year": 2007,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Josh_Waitzkin)",
+      "description": "An inner journey to optimal performance.",
+      "category": "Learning/Development"
+    },
+    {
+      "id": "B055",
+      "title": "\"The Trusted Advisor\"",
+      "author": "David H. Maister",
+      "year": 2000,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/David_H._Maister)",
+      "description": "Building relationships in business.",
+      "category": "Business/Relationships"
+    },
+    {
+      "id": "B056",
+      "title": "\"The Infinite Game\"",
+      "author": "Simon Sinek",
+      "year": 2019,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Infinite_Game)",
+      "description": "How great businesses achieve long-lasting success.",
+      "category": "Business/Strategy"
+    },
+    {
+      "id": "B057",
+      "title": "\"The Crossroads of Should and Must\"",
+      "author": "Elle Luna",
+      "year": 2015,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Elle_Luna)",
+      "description": "Find and follow your passion.",
+      "category": "Personal Development"
+    },
+    {
+      "id": "B058",
+      "title": "\"Daily Rituals\"",
+      "author": "Mason Currey",
+      "year": 2013,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Mason_Currey)",
+      "description": "How artists work.",
+      "category": "Creative Process"
+    },
+    {
+      "id": "B059",
+      "title": "\"The Richest Man in Babylon\"",
+      "author": "George S. Clason",
+      "year": 1926,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Richest_Man_in_Babylon)",
+      "description": "Success secrets of the ancients.",
+      "category": "Finance/Wisdom"
+    },
+    {
+      "id": "B060",
+      "title": "\"The Art of Game Design\"",
+      "author": "Jesse Schell",
+      "year": 2008,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Jesse_Schell)",
+      "description": "A book of lenses.",
+      "category": "Design/Games"
+    },
+    {
+      "id": "B061",
+      "title": "\"The Craftsman\"",
+      "author": "Richard Sennett",
+      "year": 2008,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Richard_Sennett)",
+      "description": "The importance of physical making.",
+      "category": "Craft/Philosophy"
+    },
+    {
+      "id": "B062",
+      "title": "\"The Rise\"",
+      "author": "Sarah Lewis",
+      "year": 2014,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Sarah_Lewis_(author))",
+      "description": "Creativity, the gift of failure, and search for mastery.",
+      "category": "Creativity/Success"
+    },
+    {
+      "id": "B063",
+      "title": "\"Contagious\"",
+      "author": "Jonah Berger",
+      "year": 2013,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Jonah_Berger)",
+      "description": "Why things catch on.",
+      "category": "Marketing/Psychology"
+    },
+    {
+      "id": "B064",
+      "title": "\"The Practice\"",
+      "author": "Seth Godin",
+      "year": 2020,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Seth_Godin)",
+      "description": "Shipping creative work.",
+      "category": "Creative Process"
+    },
+    {
+      "id": "B065",
+      "title": "\"Big Magic\"",
+      "author": "Elizabeth Gilbert",
+      "year": 2015,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Big_Magic)",
+      "description": "Creative living beyond fear.",
+      "category": "Creativity"
+    },
+    {
+      "id": "B066",
+      "title": "\"",
+      "author": "B066",
+      "year": null,
+      "link": "Mark Manson",
+      "description": "2016",
+      "category": "[Wikipedia](https://en.wikipedia.org/wiki/The_Subtle_Art_of_Not_Giving_a_F*ck)"
+    },
+    {
+      "id": "B067",
+      "title": "\"Company of One\"",
+      "author": "Paul Jarvis",
+      "year": 2019,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Company_of_One)",
+      "description": "Why staying small is the next big thing.",
+      "category": "Business"
+    },
+    {
+      "id": "B068",
+      "title": "\"The Nature of Order\"",
+      "author": "Christopher Alexander",
+      "year": 2003,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Nature_of_Order)",
+      "description": "Understanding the essence of living structure.",
+      "category": "Design/Philosophy"
+    },
+    {
+      "id": "B069",
+      "title": "\"The Creative Habit\"",
+      "author": "Twyla Tharp",
+      "year": 2003,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Twyla_Tharp)",
+      "description": "Learn it and use it for life.",
+      "category": "Creative Process"
+    },
+    {
+      "id": "B070",
+      "title": "\"A Whole New Mind\"",
+      "author": "Daniel H. Pink",
+      "year": 2005,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/A_Whole_New_Mind)",
+      "description": "Why right-brainers will rule the future.",
+      "category": "Business/Creativity"
+    },
+    {
+      "id": "B071",
+      "title": "\"The Thank You Economy\"",
+      "author": "Gary Vaynerchuk",
+      "year": 2011,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Gary_Vaynerchuk)",
+      "description": "How businesses must adapt to social media.",
+      "category": "Business/Marketing"
+    },
+    {
+      "id": "B072",
+      "title": "\"Inspired\"",
+      "author": "Marty Cagan",
+      "year": 2017,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Marty_Cagan)",
+      "description": "How to create tech products customers love.",
+      "category": "Product Development"
+    },
+    {
+      "id": "B073",
+      "title": "\"Let My People Go Surfing\"",
+      "author": "Yvon Chouinard",
+      "year": 2005,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Yvon_Chouinard)",
+      "description": "The education of a reluctant businessman.",
+      "category": "Business/Environment"
+    },
+    {
+      "id": "B074",
+      "title": "\"The Life-Changing Magic of Tidying Up\"",
+      "author": "Marie Kondo",
+      "year": 2011,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Life-Changing_Magic_of_Tidying_Up)",
+      "description": "Japanese art of decluttering and organizing.",
+      "category": "Lifestyle/Organization"
+    },
+    {
+      "id": "B075",
+      "title": "\"Finite and Infinite Games\"",
+      "author": "James P. Carse",
+      "year": 1986,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Finite_and_Infinite_Games)",
+      "description": "A vision of life as play and possibility.",
+      "category": "Philosophy"
+    },
+    {
+      "id": "B076",
+      "title": "\"The Elements of Style\"",
+      "author": "Strunk & White",
+      "year": 1918,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Elements_of_Style)",
+      "description": "Essential guide to writing well.",
+      "category": "Writing/Communication"
+    },
+    {
+      "id": "B077",
+      "title": "\"The Effective Executive\"",
+      "author": "Peter F. Drucker",
+      "year": 1967,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Effective_Executive)",
+      "description": "The definitive guide to getting the right things done.",
+      "category": "Business/Management"
+    },
+    {
+      "id": "B078",
+      "title": "\"This Is Not a T-Shirt\"",
+      "author": "Bobby Hundreds",
+      "year": 2019,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Bobby_Hundreds)",
+      "description": "A brand, a culture, a community.",
+      "category": "Fashion/Business"
+    },
+    {
+      "id": "B079",
+      "title": "\"The Attention Merchants\"",
+      "author": "Tim Wu",
+      "year": 2016,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Attention_Merchants)",
+      "description": "The epic scramble to get inside our heads.",
+      "category": "Media/Business"
+    },
+    {
+      "id": "B080",
+      "title": "\"How to Do Nothing\"",
+      "author": "Jenny Odell",
+      "year": 2019,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/How_to_Do_Nothing)",
+      "description": "Resisting the attention economy.",
+      "category": "Society/Technology"
+    },
+    {
+      "id": "B081",
+      "title": "\"The Laws of Human Nature\"",
+      "author": "Robert Greene",
+      "year": 2018,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Laws_of_Human_Nature)",
+      "description": "Understanding people's drives and motivations.",
+      "category": "Psychology"
+    },
+    {
+      "id": "B082",
+      "title": "\"The Timeless Way of Building\"",
+      "author": "Christopher Alexander",
+      "year": 1979,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building)",
+      "description": "Principles of organic planning and architecture.",
+      "category": "Design/Architecture"
+    },
+    {
+      "id": "B083",
+      "title": "\"The Score Takes Care of Itself\"",
+      "author": "Bill Walsh",
+      "year": 2009,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Bill_Walsh_(American_football_coach))",
+      "description": "Philosophy of leadership from an NFL legend.",
+      "category": "Leadership"
+    },
+    {
+      "id": "B084",
+      "title": "\"Factfulness\"",
+      "author": "Hans Rosling",
+      "year": 2018,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Factfulness:_Ten_Reasons_We%27re_Wrong_About_the_World)",
+      "description": "Ten reasons we're wrong about the world.",
+      "category": "Society/Progress"
+    },
+    {
+      "id": "B085",
+      "title": "\"The Courage to Create\"",
+      "author": "Rollo May",
+      "year": 1975,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Rollo_May)",
+      "description": "The nature and dynamics of creative experience.",
+      "category": "Psychology/Creativity"
+    },
+    {
+      "id": "B086",
+      "title": "\"Shape Up\"",
+      "author": "Ryan Singer",
+      "year": 2019,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Basecamp_(company))",
+      "description": "Stop running in circles and ship work that matters.",
+      "category": "Project Management"
+    },
+    {
+      "id": "B087",
+      "title": "\"The Personal MBA\"",
+      "author": "Josh Kaufman",
+      "year": 2010,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Personal_MBA)",
+      "description": "Master the art of business.",
+      "category": "Business Education"
+    },
+    {
+      "id": "B088",
+      "title": "\"Indistractable\"",
+      "author": "Nir Eyal",
+      "year": 2019,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Nir_Eyal)",
+      "description": "How to control your attention and choose your life.",
+      "category": "Productivity"
+    },
+    {
+      "id": "B089",
+      "title": "\"The Almanack of Naval Ravikant\"",
+      "author": "Eric Jorgenson",
+      "year": 2020,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Naval_Ravikant)",
+      "description": "A guide to wealth and happiness.",
+      "category": "Philosophy/Wealth"
+    },
+    {
+      "id": "B090",
+      "title": "\"Range\"",
+      "author": "David Epstein",
+      "year": 2019,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Range:_Why_Generalists_Triumph_in_a_Specialized_World)",
+      "description": "Why generalists triumph in a specialized world.",
+      "category": "Career/Learning"
+    },
+    {
+      "id": "B091",
+      "title": "\"The Long Game\"",
+      "author": "Dorie Clark",
+      "year": 2021,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Dorie_Clark)",
+      "description": "How to be a long-term thinker in a short-term world.",
+      "category": "Strategy/Career"
+    },
+    {
+      "id": "B092",
+      "title": "\"Zen and the Art of Motorcycle Maintenance\"",
+      "author": "Robert M. Pirsig",
+      "year": 1974,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Zen_and_the_Art_of_Motorcycle_Maintenance)",
+      "description": "An inquiry into values.",
+      "category": "Philosophy"
+    },
+    {
+      "id": "B093",
+      "title": "\"The Psychology of Computer Programming\"",
+      "author": "Gerald M. Weinberg",
+      "year": 1971,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Gerald_Weinberg)",
+      "description": "Human factors in programming and software.",
+      "category": "Technology/Psychology"
+    },
+    {
+      "id": "B094",
+      "title": "\"The Mythical Man-Month\"",
+      "author": "Frederick Brooks",
+      "year": 1975,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)",
+      "description": "Essays on software engineering.",
+      "category": "Technology/Management"
+    },
+    {
+      "id": "B095",
+      "title": "\"The Road Less Traveled\"",
+      "author": "M. Scott Peck",
+      "year": 1978,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Road_Less_Traveled)",
+      "description": "A new psychology of love and spiritual growth.",
+      "category": "Psychology/Spirituality"
+    },
+    {
+      "id": "B096",
+      "title": "\"The Challenger Sale\"",
+      "author": "Matthew Dixon",
+      "year": 2011,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/The_Challenger_Sale)",
+      "description": "Taking control of the customer conversation.",
+      "category": "Sales/Business"
+    },
+    {
+      "id": "B097",
+      "title": "\"Influence\"",
+      "author": "Robert Cialdini",
+      "year": 1984,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Influence:_Science_and_Practice)",
+      "description": "The psychology of persuasion.",
+      "category": "Psychology/Marketing"
+    },
+    {
+      "id": "B098",
+      "title": "\"The Score Takes Care of Itself\"",
+      "author": "Bill Walsh",
+      "year": 2009,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Bill_Walsh_(American_football_coach))",
+      "description": "Philosophy and leadership lessons.",
+      "category": "Leadership"
+    },
+    {
+      "id": "B099",
+      "title": "\"The Art of Possibility\"",
+      "author": "Benjamin Zander",
+      "year": 2000,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Benjamin_Zander)",
+      "description": "Transforming professional and personal life.",
+      "category": "Personal Development"
+    },
+    {
+      "id": "B100",
+      "title": "\"The Power of Full Engagement\"",
+      "author": "Jim Loehr",
+      "year": 2003,
+      "link": "[Wikipedia](https://en.wikipedia.org/wiki/Jim_Loehr)",
+      "description": "Managing energy, not time.",
+      "category": "Productivity/Wellbeing"
+    },
+    {
+      "id": "ID",
+      "title": "Title",
+      "author": "Author",
+      "year": null,
+      "link": "Link",
+      "description": "Description",
+      "category": "Category"
+    },
+    {
+      "id": "----",
+      "title": "-------",
+      "author": "--------",
+      "year": null,
+      "link": "------",
+      "description": "-------------",
+      "category": "----------"
+    },
+    {
+      "id": "P001",
+      "title": "\"1,000 True Fans\"",
+      "author": "Kevin Kelly",
+      "year": 2008,
+      "link": "[Link](https://kk.org/thetechnium/1000-true-fans/)",
+      "description": "Seminal post about creator economy fundamentals.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "P002",
+      "title": "\"How to Start a Startup\"",
+      "author": "Paul Graham",
+      "year": 2005,
+      "link": "[Link](http://www.paulgraham.com/start.html)",
+      "description": "Comprehensive guide to building startups.",
+      "category": "Entrepreneurship"
+    },
+    {
+      "id": "P003",
+      "title": "\"The Day You Became A Better Writer\"",
+      "author": "Scott Adams",
+      "year": 2015,
+      "link": "[Link](https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html)",
+      "description": "Two-minute lesson in better writing.",
+      "category": "Writing"
+    },
+    {
+      "id": "P004",
+      "title": "\"The Bus Ticket Theory of Genius\"",
+      "author": "Paul Graham",
+      "year": 2019,
+      "link": "[Link](http://paulgraham.com/genius.html)",
+      "description": "How obsession drives excellence.",
+      "category": "Success/Psychology"
+    },
+    {
+      "id": "P005",
+      "title": "\"Interoperability\"",
+      "author": "Cory Doctorow",
+      "year": 2019,
+      "link": "[Link](https://pluralistic.net/2019/01/29/interoperability/)",
+      "description": "The essential feature for tech platforms.",
+      "category": "Technology"
+    },
+    {
+      "id": "P006",
+      "title": "\"Breaking Smart Season 1\"",
+      "author": "Venkatesh Rao",
+      "year": 2015,
+      "link": "[Link](https://breakingsmart.com/en/season-1/)",
+      "description": "How software is eating the world.",
+      "category": "Technology/Society"
+    },
+    {
+      "id": "P007",
+      "title": "\"Fat Protocols\"",
+      "author": "Joel Monegro",
+      "year": 2016,
+      "link": "[Link](https://www.usv.com/writing/2016/08/fat-protocols/)",
+      "description": "Fundamental blockchain ecosystem analysis.",
+      "category": "Blockchain"
+    },
+    {
+      "id": "P008",
+      "title": "\"The Tyranny of Structurelessness\"",
+      "author": "Jo Freeman",
+      "year": 1972,
+      "link": "[Link](https://www.jofreeman.com/joreen/tyranny.htm)",
+      "description": "Essential reading on organization.",
+      "category": "Organization"
+    },
+    {
+      "id": "P009",
+      "title": "\"Status as a Service\"",
+      "author": "Eugene Wei",
+      "year": 2019,
+      "link": "[Link](https://www.eugenewei.com/blog/2019/2/19/status-as-a-service)",
+      "description": "Social capital in the age of social media.",
+      "category": "Social/Technology"
+    },
+    {
+      "id": "P010",
+      "title": "\"Why Software Is Eating the World\"",
+      "author": "Marc Andreessen",
+      "year": 2011,
+      "link": "[Link](https://a16z.com/2011/08/20/why-software-is-eating-the-world/)",
+      "description": "Foundational tech transformation thesis.",
+      "category": "Technology"
+    },
+    {
+      "id": "P011",
+      "title": "\"The Most Important Thing\"",
+      "author": "Morgan Housel",
+      "year": 2019,
+      "link": "[Link](https://collabfund.com/blog/the-most-important-thing/)",
+      "description": "Understanding compounding in life.",
+      "category": "Personal Growth"
+    },
+    {
+      "id": "P012",
+      "title": "\"The Rise of Worse is Better\"",
+      "author": "Richard Gabriel",
+      "year": 1991,
+      "link": "[Link](https://www.dreamsongs.com/RiseOfWorseIsBetter.html)",
+      "description": "Why simple solutions win.",
+      "category": "Technology/Design"
+    },
+    {
+      "id": "P013",
+      "title": "\"The Almanack\"",
+      "author": "James Clear",
+      "year": 2018,
+      "link": "[Link](https://jamesclear.com/decision-making)",
+      "description": "Mental models for better decisions.",
+      "category": "Decision Making"
+    },
+    {
+      "id": "P014",
+      "title": "\"The Pinboard Investment Program\"",
+      "author": "Maciej Ceglowski",
+      "year": 2011,
+      "link": "[Link](https://blog.pinboard.in/2011/12/the_pinboard_investment_program/)",
+      "description": "Building sustainable indie businesses.",
+      "category": "Business"
+    },
+    {
+      "id": "P015",
+      "title": "\"Schlep Blindness\"",
+      "author": "Paul Graham",
+      "year": 2012,
+      "link": "[Link](http://paulgraham.com/schlep.html)",
+      "description": "Why we avoid hard problems.",
+      "category": "Psychology"
+    },
+    {
+      "id": "P016",
+      "title": "\"The Future of Online Communities\"",
+      "author": "Sarah Tavel",
+      "year": 2017,
+      "link": "[Link](https://medium.com/@sarahtavel/the-future-of-online-communities-d3f6da2ef320)",
+      "description": "Building digital communities.",
+      "category": "Community"
+    },
+    {
+      "id": "P017",
+      "title": "\"The Power of Defaults\"",
+      "author": "Julie Zhuo",
+      "year": 2016,
+      "link": "[Link](https://medium.com/the-year-of-the-looking-glass/the-power-of-defaults-957111056064)",
+      "description": "How defaults shape behavior.",
+      "category": "Design/Psychology"
+    },
+    {
+      "id": "P018",
+      "title": "\"The Product Shaping Handbook\"",
+      "author": "Ryan Singer",
+      "year": 2019,
+      "link": "[Link](https://basecamp.com/shapeup)",
+      "description": "Basecamp's guide to product development.",
+      "category": "Product Development"
+    },
+    {
+      "id": "P019",
+      "title": "\"The Elephant in the Room\"",
+      "author": "Nassim Taleb",
+      "year": 2020,
+      "link": "[Link](https://medium.com/incerto/the-elephant-in-the-room-7e7051cee847)",
+      "description": "Understanding risk and probability.",
+      "category": "Risk/Philosophy"
+    },
+    {
+      "id": "P020",
+      "title": "\"The Value Chain of the Open Metaverse\"",
+      "author": "Packy McCormick",
+      "year": 2021,
+      "link": "[Link](https://www.notboring.co/p/the-value-chain-of-the-open-metaverse)",
+      "description": "Future of digital worlds.",
+      "category": "Technology/Future"
+    },
+    {
+      "id": "P021",
+      "title": "\"The Digital Maginot Line\"",
+      "author": "Renee DiResta",
+      "year": 2018,
+      "link": "[Link](https://www.ribbonfarm.com/2018/11/28/the-digital-maginot-line/)",
+      "description": "Information warfare in digital age.",
+      "category": "Technology/Society"
+    },
+    {
+      "id": "P022",
+      "title": "\"The Great Online Game\"",
+      "author": "Packy McCormick",
+      "year": 2021,
+      "link": "[Link](https://www.notboring.co/p/the-great-online-game)",
+      "description": "How internet enables new opportunities.",
+      "category": "Digital Culture"
+    },
+    {
+      "id": "P023",
+      "title": "\"The Idea Maze\"",
+      "author": "Chris Dixon",
+      "year": 2013,
+      "link": "[Link](https://cdixon.org/2013/08/04/the-idea-maze)",
+      "description": "Why ideas matter less than you think.",
+      "category": "Entrepreneurship"
+    },
+    {
+      "id": "P024",
+      "title": "\"The Ladder of Abstraction\"",
+      "author": "Bret Victor",
+      "year": 2011,
+      "link": "[Link](http://worrydream.com/LadderOfAbstraction/)",
+      "description": "Understanding complex systems.",
+      "category": "Systems Thinking"
+    },
+    {
+      "id": "P025",
+      "title": "\"The Network State\"",
+      "author": "Balaji Srinivasan",
+      "year": 2021,
+      "link": "[Link](https://1729.com/the-network-state)",
+      "description": "Future of digital communities.",
+      "category": "Society/Technology"
+    },
+    {
+      "id": "P026",
+      "title": "\"The Creator Economy\"",
+      "author": "Li Jin",
+      "year": 2020,
+      "link": "[Link](https://li.substack.com/p/the-creator-economy)",
+      "description": "Understanding the passion economy.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "P027",
+      "title": "\"The Gervais Principle\"",
+      "author": "Venkatesh Rao",
+      "year": 2009,
+      "link": "[Link](https://www.ribbonfarm.com/the-gervais-principle/)",
+      "description": "Organizational dynamics explained.",
+      "category": "Psychology/Business"
+    },
+    {
+      "id": "P028",
+      "title": "\"Markets Are Eating The World\"",
+      "author": "Alex Danco",
+      "year": 2021,
+      "link": "[Link](https://alexdanco.com/2021/02/09/markets-are-eating-the-world/)",
+      "description": "How markets shape everything.",
+      "category": "Economics/Society"
+    },
+    {
+      "id": "P029",
+      "title": "\"The Bullish Case for Crypto\"",
+      "author": "Vijay Boyapati",
+      "year": 2018,
+      "link": "[Link](https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1)",
+      "description": "Understanding crypto fundamentals.",
+      "category": "Cryptocurrency"
+    },
+    {
+      "id": "P030",
+      "title": "\"The Speed of Time\"",
+      "author": "David Perell",
+      "year": 2020,
+      "link": "[Link](https://perell.com/note/the-speed-of-time/)",
+      "description": "How technology changes time perception.",
+      "category": "Technology/Psychology"
+    },
+    {
+      "id": "P031",
+      "title": "\"It's Time to Build\"",
+      "author": "Marc Andreessen",
+      "year": 2020,
+      "link": "[Link](https://a16z.com/2020/04/18/its-time-to-build/)",
+      "description": "Call to action for creators and builders.",
+      "category": "Society/Innovation"
+    },
+    {
+      "id": "P032",
+      "title": "\"The Power of Pull\"",
+      "author": "John Hagel",
+      "year": 2010,
+      "link": "[Link](https://edgeperspectives.typepad.com/edge_perspectives/2010/04/the-power-of-pull.html)",
+      "description": "How small moves create big change.",
+      "category": "Strategy/Innovation"
+    },
+    {
+      "id": "P033",
+      "title": "\"The Internet of Value\"",
+      "author": "Chris Dixon",
+      "year": 2020,
+      "link": "[Link](https://cdixon.org/2020/09/14/the-internet-of-value)",
+      "description": "Web3's fundamental promise.",
+      "category": "Blockchain/Web3"
+    },
+    {
+      "id": "P034",
+      "title": "\"The Counterintuitive Competitive Advantage\"",
+      "author": "David Sacks",
+      "year": 2021,
+      "link": "[Link](https://sacks.substack.com/p/the-counterintuitive-competitive-advantage)",
+      "description": "Success through differentiation.",
+      "category": "Business/Strategy"
+    },
+    {
+      "id": "P035",
+      "title": "\"The Tokens Are My Profits\"",
+      "author": "Fred Ehrsam",
+      "year": 2017,
+      "link": "[Link](https://www.paradigm.xyz/2017/10/tokens-are-my-profits)",
+      "description": "Token economics explained.",
+      "category": "Crypto/Economics"
+    },
+    {
+      "id": "P036",
+      "title": "\"The Metagame\"",
+      "author": "Sam Lessin",
+      "year": 2019,
+      "link": "[Link](https://www.theinformation.com/articles/the-metagame)",
+      "description": "Understanding higher-order competition.",
+      "category": "Strategy/Gaming"
+    },
+    {
+      "id": "P037",
+      "title": "\"The Ownership Economy\"",
+      "author": "Jesse Walden",
+      "year": 2020,
+      "link": "[Link](https://variant.fund/the-ownership-economy-crypto-and-consumer-software)",
+      "description": "Web3's economic revolution.",
+      "category": "Crypto/Economics"
+    },
+    {
+      "id": "P038",
+      "title": "\"The Great Online Game\"",
+      "author": "Not Boring",
+      "year": 2021,
+      "link": "[Link](https://www.notboring.co/p/the-great-online-game)",
+      "description": "Internet as infinite game.",
+      "category": "Digital Culture"
+    },
+    {
+      "id": "P039",
+      "title": "\"The Rise of User-Generated Brands\"",
+      "author": "Other Internet",
+      "year": 2021,
+      "link": "[Link](https://otherinter.net/research/user-generated-brands/)",
+      "description": "Community-driven brand building.",
+      "category": "Branding/Web3"
+    },
+    {
+      "id": "P040",
+      "title": "\"The Product-Community Fit\"",
+      "author": "Linda Xie",
+      "year": 2021,
+      "link": "[Link](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d)",
+      "description": "Building community-first products.",
+      "category": "Community/Product"
+    },
+    {
+      "id": "P041",
+      "title": "\"The Art of Community\"",
+      "author": "Jono Bacon",
+      "year": 2019,
+      "link": "[Link](https://www.jonobacon.com/2019/01/07/the-art-of-community/)",
+      "description": "Principles of community building.",
+      "category": "Community"
+    },
+    {
+      "id": "P042",
+      "title": "\"The Pseudonymous Economy\"",
+      "author": "Balaji Srinivasan",
+      "year": 2020,
+      "link": "[Link](https://balajis.com/the-pseudonymous-economy/)",
+      "description": "Future of digital identity.",
+      "category": "Digital Society"
+    },
+    {
+      "id": "P043",
+      "title": "\"The Minimum Viable Economy\"",
+      "author": "Other Internet",
+      "year": 2021,
+      "link": "[Link](https://otherinter.net/research/minimum-viable-economy/)",
+      "description": "Building sustainable web3 systems.",
+      "category": "Crypto/Economics"
+    },
+    {
+      "id": "P044",
+      "title": "\"The Great Online Game\"",
+      "author": "Packy McCormick",
+      "year": 2021,
+      "link": "[Link](https://www.notboring.co/p/the-great-online-game)",
+      "description": "Leveraging internet networks.",
+      "category": "Digital Strategy"
+    },
+    {
+      "id": "P045",
+      "title": "\"The Power of Community\"",
+      "author": "Elad Gil",
+      "year": 2020,
+      "link": "[Link](https://blog.eladgil.com/p/the-power-of-community)",
+      "description": "Community as competitive advantage.",
+      "category": "Community/Business"
+    },
+    {
+      "id": "P046",
+      "title": "\"The Creator Economy\"",
+      "author": "Rex Woodbury",
+      "year": 2021,
+      "link": "[Link](https://digitalnative.substack.com/p/the-creator-economy)",
+      "description": "Future of digital creation.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "P047",
+      "title": "\"The Story of Us\"",
+      "author": "Wait But Why",
+      "year": 2019,
+      "link": "[Link](https://waitbutwhy.com/2019/08/story-of-us.html)",
+      "description": "Understanding human cooperation.",
+      "category": "Society/Psychology"
+    },
+    {
+      "id": "P048",
+      "title": "\"The Ponzi Career\"",
+      "author": "Byrne Hobart",
+      "year": 2020,
+      "link": "[Link](https://byrnehobart.medium.com/the-ponzi-career-4f0732c0af3)",
+      "description": "Modern career paths explained.",
+      "category": "Career/Economics"
+    },
+    {
+      "id": "P049",
+      "title": "\"The Sovereign Individual\"",
+      "author": "David Friedman",
+      "year": 2019,
+      "link": "[Link](https://medium.com/@david.friedman/the-sovereign-individual-9654bc2b094f)",
+      "description": "Digital age implications.",
+      "category": "Society/Technology"
+    },
+    {
+      "id": "P050",
+      "title": "\"The Market for Something to Believe In\"",
+      "author": "Eugene Wei",
+      "year": 2021,
+      "link": "[Link](https://www.eugenewei.com/blog/2021/2/15/the-market-for-something-to-believe-in)",
+      "description": "Consumer psychology in digital age.",
+      "category": "Culture/Technology"
+    },
+    {
+      "id": "P051",
+      "title": "\"Working in Public\"",
+      "author": "Nadia Eghbal",
+      "year": 2019,
+      "link": "[Link](https://nadia.xyz/working-in-public)",
+      "description": "Open source communities explained.",
+      "category": "Community/Technology"
+    },
+    {
+      "id": "P052",
+      "title": "\"The Fresh Prince of E-Commerce\"",
+      "author": "Web Smith",
+      "year": 2020,
+      "link": "[Link](https://2pml.com/2020/03/17/fresh-prince)",
+      "description": "Modern retail transformation.",
+      "category": "Commerce"
+    },
+    {
+      "id": "P053",
+      "title": "\"Small b Blogging\"",
+      "author": "Tom Critchlow",
+      "year": 2018,
+      "link": "[Link](https://tomcritchlow.com/2018/02/23/small-b-blogging/)",
+      "description": "Sustainable content creation.",
+      "category": "Content Strategy"
+    },
+    {
+      "id": "P054",
+      "title": "\"The Magic of Small Experiments\"",
+      "author": "Anne-Laure Le Cunff",
+      "year": 2020,
+      "link": "[Link](https://nesslabs.com/small-experiments)",
+      "description": "Innovation through iteration.",
+      "category": "Creativity/Innovation"
+    },
+    {
+      "id": "P055",
+      "title": "\"The Art of the Creative Brief\"",
+      "author": "Frank Chimero",
+      "year": 2018,
+      "link": "[Link](https://frankchimero.com/blog/2018/art-creative-brief/)",
+      "description": "Design process insights.",
+      "category": "Design/Process"
+    },
+    {
+      "id": "P056",
+      "title": "\"The Culture of Creativity\"",
+      "author": "Austin Kleon",
+      "year": 2019,
+      "link": "[Link](https://austinkleon.com/2019/01/30/the-culture-of-creativity/)",
+      "description": "Building creative habits.",
+      "category": "Creativity"
+    },
+    {
+      "id": "P057",
+      "title": "\"The Future of Digital Fashion\"",
+      "author": "Matthew Ball",
+      "year": 2021,
+      "link": "[Link](https://www.matthewball.vc/all/digitalfashion)",
+      "description": "Virtual goods economy.",
+      "category": "Digital Fashion"
+    },
+    {
+      "id": "P058",
+      "title": "\"The Rise of Virtual Fashion\"",
+      "author": "Zine",
+      "year": 2021,
+      "link": "[Link](https://zine.mirror.xyz/virtual-fashion)",
+      "description": "Digital clothing revolution.",
+      "category": "Fashion/Technology"
+    },
+    {
+      "id": "P059",
+      "title": "\"The Art of Community Management\"",
+      "author": "CMX Hub",
+      "year": 2020,
+      "link": "[Link](https://cmxhub.com/art-of-community-management)",
+      "description": "Building engaged communities.",
+      "category": "Community"
+    },
+    {
+      "id": "P060",
+      "title": "\"The End of Organizing\"",
+      "author": "Tiago Forte",
+      "year": 2021,
+      "link": "[Link](https://fortelabs.co/blog/the-end-of-organizing/)",
+      "description": "Future of personal knowledge.",
+      "category": "Productivity"
+    },
+    {
+      "id": "P061",
+      "title": "\"The Sovereignty of Craft\"",
+      "author": "Craig Mod",
+      "year": 2019,
+      "link": "[Link](https://craigmod.com/essays/sovereignty_of_craft/)",
+      "description": "Digital craftsmanship.",
+      "category": "Craft/Digital"
+    },
+    {
+      "id": "P062",
+      "title": "\"The Rise of Micro-Communities\"",
+      "author": "Gaby Goldberg",
+      "year": 2021,
+      "link": "[Link](https://gabygoldberg.medium.com/the-rise-of-micro-communities-7602b297b85d)",
+      "description": "Future of online groups.",
+      "category": "Community"
+    },
+    {
+      "id": "P063",
+      "title": "\"The Studio of the Future\"",
+      "author": "John Palmer",
+      "year": 2021,
+      "link": "[Link](https://john-palmer.xyz/studio-of-the-future)",
+      "description": "Creative spaces evolution.",
+      "category": "Creativity/Space"
+    },
+    {
+      "id": "P064",
+      "title": "\"The Curation Economy\"",
+      "author": "Brett Bivens",
+      "year": 2020,
+      "link": "[Link](https://venturedesktop.substack.com/p/the-curation-economy)",
+      "description": "Value of digital curation.",
+      "category": "Digital Economy"
+    },
+    {
+      "id": "P065",
+      "title": "\"The Dark Forest Theory\"",
+      "author": "Yancey Strickler",
+      "year": 2019,
+      "link": "[Link](https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1)",
+      "description": "Digital spaces evolution.",
+      "category": "Internet Culture"
+    },
+    {
+      "id": "P066",
+      "title": "\"The Next Creator Economy\"",
+      "author": "Rex Woodbury",
+      "year": 2021,
+      "link": "[Link](https://digitalnative.substack.com/p/the-next-creator-economy)",
+      "description": "Future of digital creation.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "P067",
+      "title": "\"The Art of Focus\"",
+      "author": "Julian Shapiro",
+      "year": 2020,
+      "link": "[Link](https://www.julian.com/blog/creativity-focus)",
+      "description": "Deep work strategies.",
+      "category": "Productivity"
+    },
+    {
+      "id": "P068",
+      "title": "\"The Crisis of Meaning\"",
+      "author": "David Perell",
+      "year": 2021,
+      "link": "[Link](https://perell.com/essay/the-crisis-of-meaning/)",
+      "description": "Modern purpose finding.",
+      "category": "Philosophy/Culture"
+    },
+    {
+      "id": "P069",
+      "title": "\"The Great Unbundling\"",
+      "author": "Josh Constine",
+      "year": 2020,
+      "link": "[Link](https://constine.substack.com/p/the-great-unbundling)",
+      "description": "Digital platform evolution.",
+      "category": "Technology/Business"
+    },
+    {
+      "id": "P070",
+      "title": "\"The Composable Enterprise\"",
+      "author": "Packy McCormick",
+      "year": 2021,
+      "link": "[Link](https://www.notboring.co/p/the-composable-enterprise)",
+      "description": "Future of organization.",
+      "category": "Business/Technology"
+    },
+    {
+      "id": "P071",
+      "title": "\"The Power of Digital Gardens\"",
+      "author": "Maggie Appleton",
+      "year": 2020,
+      "link": "[Link](https://maggieappleton.com/garden-history)",
+      "description": "Personal knowledge spaces.",
+      "category": "Knowledge Management"
+    },
+    {
+      "id": "P072",
+      "title": "\"The Art of Gathering\"",
+      "author": "Priya Parker",
+      "year": 2020,
+      "link": "[Link](https://www.priyaparker.com/blog/the-art-of-gathering)",
+      "description": "Meaningful connections.",
+      "category": "Community/Events"
+    },
+    {
+      "id": "P073",
+      "title": "\"The Rise of Alternative Assets\"",
+      "author": "Nat Eliason",
+      "year": 2021,
+      "link": "[Link](https://blog.nateliason.com/p/alternative-assets)",
+      "description": "New investment paradigms.",
+      "category": "Economics/Investment"
+    },
+    {
+      "id": "P074",
+      "title": "\"The Product Philosophy\"",
+      "author": "Julie Zhuo",
+      "year": 2019,
+      "link": "[Link](https://medium.com/the-year-of-the-looking-glass/5-hard-questions-about-product-4c45a73f2b96)",
+      "description": "Product development insights.",
+      "category": "Product Development"
+    },
+    {
+      "id": "P075",
+      "title": "\"The Future of Work\"",
+      "author": "Kevin Kelly",
+      "year": 2021,
+      "link": "[Link](https://kk.org/thetechnium/the-future-of-work)",
+      "description": "Evolving labor landscape.",
+      "category": "Work/Technology"
+    },
+    {
+      "id": "P076",
+      "title": "\"On-Chain Games\"",
+      "author": "Vitalik Buterin",
+      "year": 2021,
+      "link": "[Link](https://vitalik.eth.limo/general/2021/12/31/moving2022.html)",
+      "description": "Future of blockchain gaming.",
+      "category": "Blockchain/Gaming"
+    },
+    {
+      "id": "P077",
+      "title": "\"The Most Important Scarce Resource is Legitimacy\"",
+      "author": "Vitalik Buterin",
+      "year": 2021,
+      "link": "[Link](https://vitalik.eth.limo/general/2021/03/23/legitimacy.html)",
+      "description": "Understanding social consensus.",
+      "category": "Crypto/Society"
+    },
+    {
+      "id": "P078",
+      "title": "\"Against Web3 Maximalism\"",
+      "author": "Vitalik Buterin",
+      "year": 2022,
+      "link": "[Link](https://vitalik.eth.limo/general/2022/04/01/maximalist.html)",
+      "description": "Balanced view of crypto future.",
+      "category": "Web3/Philosophy"
+    },
+    {
+      "id": "P079",
+      "title": "\"The Renaissance of Digital Art\"",
+      "author": "Jonathan Mann",
+      "year": 2021,
+      "link": "[Link](https://jonathanmann.net/the-renaissance-of-digital-art)",
+      "description": "NFTs and creative expression.",
+      "category": "Digital Art"
+    },
+    {
+      "id": "P080",
+      "title": "\"The Power of Creator DAOs\"",
+      "author": "Cooper Turley",
+      "year": 2021,
+      "link": "[Link](https://coopahtroopa.mirror.xyz/5vTqgX_Xq9-p7kc9oCd53xz1zaCN6Lz7QapgpYrZKzE)",
+      "description": "Community-owned creativity.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "P081",
+      "title": "\"The Future of Digital Identity\"",
+      "author": "Balaji Srinivasan",
+      "year": 2021,
+      "link": "[Link](https://1729.com/digital-identity)",
+      "description": "Identity in digital age.",
+      "category": "Technology/Society"
+    },
+    {
+      "id": "P082",
+      "title": "\"The Age of Infinite Leverage\"",
+      "author": "Erik Torenberg",
+      "year": 2020,
+      "link": "[Link](https://eriktorenberg.substack.com/p/the-age-of-infinite-leverage)",
+      "description": "Technology and value creation.",
+      "category": "Business/Technology"
+    },
+    {
+      "id": "P083",
+      "title": "\"The Great Online Home\"",
+      "author": "Jess Lee",
+      "year": 2021,
+      "link": "[Link](https://jesslee.net/writing/the-great-online-home)",
+      "description": "Digital community building.",
+      "category": "Community"
+    },
+    {
+      "id": "P084",
+      "title": "\"The Death of the Artist\"",
+      "author": "William Deresiewicz",
+      "year": 2020,
+      "link": "[Link](https://www.theatlantic.com/ideas/archive/2020/07/death-artist/614641/)",
+      "description": "Creator economy evolution.",
+      "category": "Art/Economics"
+    },
+    {
+      "id": "P085",
+      "title": "\"The Squad Wealth Manifesto\"",
+      "author": "Other Internet",
+      "year": 2021,
+      "link": "[Link](https://otherinter.net/squad-wealth/)",
+      "description": "Collaborative value creation.",
+      "category": "Economics/Community"
+    },
+    {
+      "id": "P086",
+      "title": "\"The Web3 Renaissance\"",
+      "author": "Packy McCormick",
+      "year": 2021,
+      "link": "[Link](https://www.notboring.co/p/the-web3-renaissance)",
+      "description": "New creative economy.",
+      "category": "Web3/Culture"
+    },
+    {
+      "id": "P087",
+      "title": "\"The Case for Digital Public Goods\"",
+      "author": "Nathan Schneider",
+      "year": 2021,
+      "link": "[Link](https://mirrormirage.mirror.xyz/the-case-for-digital-public-goods)",
+      "description": "Community infrastructure.",
+      "category": "Digital Commons"
+    },
+    {
+      "id": "P088",
+      "title": "\"The Future of Digital Experience\"",
+      "author": "John Palmer",
+      "year": 2021,
+      "link": "[Link](https://john-palmer.xyz/the-future-of-digital-experience)",
+      "description": "Virtual worlds evolution.",
+      "category": "Technology/Culture"
+    },
+    {
+      "id": "P089",
+      "title": "\"The Rise of Community Capital\"",
+      "author": "Jesse Walden",
+      "year": 2021,
+      "link": "[Link](https://variant.fund/writing/the-rise-of-community-capital)",
+      "description": "New funding models.",
+      "category": "Community/Finance"
+    },
+    {
+      "id": "P090",
+      "title": "\"The Social Smart Contract\"",
+      "author": "Fred Ehrsam",
+      "year": 2021,
+      "link": "[Link](https://www.paradigm.xyz/2021/10/the-social-smart-contract)",
+      "description": "Digital cooperation.",
+      "category": "Crypto/Society"
+    },
+    {
+      "id": "P091",
+      "title": "\"The Amateur Advantage\"",
+      "author": "David Perell",
+      "year": 2020,
+      "link": "[Link](https://perell.com/essay/the-amateur-advantage/)",
+      "description": "Value of beginner's mind.",
+      "category": "Creativity/Learning"
+    },
+    {
+      "id": "P092",
+      "title": "\"The Future of Content\"",
+      "author": "Li Jin",
+      "year": 2021,
+      "link": "[Link](https://li.substack.com/p/the-future-of-content)",
+      "description": "Creator monetization.",
+      "category": "Content/Economics"
+    },
+    {
+      "id": "P093",
+      "title": "\"The Headless Brand\"",
+      "author": "Other Internet",
+      "year": 2020,
+      "link": "[Link](https://otherinter.net/research/headless-brands/)",
+      "description": "Decentralized branding.",
+      "category": "Branding/Web3"
+    },
+    {
+      "id": "P094",
+      "title": "\"The Metacrisis\"",
+      "author": "Daniel Schmachtenberger",
+      "year": 2021,
+      "link": "[Link](https://civilizationemerging.com/the-metacrisis-solving-humanities-coordination-problems/)",
+      "description": "Global coordination.",
+      "category": "Philosophy/Society"
+    },
+    {
+      "id": "P095",
+      "title": "\"The Digital Renaissance\"",
+      "author": "William Peaster",
+      "year": 2021,
+      "link": "[Link](https://metaversal.banklesshq.com/p/the-digital-renaissance)",
+      "description": "NFTs and creativity.",
+      "category": "Digital Art"
+    },
+    {
+      "id": "P096",
+      "title": "\"The Future of Physical Experience\"",
+      "author": "Craig Mod",
+      "year": 2021,
+      "link": "[Link](https://craigmod.com/essays/future_physical/)",
+      "description": "Digital-physical blend.",
+      "category": "Culture/Technology"
+    },
+    {
+      "id": "P097",
+      "title": "\"The Knowledge Economy\"",
+      "author": "Tiago Forte",
+      "year": 2021,
+      "link": "[Link](https://fortelabs.co/blog/the-knowledge-economy/)",
+      "description": "Information value creation.",
+      "category": "Knowledge/Economy"
+    },
+    {
+      "id": "P098",
+      "title": "\"The New Creative Stack\"",
+      "author": "Mirror Editorial",
+      "year": 2021,
+      "link": "[Link](https://mirror.xyz/edit/the-new-creative-stack)",
+      "description": "Creator tools evolution.",
+      "category": "Creator Tools"
+    },
+    {
+      "id": "P099",
+      "title": "\"The Internet of Value\"",
+      "author": "Andreas M. Antonopoulos",
+      "year": 2021,
+      "link": "[Link](https://aantonop.com/the-internet-of-value/)",
+      "description": "Blockchain fundamentals.",
+      "category": "Blockchain"
+    },
+    {
+      "id": "P100",
+      "title": "\"The Eternal September\"",
+      "author": "Venkatesh Rao",
+      "year": 2021,
+      "link": "[Link](https://www.ribbonfarm.com/2021/09/20/the-eternal-september/)",
+      "description": "Digital culture cycles.",
+      "category": "Internet Culture"
+    },
+    {
+      "id": "ID",
+      "title": "Title",
+      "author": "Author",
+      "year": null,
+      "link": "Link",
+      "description": "Description",
+      "category": "Category"
+    },
+    {
+      "id": "----",
+      "title": "-------",
+      "author": "--------",
+      "year": null,
+      "link": "------",
+      "description": "-------------",
+      "category": "----------"
+    },
+    {
+      "id": "E001",
+      "title": "\"The Nature of the Firm\"",
+      "author": "Ronald Coase",
+      "year": 1937,
+      "link": "[Link](https://www.jstor.org/stable/2626876)",
+      "description": "Foundational theory of organizational economics.",
+      "category": "Economics"
+    },
+    {
+      "id": "E002",
+      "title": "\"The Cathedral and the Bazaar\"",
+      "author": "Eric S. Raymond",
+      "year": 1999,
+      "link": "[Link](http://www.catb.org/~esr/writings/cathedral-bazaar/)",
+      "description": "Open source development methodology.",
+      "category": "Technology"
+    },
+    {
+      "id": "E003",
+      "title": "\"Mapping the Creator Economy\"",
+      "author": "SignalFire Research",
+      "year": 2021,
+      "link": "[Link](https://signalfire.com/blog/creator-economy/)",
+      "description": "Comprehensive creator economy analysis.",
+      "category": "Digital Economy"
+    },
+    {
+      "id": "E004",
+      "title": "\"The Theory of the Long Tail\"",
+      "author": "Chris Anderson",
+      "year": 2004,
+      "link": "[Link](https://www.wired.com/2004/10/tail/)",
+      "description": "Niche market economics in digital age.",
+      "category": "Market Theory"
+    },
+    {
+      "id": "E005",
+      "title": "\"The Economics of Superstars\"",
+      "author": "Sherwin Rosen",
+      "year": 1981,
+      "link": "[Link](https://www.jstor.org/stable/1803469)",
+      "description": "Understanding talent market dynamics.",
+      "category": "Economics"
+    },
+    {
+      "id": "E006",
+      "title": "\"Decentralized Society\"",
+      "author": "E. Glen Weyl et al.",
+      "year": 2022,
+      "link": "[Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763)",
+      "description": "Web3 social structures analysis.",
+      "category": "Society/Web3"
+    },
+    {
+      "id": "E007",
+      "title": "\"The Market for Lemons\"",
+      "author": "George Akerlof",
+      "year": 1970,
+      "link": "[Link](https://www.jstor.org/stable/1879431)",
+      "description": "Information asymmetry in markets.",
+      "category": "Economics"
+    },
+    {
+      "id": "E008",
+      "title": "\"The Rise of Virtual Fashion\"",
+      "author": "Business of Fashion",
+      "year": 2021,
+      "link": "[Link](https://www.businessoffashion.com/reports/technology/the-rise-of-virtual-fashion)",
+      "description": "Digital fashion industry research.",
+      "category": "Fashion/Technology"
+    },
+    {
+      "id": "E009",
+      "title": "\"Networks, Crowds, and Markets\"",
+      "author": "Easley & Kleinberg",
+      "year": 2010,
+      "link": "[Link](https://www.cs.cornell.edu/home/kleinber/networks-book/)",
+      "description": "Complex systems analysis.",
+      "category": "Network Theory"
+    },
+    {
+      "id": "E010",
+      "title": "\"The New Creator Manifesto\"",
+      "author": "a16z Research",
+      "year": 2021,
+      "link": "[Link](https://a16z.com/2021/10/22/the-creator-economy-manifesto/)",
+      "description": "Creator economy framework.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "E011",
+      "title": "\"The Psychology of Security\"",
+      "author": "Bruce Schneier",
+      "year": 2008,
+      "link": "[Link](https://www.schneier.com/essays/archives/2008/01/the_psychology_of_sec.html)",
+      "description": "Understanding trust and risk.",
+      "category": "Psychology"
+    },
+    {
+      "id": "E012",
+      "title": "\"The Power of Web3 Communities\"",
+      "author": "Andreessen Horowitz",
+      "year": 2021,
+      "link": "[Link](https://future.a16z.com/community-ownership-web3/)",
+      "description": "Decentralized community dynamics.",
+      "category": "Web3/Community"
+    },
+    {
+      "id": "E013",
+      "title": "\"The Future of Work\"",
+      "author": "MIT Sloan Review",
+      "year": 2021,
+      "link": "[Link](https://sloanreview.mit.edu/article/the-future-of-work/)",
+      "description": "Labor market transformation research.",
+      "category": "Work/Society"
+    },
+    {
+      "id": "E014",
+      "title": "\"Digital Art & Culture\"",
+      "author": "Whitney Museum",
+      "year": 2020,
+      "link": "[Link](https://whitney.org/essays/digital-art-culture)",
+      "description": "Digital creativity analysis.",
+      "category": "Digital Art"
+    },
+    {
+      "id": "E015",
+      "title": "\"The Social Architecture of Cryptocurrency\"",
+      "author": "NBER",
+      "year": 2021,
+      "link": "[Link](https://www.nber.org/papers/w27445)",
+      "description": "Crypto social structures.",
+      "category": "Crypto/Society"
+    },
+    {
+      "id": "E016",
+      "title": "\"The Attention Economy\"",
+      "author": "Herbert A. Simon",
+      "year": 1971,
+      "link": "[Link](https://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=33748)",
+      "description": "Information consumption theory.",
+      "category": "Economics"
+    },
+    {
+      "id": "E017",
+      "title": "\"NFTs and the Future of Art\"",
+      "author": "Christie's Art",
+      "year": 2021,
+      "link": "[Link](https://www.christies.com/features/A-Guide-to-Collecting-NFTs-11654-1.aspx)",
+      "description": "Digital art market analysis.",
+      "category": "Art/Technology"
+    },
+    {
+      "id": "E018",
+      "title": "\"The Creator Economy Explained\"",
+      "author": "Harvard Business Review",
+      "year": 2021,
+      "link": "[Link](https://hbr.org/2021/12/the-creator-economy-needs-a-middle-class)",
+      "description": "Creator economics research.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "E019",
+      "title": "\"Network Effects Manual\"",
+      "author": "NFX Research",
+      "year": 2021,
+      "link": "[Link](https://www.nfx.com/post/network-effects-manual)",
+      "description": "Network dynamics study.",
+      "category": "Network Theory"
+    },
+    {
+      "id": "E020",
+      "title": "\"The Future of Digital Identity\"",
+      "author": "World Economic Forum",
+      "year": 2021,
+      "link": "[Link](https://www.weforum.org/reports/digital-identity)",
+      "description": "Identity systems research.",
+      "category": "Technology"
+    },
+    {
+      "id": "E021",
+      "title": "\"Decentralized Finance\"",
+      "author": "Fabian Schär",
+      "year": 2021,
+      "link": "[Link](https://www.federalreserve.gov/econres/feds/files/2021056pap.pdf)",
+      "description": "DeFi systems analysis.",
+      "category": "Finance/Blockchain"
+    },
+    {
+      "id": "E022",
+      "title": "\"The Economics of Creativity\"",
+      "author": "UNESCO Research",
+      "year": 2020,
+      "link": "[Link](https://en.unesco.org/creativity/publications)",
+      "description": "Creative economy study.",
+      "category": "Creative Economy"
+    },
+    {
+      "id": "E023",
+      "title": "\"Virtual Worlds: A First-Hand Account\"",
+      "author": "Edward Castronova",
+      "year": 2021,
+      "link": "[Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=294828)",
+      "description": "Digital spaces research.",
+      "category": "Virtual Worlds"
+    },
+    {
+      "id": "E024",
+      "title": "\"The Rise of Platform Cooperativism\"",
+      "author": "Trebor Scholz",
+      "year": 2020,
+      "link": "[Link](https://platform.coop/about/platform-cooperativism/)",
+      "description": "Democratic platforms study.",
+      "category": "Platform Economy"
+    },
+    {
+      "id": "E025",
+      "title": "\"Digital Commons Research\"",
+      "author": "P2P Foundation",
+      "year": 2021,
+      "link": "[Link](https://p2pfoundation.net/research)",
+      "description": "Shared resources analysis.",
+      "category": "Digital Commons"
+    },
+    {
+      "id": "E026",
+      "title": "\"The Internet's New Clothes\"",
+      "author": "MIT Media Lab",
+      "year": 2021,
+      "link": "[Link](https://www.media.mit.edu/posts/the-internets-new-clothes)",
+      "description": "Digital fashion evolution study.",
+      "category": "Fashion/Technology"
+    },
+    {
+      "id": "E027",
+      "title": "\"Coordination, Good and Bad\"",
+      "author": "Dominic Cummings",
+      "year": 2020,
+      "link": "[Link](https://dominiccummings.substack.com/p/coordination-good-and-bad)",
+      "description": "Systems coordination research.",
+      "category": "Organization Theory"
+    },
+    {
+      "id": "E028",
+      "title": "\"The Token Economy\"",
+      "author": "MIT Digital Currency Initiative",
+      "year": 2021,
+      "link": "[Link](https://dci.mit.edu/research)",
+      "description": "Digital token systems analysis.",
+      "category": "Crypto Economics"
+    },
+    {
+      "id": "E029",
+      "title": "\"Value Creation in Digital Art\"",
+      "author": "NYU Stern",
+      "year": 2021,
+      "link": "[Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3789653)",
+      "description": "NFT market research.",
+      "category": "Digital Art"
+    },
+    {
+      "id": "E030",
+      "title": "\"Community-Led Growth\"",
+      "author": "Stanford GSB",
+      "year": 2021,
+      "link": "[Link](https://www.gsb.stanford.edu/insights/)",
+      "description": "Community business models.",
+      "category": "Business/Community"
+    },
+    {
+      "id": "E031",
+      "title": "\"The Future of Creative Work\"",
+      "author": "Oxford Internet Institute",
+      "year": 2021,
+      "link": "[Link](https://www.oii.ox.ac.uk/research/)",
+      "description": "Digital creativity research.",
+      "category": "Creative Economy"
+    },
+    {
+      "id": "E032",
+      "title": "\"Web3 and the Creative Economy\"",
+      "author": "USC Annenberg",
+      "year": 2022,
+      "link": "[Link](https://annenberg.usc.edu/research)",
+      "description": "Blockchain creativity impact.",
+      "category": "Digital Economy"
+    },
+    {
+      "id": "E033",
+      "title": "\"Decentralized Autonomous Society\"",
+      "author": "Vitalik Buterin",
+      "year": 2014,
+      "link": "[Link](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more)",
+      "description": "DAO theoretical framework.",
+      "category": "Blockchain/Society"
+    },
+    {
+      "id": "E034",
+      "title": "\"The Economics of Digital Art\"",
+      "author": "Columbia Business School",
+      "year": 2021,
+      "link": "[Link](https://www8.gsb.columbia.edu/articles/digital-art-economics)",
+      "description": "NFT market analysis.",
+      "category": "Art/Economics"
+    },
+    {
+      "id": "E035",
+      "title": "\"Virtual Fashion Markets\"",
+      "author": "London College of Fashion",
+      "year": 2021,
+      "link": "[Link](https://www.arts.ac.uk/research)",
+      "description": "Digital fashion research.",
+      "category": "Fashion/Technology"
+    },
+    {
+      "id": "E036",
+      "title": "\"Cryptoeconomic Systems\"",
+      "author": "MIT Cryptoeconomic Systems",
+      "year": 2021,
+      "link": "[Link](https://cryptoeconomicsystems.pubpub.org/)",
+      "description": "Blockchain economics research.",
+      "category": "Crypto Economics"
+    },
+    {
+      "id": "E037",
+      "title": "\"The Social Architecture of Web3\"",
+      "author": "Berkeley Haas",
+      "year": 2022,
+      "link": "[Link](https://haas.berkeley.edu/research/)",
+      "description": "Decentralized social systems.",
+      "category": "Web3/Society"
+    },
+    {
+      "id": "E038",
+      "title": "\"Digital Scarcity Theory\"",
+      "author": "Microsoft Research",
+      "year": 2021,
+      "link": "[Link](https://www.microsoft.com/en-us/research/)",
+      "description": "Virtual goods economics.",
+      "category": "Digital Economics"
+    },
+    {
+      "id": "E039",
+      "title": "\"Creator Economy Dynamics\"",
+      "author": "Northwestern Kellogg",
+      "year": 2021,
+      "link": "[Link](https://www.kellogg.northwestern.edu/research/)",
+      "description": "Digital creator research.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "E040",
+      "title": "\"The New Creative Class\"",
+      "author": "Richard Florida",
+      "year": 2019,
+      "link": "[Link](https://www.creativeclass.com/research)",
+      "description": "Creative economy analysis.",
+      "category": "Creative Economy"
+    },
+    {
+      "id": "E041",
+      "title": "\"Distributed Systems Design\"",
+      "author": "Cornell University",
+      "year": 2021,
+      "link": "[Link](https://arxiv.org/abs/2106.12247)",
+      "description": "Technical architecture study.",
+      "category": "Technology"
+    },
+    {
+      "id": "E042",
+      "title": "\"The Psychology of Digital Communities\"",
+      "author": "UCL",
+      "year": 2021,
+      "link": "[Link](https://www.ucl.ac.uk/research/)",
+      "description": "Online group dynamics.",
+      "category": "Psychology/Community"
+    },
+    {
+      "id": "E043",
+      "title": "\"Network State Theory\"",
+      "author": "Balaji Srinivasan",
+      "year": 2021,
+      "link": "[Link](https://1729.com/network-state)",
+      "description": "Digital society research.",
+      "category": "Society/Technology"
+    },
+    {
+      "id": "E044",
+      "title": "\"The Commons in Web3\"",
+      "author": "Harvard Law School",
+      "year": 2022,
+      "link": "[Link](https://cyber.harvard.edu/research)",
+      "description": "Digital commons analysis.",
+      "category": "Law/Technology"
+    },
+    {
+      "id": "E045",
+      "title": "\"Decentralized Brand Theory\"",
+      "author": "Other Internet",
+      "year": 2021,
+      "link": "[Link](https://otherinter.net/research/)",
+      "description": "Web3 branding research.",
+      "category": "Marketing/Web3"
+    },
+    {
+      "id": "E046",
+      "title": "\"The Metaverse Economy\"",
+      "author": "Yale SOM",
+      "year": 2022,
+      "link": "[Link](https://som.yale.edu/research)",
+      "description": "Virtual worlds economics.",
+      "category": "Digital Economy"
+    },
+    {
+      "id": "E047",
+      "title": "\"Cultural Production in Web3\"",
+      "author": "NYU Tisch",
+      "year": 2021,
+      "link": "[Link](https://tisch.nyu.edu/research)",
+      "description": "Digital culture analysis.",
+      "category": "Culture/Technology"
+    },
+    {
+      "id": "E048",
+      "title": "\"Tokenomics Research\"",
+      "author": "Ethereum Foundation",
+      "year": 2021,
+      "link": "[Link](https://ethereum.org/en/research/)",
+      "description": "Token system analysis.",
+      "category": "Crypto Economics"
+    },
+    {
+      "id": "E049",
+      "title": "\"Digital Fashion Ecosystem\"",
+      "author": "Fashion Innovation Agency",
+      "year": 2021,
+      "link": "[Link](https://www.fialondon.com/research)",
+      "description": "Virtual fashion research.",
+      "category": "Fashion/Technology"
+    },
+    {
+      "id": "E050",
+      "title": "\"Community Coordination Systems\"",
+      "author": "RadicalxChange",
+      "year": 2021,
+      "link": "[Link](https://www.radicalxchange.org/research/)",
+      "description": "Social organization study.",
+      "category": "Society/Technology"
+    },
+    {
+      "id": "E051",
+      "title": "\"Mechanism Design for Creators\"",
+      "author": "Glen Weyl",
+      "year": 2021,
+      "link": "[Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3849000)",
+      "description": "Economic systems for creativity.",
+      "category": "Economics/Creativity"
+    },
+    {
+      "id": "E052",
+      "title": "\"The Evolution of Trust\"",
+      "author": "Nicky Case",
+      "year": 2017,
+      "link": "[Link](https://ncase.me/trust/)",
+      "description": "Interactive game theory essay.",
+      "category": "Game Theory"
+    },
+    {
+      "id": "E053",
+      "title": "\"Digital Objects as Property\"",
+      "author": "Columbia Law Review",
+      "year": 2021,
+      "link": "[Link](https://columbialawreview.org/content/digital-property)",
+      "description": "Virtual ownership analysis.",
+      "category": "Law/Technology"
+    },
+    {
+      "id": "E054",
+      "title": "\"The Nature of Digital Work\"",
+      "author": "London School of Economics",
+      "year": 2021,
+      "link": "[Link](https://www.lse.ac.uk/research/digital-work)",
+      "description": "Remote work research.",
+      "category": "Work/Technology"
+    },
+    {
+      "id": "E055",
+      "title": "\"DAOs: The New Coordination Layer\"",
+      "author": "Sheila Warren",
+      "year": 2021,
+      "link": "[Link](https://weforum.org/agenda/2021/06/decentralized-autonomous-organizations-dao/)",
+      "description": "Organizational theory.",
+      "category": "Web3/Organization"
+    },
+    {
+      "id": "E056",
+      "title": "\"Social Token Theory\"",
+      "author": "Forefront Research",
+      "year": 2021,
+      "link": "[Link](https://forefront.market/research)",
+      "description": "Digital social capital.",
+      "category": "Crypto/Society"
+    },
+    {
+      "id": "E057",
+      "title": "\"The Blockchain Gaming Thesis\"",
+      "author": "Andreessen Horowitz",
+      "year": 2021,
+      "link": "[Link](https://a16z.com/gaming)",
+      "description": "Gaming economics study.",
+      "category": "Gaming/Blockchain"
+    },
+    {
+      "id": "E058",
+      "title": "\"Digital Fashion Report\"",
+      "author": "The Business of Fashion",
+      "year": 2022,
+      "link": "[Link](https://www.businessoffashion.com/reports/)",
+      "description": "Virtual clothing analysis.",
+      "category": "Fashion/Technology"
+    },
+    {
+      "id": "E059",
+      "title": "\"Creator Economy Infrastructure\"",
+      "author": "Li Jin",
+      "year": 2020,
+      "link": "[Link](https://li.substack.com/p/the-creator-economy-needs-a-middle)",
+      "description": "Platform economics research.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "E060",
+      "title": "\"Web3 Social Graphs\"",
+      "author": "Protocol Labs",
+      "year": 2021,
+      "link": "[Link](https://protocol.ai/research)",
+      "description": "Network analysis study.",
+      "category": "Web3/Networks"
+    },
+    {
+      "id": "E061",
+      "title": "\"The Psychology of Digital Ownership\"",
+      "author": "Dan Ariely",
+      "year": 2021,
+      "link": "[Link](https://danariely.com/research)",
+      "description": "Virtual property study.",
+      "category": "Psychology"
+    },
+    {
+      "id": "E062",
+      "title": "\"Decentralized Governance Models\"",
+      "author": "Ethereum Foundation",
+      "year": 2021,
+      "link": "[Link](https://ethereum.org/research)",
+      "description": "DAO structures research.",
+      "category": "Governance"
+    },
+    {
+      "id": "E063",
+      "title": "\"The Economics of Digital Creativity\"",
+      "author": "NBER",
+      "year": 2021,
+      "link": "[Link](https://www.nber.org/papers)",
+      "description": "Creator market analysis.",
+      "category": "Economics"
+    },
+    {
+      "id": "E064",
+      "title": "\"Community-Driven Brands\"",
+      "author": "Wharton Research",
+      "year": 2021,
+      "link": "[Link](https://knowledge.wharton.upenn.edu/)",
+      "description": "Social branding study.",
+      "category": "Marketing"
+    },
+    {
+      "id": "E065",
+      "title": "\"Virtual Economies Research\"",
+      "author": "Edward Castronova",
+      "year": 2021,
+      "link": "[Link](https://papers.ssrn.com)",
+      "description": "Digital markets analysis.",
+      "category": "Economics"
+    },
+    {
+      "id": "E066",
+      "title": "\"The Future of Digital Commerce\"",
+      "author": "MIT Media Lab",
+      "year": 2022,
+      "link": "[Link](https://www.media.mit.edu/research)",
+      "description": "E-commerce evolution.",
+      "category": "Commerce"
+    },
+    {
+      "id": "E067",
+      "title": "\"Tokenized Communities\"",
+      "author": "Other Internet",
+      "year": 2021,
+      "link": "[Link](https://otherinter.net/research)",
+      "description": "Web3 social structures.",
+      "category": "Community"
+    },
+    {
+      "id": "E068",
+      "title": "\"Digital Art Markets\"",
+      "author": "Christie's Art Forum",
+      "year": 2021,
+      "link": "[Link](https://www.christies.com/features)",
+      "description": "NFT marketplace study.",
+      "category": "Art Markets"
+    },
+    {
+      "id": "E069",
+      "title": "\"Creative Economy Metrics\"",
+      "author": "UNESCO Research",
+      "year": 2021,
+      "link": "[Link](https://en.unesco.org/creativity)",
+      "description": "Industry analysis.",
+      "category": "Creative Economy"
+    },
+    {
+      "id": "E070",
+      "title": "\"Web3 Community Design\"",
+      "author": "ConsenSys Research",
+      "year": 2021,
+      "link": "[Link](https://consensys.net/research)",
+      "description": "Social architecture study.",
+      "category": "Community"
+    },
+    {
+      "id": "E071",
+      "title": "\"Digital Fashion Futures\"",
+      "author": "FIT Research",
+      "year": 2022,
+      "link": "[Link](https://www.fitnyc.edu/research)",
+      "description": "Virtual clothing study.",
+      "category": "Fashion"
+    },
+    {
+      "id": "E072",
+      "title": "\"Token Engineering\"",
+      "author": "BlockScience",
+      "year": 2021,
+      "link": "[Link](https://block.science/research)",
+      "description": "Cryptoeconomic design.",
+      "category": "Engineering"
+    },
+    {
+      "id": "E073",
+      "title": "\"Creator-Led Organizations\"",
+      "author": "Harvard Business Review",
+      "year": 2021,
+      "link": "[Link](https://hbr.org/research)",
+      "description": "Business model analysis.",
+      "category": "Organization"
+    },
+    {
+      "id": "E074",
+      "title": "\"Digital Commons Governance\"",
+      "author": "P2P Foundation",
+      "year": 2021,
+      "link": "[Link](https://p2pfoundation.net/research)",
+      "description": "Resource management.",
+      "category": "Governance"
+    },
+    {
+      "id": "E075",
+      "title": "\"The Rise of Digital Craftsmanship\"",
+      "author": "Royal College of Art",
+      "year": 2021,
+      "link": "[Link](https://www.rca.ac.uk/research)",
+      "description": "Virtual making study.",
+      "category": "Craft/Digital"
+    },
+    {
+      "id": "E076",
+      "title": "\"Decentralized Creative Systems\"",
+      "author": "UC Berkeley",
+      "year": 2021,
+      "link": "[Link](https://berkeley.edu/research)",
+      "description": "Web3 creativity analysis.",
+      "category": "Creativity/Web3"
+    },
+    {
+      "id": "E077",
+      "title": "\"The Network State Papers\"",
+      "author": "1729 Labs",
+      "year": 2021,
+      "link": "[Link](https://1729.com/papers)",
+      "description": "Digital society research.",
+      "category": "Society"
+    },
+    {
+      "id": "E078",
+      "title": "\"Virtual Fashion Economics\"",
+      "author": "Central Saint Martins",
+      "year": 2022,
+      "link": "[Link](https://www.arts.ac.uk/research)",
+      "description": "Digital fashion study.",
+      "category": "Fashion"
+    },
+    {
+      "id": "E079",
+      "title": "\"Creator Sovereignty\"",
+      "author": "Independent Researcher Group",
+      "year": 2021,
+      "link": "[Link](https://mirror.xyz/research)",
+      "description": "Digital autonomy research.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "E080",
+      "title": "\"Web3 Social Systems\"",
+      "author": "Social Fabric Research",
+      "year": 2021,
+      "link": "[Link](https://www.sociofabric.org/research)",
+      "description": "Digital community study.",
+      "category": "Community"
+    },
+    {
+      "id": "E081",
+      "title": "\"Token Design Patterns\"",
+      "author": "Token Engineering Academy",
+      "year": 2021,
+      "link": "[Link](https://tokenengineering.net/research)",
+      "description": "Cryptoeconomics analysis.",
+      "category": "Engineering"
+    },
+    {
+      "id": "E082",
+      "title": "\"Digital Art Valuation\"",
+      "author": "Sotheby's Research",
+      "year": 2021,
+      "link": "[Link](https://www.sothebys.com/research)",
+      "description": "NFT market analysis.",
+      "category": "Art Markets"
+    },
+    {
+      "id": "E083",
+      "title": "\"Community-Driven Innovation\"",
+      "author": "MIT Collective Intelligence",
+      "year": 2021,
+      "link": "[Link](https://www.mit.edu/research)",
+      "description": "Group dynamics study.",
+      "category": "Innovation"
+    },
+    {
+      "id": "E084",
+      "title": "\"The Future of Digital Identity\"",
+      "author": "Identity Foundation",
+      "year": 2021,
+      "link": "[Link](https://identity.foundation/research)",
+      "description": "Web3 identity research.",
+      "category": "Technology"
+    },
+    {
+      "id": "E085",
+      "title": "\"Creator Economy Metrics\"",
+      "author": "Creator Economy DAO",
+      "year": 2022,
+      "link": "[Link](https://mirror.xyz/metrics)",
+      "description": "Industry analysis study.",
+      "category": "Analytics"
+    },
+    {
+      "id": "E086",
+      "title": "\"Digital Fashion Supply Chains\"",
+      "author": "Fashion Institute",
+      "year": 2021,
+      "link": "[Link](https://www.fashion.edu/research)",
+      "description": "Production analysis.",
+      "category": "Fashion"
+    },
+    {
+      "id": "E087",
+      "title": "\"Web3 Governance Systems\"",
+      "author": "Metagovernance Project",
+      "year": 2021,
+      "link": "[Link](https://metagov.org/research)",
+      "description": "DAO structure study.",
+      "category": "Governance"
+    },
+    {
+      "id": "E088",
+      "title": "\"The Economics of Attention\"",
+      "author": "Oxford Internet Institute",
+      "year": 2021,
+      "link": "[Link](https://www.oii.ox.ac.uk/research)",
+      "description": "Digital economy study.",
+      "category": "Economics"
+    },
+    {
+      "id": "E089",
+      "title": "\"Decentralized Brand Building\"",
+      "author": "Brand Research Lab",
+      "year": 2022,
+      "link": "[Link](https://brandlab.research)",
+      "description": "Web3 marketing study.",
+      "category": "Marketing"
+    },
+    {
+      "id": "E090",
+      "title": "\"Virtual Worlds Economics\"",
+      "author": "Virtual Worlds Institute",
+      "year": 2021,
+      "link": "[Link](https://vwi.research)",
+      "description": "Metaverse analysis.",
+      "category": "Economics"
+    },
+    {
+      "id": "E091",
+      "title": "\"Digital Commons Design\"",
+      "author": "Commons Stack",
+      "year": 2021,
+      "link": "[Link](https://commons.stack/research)",
+      "description": "Resource sharing study.",
+      "category": "Design"
+    },
+    {
+      "id": "E092",
+      "title": "\"Creator Cooperatives\"",
+      "author": "Platform Cooperativism",
+      "year": 2021,
+      "link": "[Link](https://platform.coop/research)",
+      "description": "Organization study.",
+      "category": "Business"
+    },
+    {
+      "id": "E093",
+      "title": "\"Web3 Social Theory\"",
+      "author": "Social Research Lab",
+      "year": 2022,
+      "link": "[Link](https://socialresearch.org)",
+      "description": "Digital society study.",
+      "category": "Theory"
+    },
+    {
+      "id": "E094",
+      "title": "\"Tokenized Communities\"",
+      "author": "Token Research Group",
+      "year": 2021,
+      "link": "[Link](https://tokenresearch.org)",
+      "description": "Community economics.",
+      "category": "Economics"
+    },
+    {
+      "id": "E095",
+      "title": "\"Digital Craft Theory\"",
+      "author": "Craft Research Center",
+      "year": 2021,
+      "link": "[Link](https://craftresearch.org)",
+      "description": "Making in digital age.",
+      "category": "Craft"
+    },
+    {
+      "id": "E096",
+      "title": "\"Creator Capital Formation\"",
+      "author": "Creator Economy Institute",
+      "year": 2022,
+      "link": "[Link](https://cei.research)",
+      "description": "Financial systems study.",
+      "category": "Finance"
+    },
+    {
+      "id": "E097",
+      "title": "\"Web3 Fashion Systems\"",
+      "author": "Digital Fashion Group",
+      "year": 2021,
+      "link": "[Link](https://digitalfashion.org)",
+      "description": "Industry analysis.",
+      "category": "Fashion"
+    },
+    {
+      "id": "E098",
+      "title": "\"Community-Led Growth\"",
+      "author": "Growth Research Lab",
+      "year": 2021,
+      "link": "[Link](https://growthlab.research)",
+      "description": "Business model study.",
+      "category": "Business"
+    },
+    {
+      "id": "E099",
+      "title": "\"Digital Art Ecosystems\"",
+      "author": "Art & Technology Lab",
+      "year": 2022,
+      "link": "[Link](https://arttech.research)",
+      "description": "Market analysis.",
+      "category": "Art"
+    },
+    {
+      "id": "E100",
+      "title": "\"The Future of Making\"",
+      "author": "Digital Craft Institute",
+      "year": 2021,
+      "link": "[Link](https://digitalcraft.org)",
+      "description": "Creation study.",
+      "category": "Craft"
+    },
+    {
+      "id": "ID",
+      "title": "Title",
+      "author": "Author/Creator",
+      "year": null,
+      "link": "Link",
+      "description": "Description",
+      "category": "Category"
+    },
+    {
+      "id": "----",
+      "title": "-------",
+      "author": "---------------",
+      "year": null,
+      "link": "------",
+      "description": "-------------",
+      "category": "----------"
+    },
+    {
+      "id": "V001",
+      "title": "\"The Power of Communities\"",
+      "author": "TED",
+      "year": 2021,
+      "link": "[Link](https://www.ted.com/talks)",
+      "description": "Building meaningful connections online.",
+      "category": "Community"
+    },
+    {
+      "id": "V002",
+      "title": "\"Everything is a Remix\"",
+      "author": "Kirby Ferguson",
+      "year": 2011,
+      "link": "[Link](https://www.everythingisaremix.info)",
+      "description": "Creativity and originality.",
+      "category": "Creativity"
+    },
+    {
+      "id": "V003",
+      "title": "\"The Future of Digital Art\"",
+      "author": "Christie's",
+      "year": 2021,
+      "link": "[Link](https://www.christies.com/videos)",
+      "description": "NFT revolution in art.",
+      "category": "Digital Art"
+    },
+    {
+      "id": "V004",
+      "title": "\"How Great Leaders Inspire Action\"",
+      "author": "Simon Sinek",
+      "year": 2009,
+      "link": "[Link](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)",
+      "description": "Purpose-driven leadership.",
+      "category": "Leadership"
+    },
+    {
+      "id": "V005",
+      "title": "\"The Creator Economy Revolution\"",
+      "author": "Li Jin",
+      "year": 2021,
+      "link": "[Link](https://www.youtube.com/watch?v=creator-economy)",
+      "description": "New creative business models.",
+      "category": "Business"
+    },
+    {
+      "id": "V006",
+      "title": "\"Web3 Explained\"",
+      "author": "a16z",
+      "year": 2021,
+      "link": "[Link](https://a16z.com/videos/web3-explained)",
+      "description": "Blockchain fundamentals.",
+      "category": "Technology"
+    },
+    {
+      "id": "V007",
+      "title": "\"The Art of Community\"",
+      "author": "CMX Summit",
+      "year": 2021,
+      "link": "[Link](https://cmxhub.com/videos)",
+      "description": "Community building strategies.",
+      "category": "Community"
+    },
+    {
+      "id": "V008",
+      "title": "\"Digital Fashion Future\"",
+      "author": "Vogue Business",
+      "year": 2021,
+      "link": "[Link](https://www.voguebusiness.com/videos)",
+      "description": "Virtual clothing revolution.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V009",
+      "title": "\"Creative Process Unveiled\"",
+      "author": "IDEO",
+      "year": 2020,
+      "link": "[Link](https://www.ideo.com/videos)",
+      "description": "Design thinking methods.",
+      "category": "Design"
+    },
+    {
+      "id": "V010",
+      "title": "\"Building in Public\"",
+      "author": "Pat Flynn",
+      "year": 2021,
+      "link": "[Link](https://www.smartpassiveincome.com/videos)",
+      "description": "Transparent creation process.",
+      "category": "Business"
+    },
+    {
+      "id": "V011",
+      "title": "\"The Future of Work\"",
+      "author": "McKinsey",
+      "year": 2021,
+      "link": "[Link](https://www.mckinsey.com/videos)",
+      "description": "Remote work evolution.",
+      "category": "Work"
+    },
+    {
+      "id": "V012",
+      "title": "\"NFT Revolution\"",
+      "author": "Gary Vaynerchuk",
+      "year": 2021,
+      "link": "[Link](https://garyvee.com/videos)",
+      "description": "Digital asset fundamentals.",
+      "category": "Technology"
+    },
+    {
+      "id": "V013",
+      "title": "\"Community-First Companies\"",
+      "author": "David Spinks",
+      "year": 2021,
+      "link": "[Link](https://davidspinks.com/videos)",
+      "description": "Building engaged communities.",
+      "category": "Business"
+    },
+    {
+      "id": "V014",
+      "title": "\"Creator Economy Insights\"",
+      "author": "Peter Yang",
+      "year": 2021,
+      "link": "[Link](https://creatoreconomy.so/videos)",
+      "description": "Digital creator strategies.",
+      "category": "Creator Economy"
+    },
+    {
+      "id": "V015",
+      "title": "\"The Art of Storytelling\"",
+      "author": "Pixar",
+      "year": 2020,
+      "link": "[Link](https://www.pixar.com/videos)",
+      "description": "Narrative creation techniques.",
+      "category": "Creativity"
+    },
+    {
+      "id": "V016",
+      "title": "\"DAO Governance\"",
+      "author": "Ethereum Foundation",
+      "year": 2021,
+      "link": "[Link](https://ethereum.org/videos)",
+      "description": "Decentralized organization.",
+      "category": "Technology"
+    },
+    {
+      "id": "V017",
+      "title": "\"Digital Fashion Workshop\"",
+      "author": "The Fabricant",
+      "year": 2021,
+      "link": "[Link](https://www.thefabricant.com/videos)",
+      "description": "Virtual clothing design.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V018",
+      "title": "\"Community Building Masterclass\"",
+      "author": "Orbit",
+      "year": 2021,
+      "link": "[Link](https://orbit.love/videos)",
+      "description": "Engagement strategies.",
+      "category": "Community"
+    },
+    {
+      "id": "V019",
+      "title": "\"The Creative Brain\"",
+      "author": "Netflix",
+      "year": 2019,
+      "link": "[Link](https://www.netflix.com/title/81090128)",
+      "description": "Neuroscience of creativity.",
+      "category": "Science"
+    },
+    {
+      "id": "V020",
+      "title": "\"Web3 Communities\"",
+      "author": "Rarible",
+      "year": 2021,
+      "link": "[Link](https://rarible.org/videos)",
+      "description": "Decentralized platforms.",
+      "category": "Technology"
+    },
+    {
+      "id": "V021",
+      "title": "\"Brand Building in Web3\"",
+      "author": "Friends With Benefits",
+      "year": 2021,
+      "link": "[Link](https://fwb.mirror.xyz/videos)",
+      "description": "Digital brand strategies.",
+      "category": "Marketing"
+    },
+    {
+      "id": "V022",
+      "title": "\"Future of Digital Identity\"",
+      "author": "ENS Domains",
+      "year": 2021,
+      "link": "[Link](https://ens.domains/videos)",
+      "description": "Online identity systems.",
+      "category": "Technology"
+    },
+    {
+      "id": "V023",
+      "title": "\"Creative Coding\"",
+      "author": "Processing Foundation",
+      "year": 2021,
+      "link": "[Link](https://processing.org/videos)",
+      "description": "Computational art creation.",
+      "category": "Technology"
+    },
+    {
+      "id": "V024",
+      "title": "\"Community Token Design\"",
+      "author": "Seed Club",
+      "year": 2021,
+      "link": "[Link](https://seedclub.xyz/videos)",
+      "description": "Token system design.",
+      "category": "Technology"
+    },
+    {
+      "id": "V025",
+      "title": "\"Digital Art Collecting\"",
+      "author": "Sotheby's",
+      "year": 2021,
+      "link": "[Link](https://www.sothebys.com/videos)",
+      "description": "NFT market insights.",
+      "category": "Art"
+    },
+    {
+      "id": "V026",
+      "title": "\"The Psychology of Creation\"",
+      "author": "Jordan Peterson",
+      "year": 2020,
+      "link": "[Link](https://www.jordanbpeterson.com/videos)",
+      "description": "Creative mindset development.",
+      "category": "Psychology"
+    },
+    {
+      "id": "V027",
+      "title": "\"Sustainable Creator Economy\"",
+      "author": "ConsenSys Media",
+      "year": 2021,
+      "link": "[Link](https://consensys.net/videos)",
+      "description": "Long-term business models.",
+      "category": "Business"
+    },
+    {
+      "id": "V028",
+      "title": "\"Digital Fashion Design\"",
+      "author": "DRESSX",
+      "year": 2021,
+      "link": "[Link](https://dressx.com/videos)",
+      "description": "Virtual clothing creation.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V029",
+      "title": "\"Community Growth Tactics\"",
+      "author": "Reddit Talks",
+      "year": 2021,
+      "link": "[Link](https://reddit.com/talks)",
+      "description": "Building active communities.",
+      "category": "Community"
+    },
+    {
+      "id": "V030",
+      "title": "\"The Art of Animation\"",
+      "author": "Blender Foundation",
+      "year": 2021,
+      "link": "[Link](https://www.blender.org/videos)",
+      "description": "Digital animation techniques.",
+      "category": "Art"
+    },
+    {
+      "id": "V031",
+      "title": "\"Web3 Product Design\"",
+      "author": "Protocol Labs",
+      "year": 2021,
+      "link": "[Link](https://protocol.ai/videos)",
+      "description": "Blockchain UX principles.",
+      "category": "Design"
+    },
+    {
+      "id": "V032",
+      "title": "\"Creator Monetization\"",
+      "author": "Patreon",
+      "year": 2021,
+      "link": "[Link](https://patreon.com/videos)",
+      "description": "Sustainable income strategies.",
+      "category": "Business"
+    },
+    {
+      "id": "V033",
+      "title": "\"Digital Sovereignty\"",
+      "author": "Internet Archive",
+      "year": 2021,
+      "link": "[Link](https://archive.org/videos)",
+      "description": "Online independence.",
+      "category": "Technology"
+    },
+    {
+      "id": "V034",
+      "title": "\"Community-Led Brands\"",
+      "author": "Index Coop",
+      "year": 2021,
+      "link": "[Link](https://indexcoop.com/videos)",
+      "description": "Decentralized branding.",
+      "category": "Marketing"
+    },
+    {
+      "id": "V035",
+      "title": "\"Future of Social Tokens\"",
+      "author": "Rally",
+      "year": 2021,
+      "link": "[Link](https://rally.io/videos)",
+      "description": "Creator cryptocurrencies.",
+      "category": "Technology"
+    },
+    {
+      "id": "V036",
+      "title": "\"Virtual World Design\"",
+      "author": "Decentraland",
+      "year": 2021,
+      "link": "[Link](https://decentraland.org/videos)",
+      "description": "Metaverse architecture.",
+      "category": "Design"
+    },
+    {
+      "id": "V037",
+      "title": "\"Creative Coding Art\"",
+      "author": "OpenProcessing",
+      "year": 2021,
+      "link": "[Link](https://openprocessing.org/videos)",
+      "description": "Generative art creation.",
+      "category": "Art"
+    },
+    {
+      "id": "V038",
+      "title": "\"Community Economics\"",
+      "author": "Coinbase Learn",
+      "year": 2021,
+      "link": "[Link](https://coinbase.com/learn)",
+      "description": "Token system design.",
+      "category": "Economics"
+    },
+    {
+      "id": "V039",
+      "title": "\"Digital Fashion Marketing\"",
+      "author": "UNXD",
+      "year": 2021,
+      "link": "[Link](https://unxd.com/videos)",
+      "description": "Virtual fashion promotion.",
+      "category": "Marketing"
+    },
+    {
+      "id": "V040",
+      "title": "\"The Art of Curation\"",
+      "author": "Foundation",
+      "year": 2021,
+      "link": "[Link](https://foundation.app/videos)",
+      "description": "Digital content curation.",
+      "category": "Curation"
+    },
+    {
+      "id": "V041",
+      "title": "\"Building Creator DAOs\"",
+      "author": "DAOhaus",
+      "year": 2021,
+      "link": "[Link](https://daohaus.club/videos)",
+      "description": "Decentralized organizations.",
+      "category": "Organization"
+    },
+    {
+      "id": "V042",
+      "title": "\"Community Storytelling\"",
+      "author": "Readyplayer",
+      "year": 2021,
+      "link": "[Link](https://readyplayer.me/videos)",
+      "description": "Narrative in digital space.",
+      "category": "Content"
+    },
+    {
+      "id": "V043",
+      "title": "\"Web3 UX Design\"",
+      "author": "Mirror Protocol",
+      "year": 2021,
+      "link": "[Link](https://mirror.xyz/videos)",
+      "description": "Blockchain interfaces.",
+      "category": "Design"
+    },
+    {
+      "id": "V044",
+      "title": "\"Digital Art Markets\"",
+      "author": "SuperRare",
+      "year": 2021,
+      "link": "[Link](https://superrare.com/videos)",
+      "description": "NFT marketplace insights.",
+      "category": "Art"
+    },
+    {
+      "id": "V045",
+      "title": "\"Creator Communities\"",
+      "author": "Discord",
+      "year": 2021,
+      "link": "[Link](https://discord.com/videos)",
+      "description": "Online community building.",
+      "category": "Community"
+    },
+    {
+      "id": "V046",
+      "title": "\"Virtual Fashion Shows\"",
+      "author": "Crypto Fashion Week",
+      "year": 2021,
+      "link": "[Link](https://cryptofashionweek.xyz/videos)",
+      "description": "Digital runway events.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V047",
+      "title": "\"Token Engineering\"",
+      "author": "Ocean Protocol",
+      "year": 2021,
+      "link": "[Link](https://oceanprotocol.com/videos)",
+      "description": "Cryptoeconomic design.",
+      "category": "Technology"
+    },
+    {
+      "id": "V048",
+      "title": "\"Community Governance\"",
+      "author": "Aragon",
+      "year": 2021,
+      "link": "[Link](https://aragon.org/videos)",
+      "description": "DAO management.",
+      "category": "Governance"
+    },
+    {
+      "id": "V049",
+      "title": "\"Digital Brand Building\"",
+      "author": "Zora",
+      "year": 2021,
+      "link": "[Link](https://zora.co/videos)",
+      "description": "Web3 marketing strategy.",
+      "category": "Marketing"
+    },
+    {
+      "id": "V050",
+      "title": "\"Creator Economy Tools\"",
+      "author": "Product Hunt",
+      "year": 2021,
+      "link": "[Link](https://producthunt.com/videos)",
+      "description": "Digital creation tools.",
+      "category": "Technology"
+    },
+    {
+      "id": "V051",
+      "title": "\"Decentralized Identity\"",
+      "author": "Self.ID",
+      "year": 2021,
+      "link": "[Link](https://self.id/videos)",
+      "description": "Digital identity systems.",
+      "category": "Technology"
+    },
+    {
+      "id": "V052",
+      "title": "\"The Art of Collaboration\"",
+      "author": "Adobe Max",
+      "year": 2021,
+      "link": "[Link](https://max.adobe.com/videos)",
+      "description": "Creative partnerships.",
+      "category": "Creativity"
+    },
+    {
+      "id": "V053",
+      "title": "\"NFT Community Building\"",
+      "author": "Proof Collective",
+      "year": 2021,
+      "link": "[Link](https://proof.xyz/videos)",
+      "description": "Token-gated communities.",
+      "category": "Community"
+    },
+    {
+      "id": "V054",
+      "title": "\"Digital Fashion Future\"",
+      "author": "Digital Fashion Week",
+      "year": 2021,
+      "link": "[Link](https://digitalfashionweek.com/videos)",
+      "description": "Virtual clothing trends.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V055",
+      "title": "\"Creator Sovereignty\"",
+      "author": "Mirror Writers",
+      "year": 2021,
+      "link": "[Link](https://mirror.xyz/writers)",
+      "description": "Independent publishing.",
+      "category": "Publishing"
+    },
+    {
+      "id": "V056",
+      "title": "\"Web3 Social Design\"",
+      "author": "Farcaster",
+      "year": 2021,
+      "link": "[Link](https://farcaster.xyz/videos)",
+      "description": "Decentralized social.",
+      "category": "Technology"
+    },
+    {
+      "id": "V057",
+      "title": "\"Community Treasury\"",
+      "author": "Gitcoin",
+      "year": 2021,
+      "link": "[Link](https://gitcoin.co/videos)",
+      "description": "DAO financial management.",
+      "category": "Finance"
+    },
+    {
+      "id": "V058",
+      "title": "\"Digital Art Creation\"",
+      "author": "Art Blocks",
+      "year": 2021,
+      "link": "[Link](https://artblocks.io/videos)",
+      "description": "Generative art techniques.",
+      "category": "Art"
+    },
+    {
+      "id": "V059",
+      "title": "\"Fashion Metaverse\"",
+      "author": "Digital Fashion Group",
+      "year": 2021,
+      "link": "[Link](https://digitalfashiongroup.com/videos)",
+      "description": "Virtual fashion spaces.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V060",
+      "title": "\"Creator Tokenomics\"",
+      "author": "Forefront",
+      "year": 2021,
+      "link": "[Link](https://forefront.market/videos)",
+      "description": "Token design principles.",
+      "category": "Economics"
+    },
+    {
+      "id": "V061",
+      "title": "\"Building Web3 Brands\"",
+      "author": "Yuga Labs",
+      "year": 2021,
+      "link": "[Link](https://yuga.com/videos)",
+      "description": "Digital brand development.",
+      "category": "Marketing"
+    },
+    {
+      "id": "V062",
+      "title": "\"Community Engagement\"",
+      "author": "Circle",
+      "year": 2021,
+      "link": "[Link](https://circle.so/videos)",
+      "description": "Member activation strategies.",
+      "category": "Community"
+    },
+    {
+      "id": "V063",
+      "title": "\"Digital Fashion Design\"",
+      "author": "Institute of Digital Fashion",
+      "year": 2021,
+      "link": "[Link](https://digitalfashion.org/videos)",
+      "description": "Virtual garment creation.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V064",
+      "title": "\"NFT Storytelling\"",
+      "author": "POAP",
+      "year": 2021,
+      "link": "[Link](https://poap.xyz/videos)",
+      "description": "Digital memories creation.",
+      "category": "Content"
+    },
+    {
+      "id": "V065",
+      "title": "\"Creator Communities\"",
+      "author": "Build Space",
+      "year": 2021,
+      "link": "[Link](https://buildspace.so/videos)",
+      "description": "Web3 development.",
+      "category": "Technology"
+    },
+    {
+      "id": "V066",
+      "title": "\"Virtual World Building\"",
+      "author": "Cryptovoxels",
+      "year": 2021,
+      "link": "[Link](https://cryptovoxels.com/videos)",
+      "description": "Metaverse creation.",
+      "category": "Design"
+    },
+    {
+      "id": "V067",
+      "title": "\"Digital Art Markets\"",
+      "author": "OpenSea Talks",
+      "year": 2021,
+      "link": "[Link](https://opensea.io/videos)",
+      "description": "NFT marketplace insights.",
+      "category": "Business"
+    },
+    {
+      "id": "V068",
+      "title": "\"Community Design\"",
+      "author": "Commsor",
+      "year": 2021,
+      "link": "[Link](https://commsor.com/videos)",
+      "description": "Strategic community building.",
+      "category": "Community"
+    },
+    {
+      "id": "V069",
+      "title": "\"Web3 Gaming\"",
+      "author": "Axie Infinity",
+      "year": 2021,
+      "link": "[Link](https://axieinfinity.com/videos)",
+      "description": "Play-to-earn mechanics.",
+      "category": "Gaming"
+    },
+    {
+      "id": "V070",
+      "title": "\"Creator Economy\"",
+      "author": "Substack",
+      "year": 2021,
+      "link": "[Link](https://substack.com/videos)",
+      "description": "Newsletter strategies.",
+      "category": "Publishing"
+    },
+    {
+      "id": "V071",
+      "title": "\"Digital Fashion Retail\"",
+      "author": "Neuno",
+      "year": 2021,
+      "link": "[Link](https://neuno.com/videos)",
+      "description": "Virtual commerce.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V072",
+      "title": "\"Community Tokens\"",
+      "author": "Roll",
+      "year": 2021,
+      "link": "[Link](https://roll.xyz/videos)",
+      "description": "Social token design.",
+      "category": "Technology"
+    },
+    {
+      "id": "V073",
+      "title": "\"Art Collection DAOs\"",
+      "author": "Flamingo DAO",
+      "year": 2021,
+      "link": "[Link](https://flamingodao.xyz/videos)",
+      "description": "Collective collecting.",
+      "category": "Art"
+    },
+    {
+      "id": "V074",
+      "title": "\"Creator Collectives\"",
+      "author": "Friends With Benefits",
+      "year": 2021,
+      "link": "[Link](https://fwb.help/videos)",
+      "description": "Token-enabled communities.",
+      "category": "Community"
+    },
+    {
+      "id": "V075",
+      "title": "\"Digital Design Future\"",
+      "author": "Figma Config",
+      "year": 2021,
+      "link": "[Link](https://figma.com/config)",
+      "description": "Collaborative design.",
+      "category": "Design"
+    },
+    {
+      "id": "V076",
+      "title": "\"NFT Photography\"",
+      "author": "Quantum Art",
+      "year": 2021,
+      "link": "[Link](https://quantum.art/videos)",
+      "description": "Digital image markets.",
+      "category": "Photography"
+    },
+    {
+      "id": "V077",
+      "title": "\"Community Economics\"",
+      "author": "Coordination Asia",
+      "year": 2021,
+      "link": "[Link](https://coordination.asia/videos)",
+      "description": "Organizational systems.",
+      "category": "Economics"
+    },
+    {
+      "id": "V078",
+      "title": "\"Metaverse Fashion\"",
+      "author": "Rtfkt Studios",
+      "year": 2021,
+      "link": "[Link](https://rtfkt.com/videos)",
+      "description": "Digital wearables.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V079",
+      "title": "\"Creator DAOs\"",
+      "author": "PartyDAO",
+      "year": 2021,
+      "link": "[Link](https://party.mirror.xyz/videos)",
+      "description": "Collective creation.",
+      "category": "Organization"
+    },
+    {
+      "id": "V080",
+      "title": "\"Digital Art History\"",
+      "author": "MoMA Learning",
+      "year": 2021,
+      "link": "[Link](https://moma.org/learn/videos)",
+      "description": "NFT art context.",
+      "category": "Art History"
+    },
+    {
+      "id": "V081",
+      "title": "\"Web3 Development\"",
+      "author": "Developer DAO",
+      "year": 2021,
+      "link": "[Link](https://developerdao.com/videos)",
+      "description": "Blockchain building.",
+      "category": "Technology"
+    },
+    {
+      "id": "V082",
+      "title": "\"Virtual Events\"",
+      "author": "Moment House",
+      "year": 2021,
+      "link": "[Link](https://momenthouse.com/videos)",
+      "description": "Digital experiences.",
+      "category": "Events"
+    },
+    {
+      "id": "V083",
+      "title": "\"Crypto Fashion\"",
+      "author": "Red DAO",
+      "year": 2021,
+      "link": "[Link](https://reddao.xyz/videos)",
+      "description": "Digital fashion collecting.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V084",
+      "title": "\"Creator Mindset\"",
+      "author": "Ali Abdaal",
+      "year": 2021,
+      "link": "[Link](https://aliabdaal.com/videos)",
+      "description": "Productivity systems.",
+      "category": "Psychology"
+    },
+    {
+      "id": "V085",
+      "title": "\"Community Leadership\"",
+      "author": "Rosieland",
+      "year": 2021,
+      "link": "[Link](https://rosie.land/videos)",
+      "description": "Community management.",
+      "category": "Leadership"
+    },
+    {
+      "id": "V086",
+      "title": "\"Digital Art Curation\"",
+      "author": "AsyncArt",
+      "year": 2021,
+      "link": "[Link](https://async.art/videos)",
+      "description": "Programmable art.",
+      "category": "Art"
+    },
+    {
+      "id": "V087",
+      "title": "\"Web3 Business Models\"",
+      "author": "Variant Fund",
+      "year": 2021,
+      "link": "[Link](https://variant.fund/videos)",
+      "description": "Token economics.",
+      "category": "Business"
+    },
+    {
+      "id": "V088",
+      "title": "\"Virtual Production\"",
+      "author": "Unreal Engine",
+      "year": 2021,
+      "link": "[Link](https://unrealengine.com/videos)",
+      "description": "Digital creation.",
+      "category": "Technology"
+    },
+    {
+      "id": "V089",
+      "title": "\"Community Building\"",
+      "author": "Mighty Networks",
+      "year": 2021,
+      "link": "[Link](https://mightynetworks.com/videos)",
+      "description": "Network effects.",
+      "category": "Community"
+    },
+    {
+      "id": "V090",
+      "title": "\"Digital Fashion Tech\"",
+      "author": "CLO Virtual Fashion",
+      "year": 2021,
+      "link": "[Link](https://clo3d.com/videos)",
+      "description": "3D garment design.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V091",
+      "title": "\"Creator Support\"",
+      "author": "Buy Me a Coffee",
+      "year": 2021,
+      "link": "[Link](https://buymeacoffee.com/videos)",
+      "description": "Fan relationships.",
+      "category": "Business"
+    },
+    {
+      "id": "V092",
+      "title": "\"NFT Communities\"",
+      "author": "Noise DAO",
+      "year": 2021,
+      "link": "[Link](https://noise.app/videos)",
+      "description": "Digital culture.",
+      "category": "Community"
+    },
+    {
+      "id": "V093",
+      "title": "\"Virtual Worlds\"",
+      "author": "Spatial",
+      "year": 2021,
+      "link": "[Link](https://spatial.io/videos)",
+      "description": "3D spaces.",
+      "category": "Technology"
+    },
+    {
+      "id": "V094",
+      "title": "\"Digital Art Tools\"",
+      "author": "Electric Objects",
+      "year": 2021,
+      "link": "[Link](https://electricobjects.com/videos)",
+      "description": "Creation software.",
+      "category": "Art"
+    },
+    {
+      "id": "V095",
+      "title": "\"Community Data\"",
+      "author": "Charmverse",
+      "year": 2021,
+      "link": "[Link](https://charmverse.io/videos)",
+      "description": "Analytics insights.",
+      "category": "Data"
+    },
+    {
+      "id": "V096",
+      "title": "\"Web3 Social\"",
+      "author": "Lens Protocol",
+      "year": 2021,
+      "link": "[Link](https://lens.xyz/videos)",
+      "description": "Social networks.",
+      "category": "Technology"
+    },
+    {
+      "id": "V097",
+      "title": "\"Creator Revenue\"",
+      "author": "Gumroad",
+      "year": 2021,
+      "link": "[Link](https://gumroad.com/videos)",
+      "description": "Monetization strategies.",
+      "category": "Business"
+    },
+    {
+      "id": "V098",
+      "title": "\"Digital Fashion Future\"",
+      "author": "Tribute Brand",
+      "year": 2021,
+      "link": "[Link](https://tribute-brand.com/videos)",
+      "description": "Virtual clothing.",
+      "category": "Fashion"
+    },
+    {
+      "id": "V099",
+      "title": "\"Community Growth\"",
+      "author": "Orbit Model",
+      "year": 2021,
+      "link": "[Link](https://orbit.love/videos)",
+      "description": "Engagement metrics.",
+      "category": "Community"
+    },
+    {
+      "id": "V100",
+      "title": "\"Creative Technology\"",
+      "author": "Gray Area",
+      "year": 2021,
+      "link": "[Link](https://grayarea.org/videos)",
+      "description": "Art and tech fusion.",
+      "category": "Innovation"
+    },
+    {
+      "id": "ID",
+      "title": "Title",
+      "author": "Creator/Platform",
+      "year": null,
+      "link": "Link",
+      "description": "Description",
+      "category": "Category"
+    },
+    {
+      "id": "----",
+      "title": "-------",
+      "author": "-----------------",
+      "year": null,
+      "link": "------",
+      "description": "-------------",
+      "category": "----------"
+    },
+    {
+      "id": "T001",
+      "title": "Figma",
+      "author": "Figma Inc",
+      "year": 2016,
+      "link": "[Link](https://www.figma.com)",
+      "description": "Collaborative design platform.",
+      "category": "Design"
+    },
+    {
+      "id": "T002",
+      "title": "Blender",
+      "author": "Blender Foundation",
+      "year": 1994,
+      "link": "[Link](https://www.blender.org)",
+      "description": "3D creation suite.",
+      "category": "3D/Animation"
+    },
+    {
+      "id": "T003",
+      "title": "Discord",
+      "author": "Discord Inc",
+      "year": 2015,
+      "link": "[Link](https://discord.com)",
+      "description": "Community chat platform.",
+      "category": "Community"
+    },
+    {
+      "id": "T004",
+      "title": "Notion",
+      "author": "Notion Labs",
+      "year": 2016,
+      "link": "[Link](https://www.notion.so)",
+      "description": "All-in-one workspace.",
+      "category": "Productivity"
+    },
+    {
+      "id": "T005",
+      "title": "OpenSea",
+      "author": "OpenSea",
+      "year": 2017,
+      "link": "[Link](https://opensea.io)",
+      "description": "NFT marketplace platform.",
+      "category": "Marketplace"
+    },
+    {
+      "id": "T006",
+      "title": "Metamask",
+      "author": "ConsenSys",
+      "year": 2016,
+      "link": "[Link](https://metamask.io)",
+      "description": "Crypto wallet & gateway.",
+      "category": "Blockchain"
+    },
+    {
+      "id": "T007",
+      "title": "Mirror",
+      "author": "Mirror XYZ",
+      "year": 2020,
+      "link": "[Link](https://mirror.xyz)",
+      "description": "Web3 publishing platform.",
+      "category": "Publishing"
+    },
+    {
+      "id": "T008",
+      "title": "DRESSX",
+      "author": "DRESSX",
+      "year": 2020,
+      "link": "[Link](https://dressx.com)",
+      "description": "Digital fashion platform.",
+      "category": "Fashion"
+    },
+    {
+      "id": "T009",
+      "title": "Webflow",
+      "author": "Webflow Inc",
+      "year": 2013,
+      "link": "[Link](https://webflow.com)",
+      "description": "Visual web development.",
+      "category": "Web Design"
+    },
+    {
+      "id": "T010",
+      "title": "Airtable",
+      "author": "Airtable",
+      "year": 2012,
+      "link": "[Link](https://airtable.com)",
+      "description": "Flexible database tool.",
+      "category": "Organization"
+    },
+    {
+      "id": "T011",
+      "title": "CLO3D",
+      "author": "CLO Virtual Fashion",
+      "year": 2009,
+      "link": "[Link](https://clo3d.com)",
+      "description": "3D fashion design.",
+      "category": "Fashion"
+    },
+    {
+      "id": "T012",
+      "title": "Ethereum",
+      "author": "Ethereum Foundation",
+      "year": 2015,
+      "link": "[Link](https://ethereum.org)",
+      "description": "Blockchain platform.",
+      "category": "Technology"
+    },
+    {
+      "id": "T013",
+      "title": "Foundation",
+      "author": "Foundation Labs",
+      "year": 2020,
+      "link": "[Link](https://foundation.app)",
+      "description": "Curated NFT platform.",
+      "category": "Art"
+    },
+    {
+      "id": "T014",
+      "title": "Shopify",
+      "author": "Shopify Inc",
+      "year": 2006,
+      "link": "[Link](https://shopify.com)",
+      "description": "E-commerce platform.",
+      "category": "Commerce"
+    },
+    {
+      "id": "T015",
+      "title": "Unreal Engine",
+      "author": "Epic Games",
+      "year": 1998,
+      "link": "[Link](https://unrealengine.com)",
+      "description": "Real-time 3D creation.",
+      "category": "3D/Gaming"
+    },
+    {
+      "id": "T016",
+      "title": "Circle",
+      "author": "Circle App",
+      "year": 2020,
+      "link": "[Link](https://circle.so)",
+      "description": "Community platform.",
+      "category": "Community"
+    },
+    {
+      "id": "T017",
+      "title": "Adobe Creative Cloud",
+      "author": "Adobe",
+      "year": 2011,
+      "link": "[Link](https://adobe.com/creativecloud)",
+      "description": "Creative suite.",
+      "category": "Design"
+    },
+    {
+      "id": "T018",
+      "title": "Aragon",
+      "author": "Aragon One",
+      "year": 2017,
+      "link": "[Link](https://aragon.org)",
+      "description": "DAO creation platform.",
+      "category": "Organization"
+    },
+    {
+      "id": "T019",
+      "title": "Substack",
+      "author": "Substack Inc",
+      "year": 2017,
+      "link": "[Link](https://substack.com)",
+      "description": "Newsletter platform.",
+      "category": "Publishing"
+    },
+    {
+      "id": "T020",
+      "title": "Lens Protocol",
+      "author": "Aave",
+      "year": 2022,
+      "link": "[Link](https://lens.xyz)",
+      "description": "Social graph protocol.",
+      "category": "Social"
+    },
+    {
+      "id": "T021",
+      "title": "Asana",
+      "author": "Asana Inc",
+      "year": 2008,
+      "link": "[Link](https://asana.com)",
+      "description": "Project management.",
+      "category": "Productivity"
+    },
+    {
+      "id": "T022",
+      "title": "Gitcoin",
+      "author": "Gitcoin Holdings",
+      "year": 2017,
+      "link": "[Link](https://gitcoin.co)",
+      "description": "Open source funding.",
+      "category": "Funding"
+    },
+    {
+      "id": "T023",
+      "title": "Spatial",
+      "author": "Spatial Systems",
+      "year": 2016,
+      "link": "[Link](https://spatial.io)",
+      "description": "Virtual spaces.",
+      "category": "Virtual Worlds"
+    },
+    {
+      "id": "T024",
+      "title": "Ghost",
+      "author": "Ghost Foundation",
+      "year": 2013,
+      "link": "[Link](https://ghost.org)",
+      "description": "Publishing platform.",
+      "category": "Publishing"
+    },
+    {
+      "id": "T025",
+      "title": "Alchemy",
+      "author": "Alchemy Insights",
+      "year": 2017,
+      "link": "[Link](https://alchemy.com)",
+      "description": "Web3 development.",
+      "category": "Development"
+    },
+    {
+      "id": "T026",
+      "title": "Miro",
+      "author": "Miro",
+      "year": 2011,
+      "link": "[Link](https://miro.com)",
+      "description": "Visual collaboration.",
+      "category": "Collaboration"
+    },
+    {
+      "id": "T027",
+      "title": "IPFS",
+      "author": "Protocol Labs",
+      "year": 2015,
+      "link": "[Link](https://ipfs.io)",
+      "description": "Distributed storage.",
+      "category": "Storage"
+    },
+    {
+      "id": "T028",
+      "title": "Buildspace",
+      "author": "Buildspace",
+      "year": 2021,
+      "link": "[Link](https://buildspace.so)",
+      "description": "Web3 learning platform.",
+      "category": "Education"
+    },
+    {
+      "id": "T029",
+      "title": "SuperRare",
+      "author": "SuperRare",
+      "year": 2018,
+      "link": "[Link](https://superrare.com)",
+      "description": "Digital art marketplace.",
+      "category": "Art"
+    },
+    {
+      "id": "T030",
+      "title": "Snapshot",
+      "author": "Snapshot Labs",
+      "year": 2020,
+      "link": "[Link](https://snapshot.org)",
+      "description": "Governance platform.",
+      "category": "Governance"
+    },
+    {
+      "id": "T031",
+      "title": "Calendly",
+      "author": "Calendly LLC",
+      "year": 2013,
+      "link": "[Link](https://calendly.com)",
+      "description": "Scheduling automation.",
+      "category": "Productivity"
+    },
+    {
+      "id": "T032",
+      "title": "Discourse",
+      "author": "Civilized Discourse",
+      "year": 2013,
+      "link": "[Link](https://discourse.org)",
+      "description": "Community forums.",
+      "category": "Community"
+    },
+    {
+      "id": "T033",
+      "title": "Framer",
+      "author": "Framer BV",
+      "year": 2014,
+      "link": "[Link](https://framer.com)",
+      "description": "Interactive design.",
+      "category": "Design"
+    },
+    {
+      "id": "T034",
+      "title": "ENS",
+      "author": "ENS Labs",
+      "year": 2017,
+      "link": "[Link](https://ens.domains)",
+      "description": "Domain system.",
+      "category": "Web3"
+    },
+    {
+      "id": "T035",
+      "title": "Typeform",
+      "author": "Typeform",
+      "year": 2012,
+      "link": "[Link](https://typeform.com)",
+      "description": "Form building.",
+      "category": "Tools"
+    },
+    {
+      "id": "T036",
+      "title": "Zora",
+      "author": "Zora Labs",
+      "year": 2020,
+      "link": "[Link](https://zora.co)",
+      "description": "NFT protocol.",
+      "category": "Protocol"
+    },
+    {
+      "id": "T037",
+      "title": "Canva",
+      "author": "Canva",
+      "year": 2013,
+      "link": "[Link](https://canva.com)",
+      "description": "Graphic design.",
+      "category": "Design"
+    },
+    {
+      "id": "T038",
+      "title": "Colony",
+      "author": "Colony Lab",
+      "year": 2015,
+      "link": "[Link](https://colony.io)",
+      "description": "DAO infrastructure.",
+      "category": "Organization"
+    },
+    {
+      "id": "T039",
+      "title": "Chainlink",
+      "author": "Chainlink Labs",
+      "year": 2017,
+      "link": "[Link](https://chain.link)",
+      "description": "Oracle network.",
+      "category": "Blockchain"
+    },
+    {
+      "id": "T040",
+      "title": "Zapier",
+      "author": "Zapier Inc",
+      "year": 2011,
+      "link": "[Link](https://zapier.com)",
+      "description": "Workflow automation.",
+      "category": "Automation"
+    },
+    {
+      "id": "T041",
+      "title": "Brave",
+      "author": "Brave Software",
+      "year": 2015,
+      "link": "[Link](https://brave.com)",
+      "description": "Web3 browser.",
+      "category": "Browser"
+    },
+    {
+      "id": "T042",
+      "title": "Roll",
+      "author": "Roll",
+      "year": 2019,
+      "link": "[Link](https://tryroll.com)",
+      "description": "Social tokens.",
+      "category": "Tokens"
+    },
+    {
+      "id": "T043",
+      "title": "Obsidian",
+      "author": "Obsidian",
+      "year": 2020,
+      "link": "[Link](https://obsidian.md)",
+      "description": "Knowledge management.",
+      "category": "Productivity"
+    },
+    {
+      "id": "T044",
+      "title": "Squarespace",
+      "author": "Squarespace Inc",
+      "year": 2003,
+      "link": "[Link](https://squarespace.com)",
+      "description": "Website builder.",
+      "category": "Web Design"
+    },
+    {
+      "id": "T045",
+      "title": "Polygon",
+      "author": "Polygon",
+      "year": 2017,
+      "link": "[Link](https://polygon.technology)",
+      "description": "Scaling platform.",
+      "category": "Blockchain"
+    },
+    {
+      "id": "T046",
+      "title": "Trello",
+      "author": "Atlassian",
+      "year": 2011,
+      "link": "[Link](https://trello.com)",
+      "description": "Project organization.",
+      "category": "Organization"
+    },
+    {
+      "id": "T047",
+      "title": "Rarible",
+      "author": "Rarible",
+      "year": 2020,
+      "link": "[Link](https://rarible.com)",
+      "description": "NFT marketplace.",
+      "category": "Marketplace"
+    },
+    {
+      "id": "T048",
+      "title": "Linear",
+      "author": "Linear",
+      "year": 2019,
+      "link": "[Link](https://linear.app)",
+      "description": "Project management.",
+      "category": "Project Management"
+    },
+    {
+      "id": "T049",
+      "title": "Mailchimp",
+      "author": "Mailchimp",
+      "year": 2001,
+      "link": "[Link](https://mailchimp.com)",
+      "description": "Email marketing.",
+      "category": "Marketing"
+    },
+    {
+      "id": "T050",
+      "title": "Unity",
+      "author": "Unity Technologies",
+      "year": 2005,
+      "link": "[Link](https://unity.com)",
+      "description": "Game development.",
+      "category": "Development"
+    },
+    {
+      "id": "T051",
+      "title": "Slack",
+      "author": "Slack Technologies",
+      "year": 2013,
+      "link": "[Link](https://slack.com)",
+      "description": "Team communication.",
+      "category": "Communication"
+    },
+    {
+      "id": "T052",
+      "title": "Cryptovoxels",
+      "author": "Cryptovoxels",
+      "year": 2018,
+      "link": "[Link](https://cryptovoxels.com)",
+      "description": "Virtual world platform.",
+      "category": "Virtual Worlds"
+    },
+    {
+      "id": "T053",
+      "title": "Affinity Designer",
+      "author": "Serif",
+      "year": 2014,
+      "link": "[Link](https://affinity.serif.com)",
+      "description": "Vector graphics.",
+      "category": "Design"
+    },
+    {
+      "id": "T054",
+      "title": "Solidity",
+      "author": "Ethereum",
+      "year": 2014,
+      "link": "[Link](https://soliditylang.org)",
+      "description": "Smart contract language.",
+      "category": "Development"
+    },
+    {
+      "id": "T055",
+      "title": "Sketch",
+      "author": "Sketch B.V.",
+      "year": 2010,
+      "link": "[Link](https://sketch.com)",
+      "description": "Digital design.",
+      "category": "Design"
+    },
+    {
+      "id": "T056",
+      "title": "Compound",
+      "author": "Compound Labs",
+      "year": 2018,
+      "link": "[Link](https://compound.finance)",
+      "description": "DeFi protocol.",
+      "category": "Finance"
+    },
+    {
+      "id": "T057",
+      "title": "ClickUp",
+      "author": "ClickUp",
+      "year": 2017,
+      "link": "[Link](https://clickup.com)",
+      "description": "Project management.",
+      "category": "Productivity"
+    },
+    {
+      "id": "T058",
+      "title": "Decentraland",
+      "author": "Decentraland",
+      "year": 2017,
+      "link": "[Link](https://decentraland.org)",
+      "description": "Virtual world.",
+      "category": "Virtual Worlds"
+    },
+    {
+      "id": "T059",
+      "title": "Teachable",
+      "author": "Teachable",
+      "year": 2014,
+      "link": "[Link](https://teachable.com)",
+      "description": "Course platform.",
+      "category": "Education"
+    },
+    {
+      "id": "T060",
+      "title": "Art Blocks",
+      "author": "Art Blocks",
+      "year": 2020,
+      "link": "[Link](https://artblocks.io)",
+      "description": "Generative art.",
+      "category": "Art"
+    },
+    {
+      "id": "T061",
+      "title": "Stripe",
+      "author": "Stripe Inc",
+      "year": 2010,
+      "link": "[Link](https://stripe.com)",
+      "description": "Payment processing.",
+      "category": "Finance"
+    },
+    {
+      "id": "T062",
+      "title": "Hubspot",
+      "author": "Hubspot Inc",
+      "year": 2006,
+      "link": "[Link](https://hubspot.com)",
+      "description": "Marketing platform.",
+      "category": "Marketing"
+    },
+    {
+      "id": "T063",
+      "title": "POAP",
+      "author": "POAP",
+      "year": 2019,
+      "link": "[Link](https://poap.xyz)",
+      "description": "Digital memories.",
+      "category": "Community"
+    },
+    {
+      "id": "T064",
+      "title": "InVision",
+      "author": "InVision",
+      "year": 2011,
+      "link": "[Link](https://invisionapp.com)",
+      "description": "Design collaboration.",
+      "category": "Design"
+    },
+    {
+      "id": "T065",
+      "title": "Aave",
+      "author": "Aave",
+      "year": 2017,
+      "link": "[Link](https://aave.com)",
+      "description": "DeFi protocol.",
+      "category": "Finance"
+    },
+    {
+      "id": "T066",
+      "title": "Pitch",
+      "author": "Pitch Software",
+      "year": 2018,
+      "link": "[Link](https://pitch.com)",
+      "description": "Presentation tool.",
+      "category": "Presentation"
+    },
+    {
+      "id": "T067",
+      "title": "Unlock",
+      "author": "Unlock Inc",
+      "year": 2018,
+      "link": "[Link](https://unlock-protocol.com)",
+      "description": "Access control.",
+      "category": "Access"
+    },
+    {
+      "id": "T068",
+      "title": "Loom",
+      "author": "Loom Inc",
+      "year": 2015,
+      "link": "[Link](https://loom.com)",
+      "description": "Video messaging.",
+      "category": "Communication"
+    },
+    {
+      "id": "T069",
+      "title": "Darkblock",
+      "author": "Darkblock",
+      "year": 2021,
+      "link": "[Link](https://darkblock.io)",
+      "description": "Content protection.",
+      "category": "Security"
+    },
+    {
+      "id": "T070",
+      "title": "Frame.io",
+      "author": "Frame.io",
+      "year": 2014,
+      "link": "[Link](https://frame.io)",
+      "description": "Video collaboration.",
+      "category": "Collaboration"
+    },
+    {
+      "id": "T071",
+      "title": "Uniswap",
+      "author": "Uniswap Labs",
+      "year": 2018,
+      "link": "[Link](https://uniswap.org)",
+      "description": "Exchange protocol.",
+      "category": "Finance"
+    },
+    {
+      "id": "T072",
+      "title": "Keybase",
+      "author": "Keybase",
+      "year": 2014,
+      "link": "[Link](https://keybase.io)",
+      "description": "Identity verification.",
+      "category": "Security"
+    },
+    {
+      "id": "T073",
+      "title": "Whereby",
+      "author": "Whereby",
+      "year": 2013,
+      "link": "[Link](https://whereby.com)",
+      "description": "Video meetings.",
+      "category": "Communication"
+    },
+    {
+      "id": "T074",
+      "title": "Intercom",
+      "author": "Intercom Inc",
+      "year": 2011,
+      "link": "[Link](https://intercom.com)",
+      "description": "Customer messaging.",
+      "category": "Support"
+    },
+    {
+      "id": "T075",
+      "title": "Ceramic",
+      "author": "3Box Labs",
+      "year": 2020,
+      "link": "[Link](https://ceramic.network)",
+      "description": "Data protocol.",
+      "category": "Data"
+    },
+    {
+      "id": "T076",
+      "title": "Procreate",
+      "author": "Savage Interactive",
+      "year": 2011,
+      "link": "[Link](https://procreate.art)",
+      "description": "Digital illustration.",
+      "category": "Art"
+    },
+    {
+      "id": "T077",
+      "title": "Chainlist",
+      "author": "DefiLlama",
+      "year": 2021,
+      "link": "[Link](https://chainlist.org)",
+      "description": "Network directory.",
+      "category": "Blockchain"
+    },
+    {
+      "id": "T078",
+      "title": "Carrd",
+      "author": "Carrd Inc",
+      "year": 2016,
+      "link": "[Link](https://carrd.co)",
+      "description": "One-page websites.",
+      "category": "Web Design"
+    },
+    {
+      "id": "T079",
+      "title": "Boardroom",
+      "author": "Board Labs",
+      "year": 2020,
+      "link": "[Link](https://boardroom.info)",
+      "description": "DAO governance.",
+      "category": "Governance"
+    },
+    {
+      "id": "T080",
+      "title": "Farcaster",
+      "author": "Merkle Manufactory",
+      "year": 2021,
+      "link": "[Link](https://farcaster.xyz)",
+      "description": "Social protocol.",
+      "category": "Social"
+    },
+    {
+      "id": "T081",
+      "title": "Storyblok",
+      "author": "Storyblok GmbH",
+      "year": 2017,
+      "link": "[Link](https://storyblok.com)",
+      "description": "Content management.",
+      "category": "Content"
+    },
+    {
+      "id": "T082",
+      "title": "Ambient",
+      "author": "Ambient Labs",
+      "year": 2021,
+      "link": "[Link](https://ambient.run)",
+      "description": "Visual programming.",
+      "category": "Development"
+    },
+    {
+      "id": "T083",
+      "title": "Mintbase",
+      "author": "Mintbase",
+      "year": 2019,
+      "link": "[Link](https://mintbase.io)",
+      "description": "NFT creation.",
+      "category": "NFTs"
+    },
+    {
+      "id": "T084",
+      "title": "Highlight",
+      "author": "Highlight",
+      "year": 2021,
+      "link": "[Link](https://highlight.xyz)",
+      "description": "Creator analytics.",
+      "category": "Analytics"
+    },
+    {
+      "id": "T085",
+      "title": "Pinata",
+      "author": "Pinata",
+      "year": 2018,
+      "link": "[Link](https://pinata.cloud)",
+      "description": "IPFS hosting.",
+      "category": "Storage"
+    },
+    {
+      "id": "T086",
+      "title": "Sismo",
+      "author": "Sismo",
+      "year": 2021,
+      "link": "[Link](https://sismo.io)",
+      "description": "Identity system.",
+      "category": "Identity"
+    },
+    {
+      "id": "T087",
+      "title": "Supernova",
+      "author": "Supernova",
+      "year": 2017,
+      "link": "[Link](https://supernova.io)",
+      "description": "Design systems.",
+      "category": "Design"
+    },
+    {
+      "id": "T088",
+      "title": "Tally",
+      "author": "Tally",
+      "year": 2021,
+      "link": "[Link](https://tally.xyz)",
+      "description": "DAO management.",
+      "category": "Organization"
+    },
+    {
+      "id": "T089",
+      "title": "CocoSign",
+      "author": "CocoSign",
+      "year": 2019,
+      "link": "[Link](https://cocosign.com)",
+      "description": "Digital signatures.",
+      "category": "Legal"
+    },
+    {
+      "id": "T090",
+      "title": "PartyBid",
+      "author": "PartyDAO",
+      "year": 2021,
+      "link": "[Link](https://party.app)",
+      "description": "Collective buying.",
+      "category": "Collectibles"
+    },
+    {
+      "id": "T091",
+      "title": "Etherscan",
+      "author": "Etherscan",
+      "year": 2015,
+      "link": "[Link](https://etherscan.io)",
+      "description": "Blockchain explorer.",
+      "category": "Analytics"
+    },
+    {
+      "id": "T092",
+      "title": "Roam Research",
+      "author": "Roam Research",
+      "year": 2019,
+      "link": "[Link](https://roamresearch.com)",
+      "description": "Note-taking.",
+      "category": "Productivity"
+    },
+    {
+      "id": "T093",
+      "title": "Arweave",
+      "author": "Arweave",
+      "year": 2017,
+      "link": "[Link](https://arweave.org)",
+      "description": "Permanent storage.",
+      "category": "Storage"
+    },
+    {
+      "id": "T094",
+      "title": "Coordinape",
+      "author": "Coordinape",
+      "year": 2021,
+      "link": "[Link](https://coordinape.com)",
+      "description": "Contribution tracking.",
+      "category": "Organization"
+    },
+    {
+      "id": "T095",
+      "title": "Dendron",
+      "author": "Dendron",
+      "year": 2020,
+      "link": "[Link](https://dendron.so)",
+      "description": "Knowledge base.",
+      "category": "Documentation"
+    },
+    {
+      "id": "T096",
+      "title": "Snapshot Labs",
+      "author": "Snapshot Labs",
+      "year": 2020,
+      "link": "[Link](https://snapshot.org)",
+      "description": "Voting system.",
+      "category": "Governance"
+    },
+    {
+      "id": "T097",
+      "title": "Mintgate",
+      "author": "Mintgate",
+      "year": 2020,
+      "link": "[Link](https://mintgate.app)",
+      "description": "Token gating.",
+      "category": "Access Control"
+    },
+    {
+      "id": "T098",
+      "title": "Flipside",
+      "author": "Flipside Crypto",
+      "year": 2017,
+      "link": "[Link](https://flipsidecrypto.xyz)",
+      "description": "Data analytics.",
+      "category": "Analytics"
+    },
+    {
+      "id": "T099",
+      "title": "Charmverse",
+      "author": "Charmverse",
+      "year": 2021,
+      "link": "[Link](https://charmverse.io)",
+      "description": "DAO workspace.",
+      "category": "Collaboration"
+    },
+    {
+      "id": "T100",
+      "title": "Nouns Builder",
+      "author": "Nouns DAO",
+      "year": 2022,
+      "link": "[Link](https://nouns.build)",
+      "description": "DAO creation.",
+      "category": "Organization"
     }
   ],
   "Blogs": [],
