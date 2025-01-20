@@ -25,7 +25,30 @@ export default function Home() {
   }
 
   function parseResources(markdownData) {
-    // ... existing parseResources function ...
+    const sections = markdownData.split('##').slice(1);
+    const resources = {};
+
+    sections.forEach(section => {
+      const [category, ...lines] = section.trim().split('\n');
+      const categoryName = category.trim().replace(/\d+\.\s*/, '');
+      resources[categoryName] = [];
+
+      let currentItem = {};
+      lines.forEach(line => {
+        const [key, value] = line.split('|').map(part => part.trim());
+        if (key && value) {
+          currentItem[key] = value;
+        } else if (line.trim() === '') {
+          resources[categoryName].push(currentItem);
+          currentItem = {};
+        }
+      });
+      if (Object.keys(currentItem).length > 0) {
+        resources[categoryName].push(currentItem);
+      }
+    });
+
+    return resources;
   }
 
   function getRandomResource(resources) {
