@@ -17,7 +17,9 @@ export default function Home() {
       }
       const data = await response.text();
       const resources = parseResources(data);
+      console.log('Parsed resources:', resources);
       const randomResource = getRandomResource(resources);
+      console.log('Selected random resource:', randomResource);
       setResource(randomResource);
     } catch (error) {
       console.error('Error fetching resources:', error);
@@ -59,6 +61,7 @@ export default function Home() {
   }
 
   function handleStumbleClick() {
+    console.log('Stumble button clicked');
     fetchResources();
   }
 
