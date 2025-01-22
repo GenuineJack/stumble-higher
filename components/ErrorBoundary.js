@@ -1,6 +1,6 @@
 // Updated ErrorBoundary.js
 import React from 'react';
-import { Alert, AlertTitle, AlertDescription } from '../ui/alert';
+import { Alert, AlertTitle, AlertDescription } from '/ui/alert';
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
