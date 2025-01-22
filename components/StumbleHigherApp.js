@@ -1,8 +1,8 @@
 // Updated StumbleHigherApp.js
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import Tooltip from '@/components/Tooltip';
-import LoadingSpinner from '@/components/LoadingSpinner';
+import Tooltip from '../components/Tooltip';
+import LoadingSpinner from '../components/LoadingSpinner';
 
 const StumbleHigherApp = () => {
   const [resource, setResource] = useState(null);
