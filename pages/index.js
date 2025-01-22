@@ -12,12 +12,12 @@ export default function Home() {
 
   async function fetchResources() {
     try {
-      const response = await fetch('/api/resources'); // Updated API route
+      const response = await fetch('/api/resources');
       if (!response.ok) {
         throw new Error('Failed to fetch resources');
       }
-      const data = await response.text();
-      const parsedResources = parseResources(data);
+      const { content } = await response.json();
+      const parsedResources = parseResources(content);
       setResources(parsedResources);
       const randomResource = getRandomResource(parsedResources);
       setResource(randomResource);
@@ -97,8 +97,6 @@ export default function Home() {
           <p className="description">
             Stumble into curated ideas that elevate your mind, inspire your journey, and take you higher.
           </p>
-          <p className="project-credit">A Higher Market Project</p>
-          <p className="author-credit">Made by Genuine Jack</p>
           <button onClick={handleStumbleClick} className="press-button">
             PRESS TO GO HIGHER
           </button>
@@ -135,23 +133,27 @@ export default function Home() {
       ) : (
         <div className="content-page">
           <iframe src={resource.Link} className="content-iframe" title="Resource Viewer" />
-          <footer className="footer-banner">
-            <div className="footer-content">
+          <footer className="footer">
+            <div className="footer-left">
               <span className="resource-info">
                 {resource.Title} by {resource.Author}
               </span>
-              <button onClick={handleStumbleClick} className="go-higher-button">
-                Go Higher
-              </button>
+            </div>
+            <button onClick={handleStumbleClick} className="go-higher-button">
+              Go Higher
+            </button>
+            <div className="footer-right">
               <span onClick={handleWorldClick} className="world-icon" title="Open in New Tab">
                 🌐
-              </span>
-              <span onClick={() => window.location.href = '/'} className="home-icon" title="Home">
-                🏠
               </span>
               <span onClick={handleShareClick} className="share-icon" title="Share">
                 📢
               </span>
+              <Link href="/">
+                <a className="home-icon" title="Home">
+                  🏠
+                </a>
+              </Link>
             </div>
           </footer>
         </div>
@@ -162,10 +164,9 @@ export default function Home() {
           display: flex;
           flex-direction: column;
           min-height: 100vh;
-          overflow: hidden;
         }
 
-        .homepage, .content-page {
+        .homepage {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -175,16 +176,87 @@ export default function Home() {
           padding: 2rem;
         }
 
-        .footer-banner {
+        .logo {
+          font-size: 4rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+
+        .tagline {
+          font-size: 1.8rem;
+          margin-bottom: 1rem;
+        }
+
+        .description {
+          font-size: 1.4rem;
+          margin-bottom: 2rem;
+        }
+
+        .press-button {
+          padding: 1rem 2.5rem;
+          font-size: 1.2rem;
+          background-color: #ff6600;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+
+        .press-button:hover {
+          background-color: #e65c00;
+        }
+
+        .question-icon {
+          position: absolute;
+          top: 2rem;
+          right: 2rem;
+          font-size: 1.8rem;
+          cursor: pointer;
+        }
+
+        .content-iframe {
+          flex: 1;
+          width: 100%;
+          height: calc(100vh - 70px);
+          border: none;
+        }
+
+        .footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 2rem;
+          height: 70px;
+          background-color: #f5f5f5;
           width: 100%;
           position: fixed;
           bottom: 0;
+        }
+
+        .footer-left {
           display: flex;
-          justify-content: center;
-          align-items: center;
+          flex-direction: column;
+        }
+
+        .footer-right {
+          display: flex;
+          gap: 1rem;
+        }
+
+        .go-higher-button {
+          font-size: 1.2rem;
+          padding: 0.5rem 1.5rem;
           background-color: #ff6600;
           color: white;
-          height: 70px;
+          border: none;
+          border-radius: 5px;
+        }
+
+        .home-icon {
+          font-size: 1.5rem;
+          text-decoration: none;
+          color: inherit;
         }
       `}</style>
     </div>
