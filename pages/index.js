@@ -128,7 +128,7 @@ export default function Home() {
         </div>
       ) : (
         <div className="content-page">
-          <iframe src={resource.Link} className="content-iframe" />
+          <iframe src={resource.Link} className="content-iframe" title="Resource Viewer" />
           <footer className="footer">
             <div className="footer-left">
               <Link href="/">
@@ -170,10 +170,71 @@ export default function Home() {
           min-height: 100vh;
         }
 
+        .homepage {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 2rem;
+        }
+
+        .logo {
+          font-size: 3rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+
+        .tagline {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
+
+        .description {
+          font-size: 1.2rem;
+          margin-bottom: 2rem;
+        }
+
+        .press-button {
+          padding: 1rem 2rem;
+          font-size: 1.2rem;
+          background-color: #ff6600;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+
+        .press-button:hover {
+          background-color: #e65c00;
+        }
+
+        .question-icon {
+          position: absolute;
+          top: 1rem;
+          right: 1rem;
+          font-size: 1.5rem;
+          cursor: pointer;
+          background-color: #ff6600;
+          color: white;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: background-color 0.3s ease;
+        }
+
+        .question-icon:hover {
+          background-color: #e65c00;
+        }
+
         .content-iframe {
           flex: 1;
           width: 100%;
-          height: calc(100vh - 60px); /* Keeps footer visible */
+          height: calc(100vh - 70px); /* Footer height accounted */
           border: none;
         }
 
@@ -181,9 +242,50 @@ export default function Home() {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          height: 60px;
+          height: 70px;
           padding: 0 1rem;
           background-color: #f5f5f5;
+        }
+
+        .footer-left {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .footer-right {
+          display: flex;
+          gap: 1rem;
+        }
+
+        .world-icon,
+        .share-icon {
+          font-size: 1.5rem;
+          cursor: pointer;
+          transition: color 0.3s;
+        }
+
+        .world-icon:hover,
+        .share-icon:hover {
+          color: #ff6600;
+        }
+
+        .go-higher-button {
+          font-size: 1.2rem;
+          padding: 0.5rem 1.5rem;
+          background-color: #ff6600;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        .go-higher-button:hover {
+          background-color: #e65c00;
+        }
+
+        .app-footer {
+          text-align: center;
+          padding: 1rem;
         }
       `}</style>
     </div>
