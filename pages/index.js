@@ -19,8 +19,6 @@ export default function Home() {
       const data = await response.text();
       const parsedResources = parseResources(data);
       setResources(parsedResources);
-      const randomResource = getRandomResource(parsedResources);
-      setResource(randomResource);
     } catch (error) {
       console.error('Error fetching resources:', error);
     }
@@ -66,7 +64,8 @@ export default function Home() {
 
   function handleWorldClick() {
     if (resource?.Link) {
-      window.open(resource.Link, '_blank');
+      const link = resource.Link.replace(/[()]/g, ''); // Remove parentheses if present in links
+      window.open(link, '_blank');
     }
   }
 
@@ -132,7 +131,7 @@ export default function Home() {
         </div>
       ) : (
         <div className="content-page">
-          <iframe src={resource.Link} className="content-iframe" title="Resource Viewer" />
+          <iframe src={resource.Link.replace(/[()]/g, '')} className="content-iframe" title="Resource Viewer" />
           <footer className="footer">
             <div className="footer-left">
               <span className="resource-info">
@@ -223,12 +222,14 @@ export default function Home() {
           align-items: center;
           padding: 0 2rem;
           height: 70px;
-          background-color: #f5f5f5;
+          background-color: #000;
+          color: #fff;
         }
 
         .footer-left {
           display: flex;
-          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
         }
 
         .footer-right {
@@ -243,6 +244,17 @@ export default function Home() {
           color: white;
           border: none;
           border-radius: 5px;
+        }
+
+        .world-icon,
+        .share-icon {
+          font-size: 1.5rem;
+          cursor: pointer;
+        }
+
+        .world-icon:hover,
+        .share-icon:hover {
+          color: #ff6600;
         }
       `}</style>
     </div>
