@@ -1,76 +1,45 @@
-// Updated StumbleHigherApp.js
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import Tooltip from '../components/Tooltip';
-import LoadingSpinner from '../components/LoadingSpinner';
+import React from 'react';
+import { Alert, AlertTitle, AlertDescription } from '../ui/alert'; // Import Alert components
 
-const StumbleHigherApp = () => {
-  const [resource, setResource] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
 
-  // Function to fetch and parse the updated resources
-  const fetchRandomResource = async () => {
-    setIsLoading(true);
-    setError(null);
+  static getDerivedStateFromError(error) {
+    // Update state so the next render shows the fallback UI
+    return { hasError: true, error };
+  }
 
-    try {
-      const response = await fetch('/stumble-higher-MASTER-resource-lists.md');
-      if (!response.ok) throw new Error('Failed to load resource list');
+  componentDidCatch(error, errorInfo) {
+    // Log the error to an error reporting service if needed
+    console.error('Error caught by ErrorBoundary:', error, errorInfo);
+  }
 
-      const text = await response.text();
-
-      // Parse the Markdown table
-      const rows = text.split('\n').filter(line => line.includes('|'));
-      const headers = rows[0].split('|').map(col => col.trim());
-      const data = rows.slice(2).map(row => {
-        const values = row.split('|').map(col => col.trim());
-        return Object.fromEntries(headers.map((header, index) => [header, values[index]]));
-      });
-
-      // Select a random resource
-      const randomResource = data[Math.floor(Math.random() * data.length)];
-
-      // Extract URL from Markdown link
-      const urlMatch = randomResource.Link.match(/\((http.*?)\)/);
-      const url = urlMatch ? urlMatch[1] : null;
-
-      if (!url) throw new Error('Invalid resource URL');
-
-      setResource({ ...randomResource, url });
-    } catch (err) {
-      console.error(err);
-      setError('Unable to fetch a random resource. Please try again.');
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  return (
-    <div className="app-container">
-      <h1>Welcome to Stumble Higher</h1>
-      <button className="go-higher-button" onClick={fetchRandomResource} disabled={isLoading}>
-        {isLoading ? <LoadingSpinner /> : 'Go Higher!'}
-      </button>
-      {error && <p className="error-message">{error}</p>}
-      {resource && (
-        <div className="resource-container">
-          <iframe
-            title={resource.Title}
-            src={resource.url}
-            className="resource-iframe"
-          ></iframe>
-          <div className="resource-details">
-            <h2>{resource.Title}</h2>
-            <p>{resource.Description}</p>
-            <Tooltip content={`Category: ${resource.Category}`}>
-              <span>Learn more about {resource.Category}</span>
-            </Tooltip>
-          </div>
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="min-h-screen flex items-center justify-center p-4">
+          <Alert variant="destructive" className="max-w-lg">
+            <AlertTitle>Something went wrong</AlertTitle>
+            <AlertDescription>
+              <p className="mt-2">
+                We're sorry, but something unexpected happened. Please try refreshing the page.
+              </p>
+              {process.env.NODE_ENV === 'development' && (
+                <pre className="mt-4 p-4 bg-gray-100 rounded overflow-auto">
+                  {this.state.error?.toString()}
+                </pre>
+              )}
+            </AlertDescription>
+          </Alert>
         </div>
-      )}
-    </div>
-  );
-};
+      );
+    }
 
-export default StumbleHigherApp;
+    return this.props.children;
+  }
+}
+
+export default ErrorBoundary;
