@@ -1,7 +1,3 @@
-# Higher Market Resource Lists
-
-## 1. Books (Fiction, Non-Fiction, Autobiographical)
-
 | ID | Title | Author | Year | Link | Description | Category |
 |----|-------|--------|------|------|-------------|----------|
 | B001 | "The Creative Act: A Way of Being" | Rick Rubin | 2023 | [Wikipedia](https://en.wikipedia.org/wiki/The_Creative_Act:_A_Way_of_Being) | Essential meditation on creativity as a fundamental human quality. | Creative Process |
@@ -69,7 +65,7 @@
 | B063 | "Contagious" | Jonah Berger | 2013 | [Wikipedia](https://en.wikipedia.org/wiki/Jonah_Berger) | Why things catch on. | Marketing/Psychology |
 | B064 | "The Practice" | Seth Godin | 2020 | [Wikipedia](https://en.wikipedia.org/wiki/Seth_Godin) | Shipping creative work. | Creative Process |
 | B065 | "Big Magic" | Elizabeth Gilbert | 2015 | [Wikipedia](https://en.wikipedia.org/wiki/Big_Magic) | Creative living beyond fear. | Creativity |
-| B066 | "| B066 | "The Subtle Art of Not Giving a F*ck" | Mark Manson | 2016 | [Wikipedia](https://en.wikipedia.org/wiki/The_Subtle_Art_of_Not_Giving_a_F*ck) | A counterintuitive approach to living a good life. | Personal Development |
+| B066 | "The Subtle Art of Not Giving a F*ck"| Mark Manson | 2016 | [Wikipedia](https://en.wikipedia.org/wiki/The_Subtle_Art_of_Not_Giving_a_F*ck) | A counterintuitive approach to living a good life. | Personal Development |
 | B067 | "Company of One" | Paul Jarvis | 2019 | [Wikipedia](https://en.wikipedia.org/wiki/Company_of_One) | Why staying small is the next big thing. | Business |
 | B068 | "The Nature of Order" | Christopher Alexander | 2003 | [Wikipedia](https://en.wikipedia.org/wiki/The_Nature_of_Order) | Understanding the essence of living structure. | Design/Philosophy |
 | B069 | "The Creative Habit" | Twyla Tharp | 2003 | [Wikipedia](https://en.wikipedia.org/wiki/Twyla_Tharp) | Learn it and use it for life. | Creative Process |
@@ -104,11 +100,6 @@
 | B098 | "The Score Takes Care of Itself" | Bill Walsh | 2009 | [Wikipedia](https://en.wikipedia.org/wiki/Bill_Walsh_(American_football_coach)) | Philosophy and leadership lessons. | Leadership |
 | B099 | "The Art of Possibility" | Benjamin Zander | 2000 | [Wikipedia](https://en.wikipedia.org/wiki/Benjamin_Zander) | Transforming professional and personal life. | Personal Development |
 | B100 | "The Power of Full Engagement" | Jim Loehr | 2003 | [Wikipedia](https://en.wikipedia.org/wiki/Jim_Loehr) | Managing energy, not time. | Productivity/Wellbeing |
-
-## 2. Blogs + Blog Posts
-
-| ID | Title | Author | Year | Link | Description | Category |
-|----|-------|--------|------|------|-------------|----------|
 | P001 | "1,000 True Fans" | Kevin Kelly | 2008 | [Link](https://kk.org/thetechnium/1000-true-fans/) | Seminal post about creator economy fundamentals. | Creator Economy |
 | P002 | "How to Start a Startup" | Paul Graham | 2005 | [Link](http://www.paulgraham.com/start.html) | Comprehensive guide to building startups. | Entrepreneurship |
 | P003 | "The Day You Became A Better Writer" | Scott Adams | 2015 | [Link](https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html) | Two-minute lesson in better writing. | Writing |
@@ -209,11 +200,6 @@
 | P098 | "The New Creative Stack" | Mirror Editorial | 2021 | [Link](https://mirror.xyz/edit/the-new-creative-stack) | Creator tools evolution. | Creator Tools |
 | P099 | "The Internet of Value" | Andreas M. Antonopoulos | 2021 | [Link](https://aantonop.com/the-internet-of-value/) | Blockchain fundamentals. | Blockchain |
 | P100 | "The Eternal September" | Venkatesh Rao | 2021 | [Link](https://www.ribbonfarm.com/2021/09/20/the-eternal-september/) | Digital culture cycles. | Internet Culture |
-
-## 3. Essays & Research
-
-| ID | Title | Author | Year | Link | Description | Category |
-|----|-------|--------|------|------|-------------|----------|
 | E001 | "The Nature of the Firm" | Ronald Coase | 1937 | [Link](https://www.jstor.org/stable/2626876) | Foundational theory of organizational economics. | Economics |
 | E002 | "The Cathedral and the Bazaar" | Eric S. Raymond | 1999 | [Link](http://www.catb.org/~esr/writings/cathedral-bazaar/) | Open source development methodology. | Technology |
 | E003 | "Mapping the Creator Economy" | SignalFire Research | 2021 | [Link](https://signalfire.com/blog/creator-economy/) | Comprehensive creator economy analysis. | Digital Economy |
@@ -314,11 +300,6 @@
 | E098 | "Community-Led Growth" | Growth Research Lab | 2021 | [Link](https://growthlab.research) | Business model study. | Business |
 | E099 | "Digital Art Ecosystems" | Art & Technology Lab | 2022 | [Link](https://arttech.research) | Market analysis. | Art |
 | E100 | "The Future of Making" | Digital Craft Institute | 2021 | [Link](https://digitalcraft.org) | Creation study. | Craft |
-
-## 4. Videos
-
-| ID | Title | Author/Creator | Year | Link | Description | Category |
-|----|-------|---------------|------|------|-------------|----------|
 | V001 | "The Power of Communities" | TED | 2021 | [Link](https://www.ted.com/talks) | Building meaningful connections online. | Community |
 | V002 | "Everything is a Remix" | Kirby Ferguson | 2011 | [Link](https://www.everythingisaremix.info) | Creativity and originality. | Creativity |
 | V003 | "The Future of Digital Art" | Christie's | 2021 | [Link](https://www.christies.com/videos) | NFT revolution in art. | Digital Art |
@@ -419,11 +400,6 @@
 | V098 | "Digital Fashion Future" | Tribute Brand | 2021 | [Link](https://tribute-brand.com/videos) | Virtual clothing. | Fashion |
 | V099 | "Community Growth" | Orbit Model | 2021 | [Link](https://orbit.love/videos) | Engagement metrics. | Community |
 | V100 | "Creative Technology" | Gray Area | 2021 | [Link](https://grayarea.org/videos) | Art and tech fusion. | Innovation |
-
-## 5. Creative Tools & Resources
-
-| ID | Title | Creator/Platform | Year | Link | Description | Category |
-|----|-------|-----------------|------|------|-------------|----------|
 | T001 | Figma | Figma Inc | 2016 | [Link](https://www.figma.com) | Collaborative design platform. | Design |
 | T002 | Blender | Blender Foundation | 1994 | [Link](https://www.blender.org) | 3D creation suite. | 3D/Animation |
 | T003 | Discord | Discord Inc | 2015 | [Link](https://discord.com) | Community chat platform. | Community |
