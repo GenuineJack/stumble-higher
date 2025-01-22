@@ -1,5 +1,6 @@
+// Updated ErrorBoundary.js
 import React from 'react';
-import { Alert, AlertTitle, AlertDescription } from '@/components/ui/alert';
+import { Alert, AlertTitle, AlertDescription } from '../ui/alert';
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -8,12 +9,13 @@ class ErrorBoundary extends React.Component {
   }
 
   static getDerivedStateFromError(error) {
+    // Update state so the next render shows the fallback UI
     return { hasError: true, error };
   }
 
   componentDidCatch(error, errorInfo) {
-    // You can log the error to an error reporting service here
-    console.error('Error caught by boundary:', error, errorInfo);
+    // Log the error to an error reporting service if needed
+    console.error('Error caught by ErrorBoundary:', error, errorInfo);
   }
 
   render() {
@@ -40,3 +42,5 @@ class ErrorBoundary extends React.Component {
     return this.props.children;
   }
 }
+
+export default ErrorBoundary;
