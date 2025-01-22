@@ -1,10 +1,14 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
   const [resource, setResource] = useState(null);
   const [resources, setResources] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
+
+  useEffect(() => {
+    fetchResources();
+  }, []);
 
   async function fetchResources() {
     try {
@@ -131,9 +135,6 @@ export default function Home() {
           <iframe src={resource.Link} className="content-iframe" title="Resource Viewer" />
           <footer className="footer">
             <div className="footer-left">
-              <Link href="/">
-                <a className="logo">Stumble Higher</a>
-              </Link>
               <span className="resource-info">
                 {resource.Title} by {resource.Author}
               </span>
@@ -153,16 +154,6 @@ export default function Home() {
         </div>
       )}
 
-      <footer className="app-footer">
-        <Link href="https://highermarket.xyz/">
-          <a target="_blank">A Higher Market Project</a>
-        </Link>
-        {' | '}
-        <Link href="https://warpcast.com/genuinejack">
-          <a target="_blank">Built by Genuine Jack</a>
-        </Link>
-      </footer>
-
       <style jsx>{`
         .container {
           display: flex;
@@ -176,27 +167,28 @@ export default function Home() {
           justify-content: center;
           align-items: center;
           text-align: center;
+          height: 100vh;
           padding: 2rem;
         }
 
         .logo {
-          font-size: 3rem;
+          font-size: 4rem;
           font-weight: bold;
           margin-bottom: 1rem;
         }
 
         .tagline {
-          font-size: 1.5rem;
+          font-size: 1.8rem;
           margin-bottom: 1rem;
         }
 
         .description {
-          font-size: 1.2rem;
+          font-size: 1.4rem;
           margin-bottom: 2rem;
         }
 
         .press-button {
-          padding: 1rem 2rem;
+          padding: 1rem 2.5rem;
           font-size: 1.2rem;
           background-color: #ff6600;
           color: white;
@@ -212,29 +204,16 @@ export default function Home() {
 
         .question-icon {
           position: absolute;
-          top: 1rem;
-          right: 1rem;
-          font-size: 1.5rem;
+          top: 2rem;
+          right: 2rem;
+          font-size: 1.8rem;
           cursor: pointer;
-          background-color: #ff6600;
-          color: white;
-          width: 30px;
-          height: 30px;
-          border-radius: 50%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          transition: background-color 0.3s ease;
-        }
-
-        .question-icon:hover {
-          background-color: #e65c00;
         }
 
         .content-iframe {
           flex: 1;
           width: 100%;
-          height: calc(100vh - 70px); /* Footer height accounted */
+          height: calc(100vh - 70px);
           border: none;
         }
 
@@ -242,8 +221,8 @@ export default function Home() {
           display: flex;
           justify-content: space-between;
           align-items: center;
+          padding: 0 2rem;
           height: 70px;
-          padding: 0 1rem;
           background-color: #f5f5f5;
         }
 
@@ -257,18 +236,6 @@ export default function Home() {
           gap: 1rem;
         }
 
-        .world-icon,
-        .share-icon {
-          font-size: 1.5rem;
-          cursor: pointer;
-          transition: color 0.3s;
-        }
-
-        .world-icon:hover,
-        .share-icon:hover {
-          color: #ff6600;
-        }
-
         .go-higher-button {
           font-size: 1.2rem;
           padding: 0.5rem 1.5rem;
@@ -276,16 +243,6 @@ export default function Home() {
           color: white;
           border: none;
           border-radius: 5px;
-          cursor: pointer;
-        }
-
-        .go-higher-button:hover {
-          background-color: #e65c00;
-        }
-
-        .app-footer {
-          text-align: center;
-          padding: 1rem;
         }
       `}</style>
     </div>
