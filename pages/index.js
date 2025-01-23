@@ -242,28 +242,31 @@ export default function Home() {
         .modal {
           position: fixed;
           z-index: 1000;
-          inset: 0; /* Shorthand for top/right/bottom/left: 0 */
-          background: rgba(0, 0, 0, 0.5);
-          display: grid;
-          place-items: center;
+          inset: 0;
+          background: rgba(0, 0, 0, 0.8);
+          display: flex;
+        }
 
         .modal-content {
+          position: relative;
           background: white;
           padding: 2rem;
           border-radius: 10px;
-          max-width: 500px;
           width: 90%;
+          max-width: 500px;
+          margin: auto;
           color: black;
-          position: relative;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          max-height: 80vh;
+          overflow-y: auto;
         }
 
         .close {
           position: absolute;
           right: 1rem;
-          top: 0.5rem;
-          font-size: 1.5rem;
+          top: 1rem;
+          font-size: 2rem;
           cursor: pointer;
+          color: #666;
         }
       
         .content-page {
