@@ -125,11 +125,11 @@ export default function Home() {
           )}
 
           <footer className="homepage-footer">
-            <a href="https://highermarket.xyz/" target="_blank" className="footer-link">
+            <a href="https://highermarket.xyz/" target="_blank" rel="noopener noreferrer" className="footer-link">
               A Higher Market Project
             </a>
             {' | '}
-            <a href="https://warpcast.com/genuinejack" target="_blank" className="footer-link">
+            <a href="https://warpcast.com/genuinejack" target="_blank" rel="noopener noreferrer" className="footer-link">
               Built by Genuine Jack
             </a>
           </footer>
@@ -249,6 +249,8 @@ export default function Home() {
           display: flex;
           align-items: center;
           gap: 1rem;
+          justify-content: center;
+          width: 100%;
         }
 
         .home-icon,
