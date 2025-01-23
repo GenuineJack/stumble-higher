@@ -247,6 +247,26 @@ export default function Home() {
         width: 100%;
         height: 100%;
         background: rgba(0,0,0,0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .modal-content {
+        background: white;
+        padding: 2rem;
+        border-radius: 5px;
+        max-width: 500px;
+        width: 90%;
+        position: relative;
+      }
+      
+      .close {
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+        font-size: 2rem;
+        cursor: pointer;
       }
       
         .content-page {
