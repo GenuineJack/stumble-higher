@@ -103,11 +103,9 @@ export default function Home() {
           </div>
 
           {modalOpen && (
-            <div className="modal">
-              <div className="modal-content">
-                <span className="close" onClick={handleModalClose}>
-                  &times;
-                </span>
+            <div className="modal-overlay">
+              <div className="modal-container">
+                <button className="modal-close" onClick={handleModalClose}>&times;</button>
                 <h2>How It Works</h2>
                 <ol>
                   <li>
@@ -246,41 +244,37 @@ export default function Home() {
             right: 2rem;
          }
 
-         .modal {
-           position: fixed;
-            z-index: 1000;
+         .modal-overlay {
+            position: fixed;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.75);
             display: flex;
-            justify-content: center;
             align-items: center;
-            min-height: 100vh;
-         }
+            justify-content: center;
+            z-index: 9999;
+          }
 
-         .modal-content {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          background: white;
-          padding: 2rem;
-          border-radius: 10px;
-          width: 90%;
-          max-width: 500px;
-          color: black;
-         }
+          .modal-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+          }
 
-         .close {
-           position: absolute;
-           right: 1rem;
-           top: 1rem;
-           font-size: 2rem;
-           cursor: pointer;
-           color: #666;
-         }
+          .modal-close {
+            position: absolute;
+            right: 1rem;
+            top: 1rem;
+            font-size: 1.5rem;
+            border: none;
+            background: none;
+            cursor: pointer;
+          }
 
          .content-page {
            position: relative;
