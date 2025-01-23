@@ -103,7 +103,7 @@ export default function Home() {
           </div>
 
           {modalOpen && (
-            <div className="modal" style={{ display: modalOpen ? 'flex' : 'none' }}>
+            <div className="modal">
               <div className="modal-content">
                 <span className="close" onClick={handleModalClose}>
                   &times;
@@ -241,11 +241,11 @@ export default function Home() {
         
         .modal {
           position: fixed;
-          z-index: 100;
+          z-index: 1000;
           top: 0;
           left: 0;
           width: 100%;
-          height: 100%;
+          height: 100vh;
           background: rgba(0, 0, 0, 0.5);
           display: flex;
           justify-content: center;
@@ -258,9 +258,10 @@ export default function Home() {
           border-radius: 10px;
           max-width: 500px;
           width: 90%;
+          margin: auto;
           color: black;
           position: relative;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          transform: translateY(-10%);
         }
 
         .close {
