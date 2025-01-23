@@ -165,165 +165,165 @@ export default function Home() {
         </div>
       )}
 
-      <style jsx>{`
-        .container {
-          display: flex;
-          flex-direction: column;
-          min-height: 100vh;
-          overflow: hidden;
-        }
+        <style jsx>{`
+         .container {
+           display: flex;
+           flex-direction: column;
+           min-height: 100vh;
+           overflow: hidden;
+         }
 
-        .homepage {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-          height: 100vh;
-          padding: 2rem;
-        }
+         .homepage {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           height: 100vh;
+           padding: 2rem;
+         }
 
-        .logo {
-          font-size: 4rem;
-          font-weight: bold;
-          margin-bottom: 1rem;
-        }
+         .logo {
+           font-size: 4rem;
+           font-weight: bold;
+           margin-bottom: 1rem;
+         }
 
-        .tagline {
-          font-size: 1.8rem;
-          margin-bottom: 1rem;
-        }
+         .tagline {
+           font-size: 1.8rem;
+           margin-bottom: 1rem;
+         }
 
-        .description {
-          font-size: 1.4rem;
-          margin-bottom: 2rem;
-        }
+         .description {
+           font-size: 1.4rem;
+           margin-bottom: 2rem;
+         }
 
-        .homepage-footer {
-          position: fixed;
-          bottom: 0;
-          width: 100%;
-          background-color: #f5f5f5;
-          text-align: center;
-          padding: 0.5rem 0;
-          font-size: 0.9rem;
-          display: flex;
-          justify-content: space-around;
-        }
+         .homepage-footer {
+           position: fixed;
+           bottom: 0;
+           width: 100%;
+           background-color: #f5f5f5;
+           text-align: center;
+           padding: 0.5rem 0;
+           font-size: 0.9rem;
+           display: flex;
+           justify-content: space-around;
+         }
 
-        .footer-link {
-          text-decoration: none;
-          color: inherit;
-        }
+         .footer-link {
+           text-decoration: none;
+           color: inherit;
+         }
 
-        .press-button {
-          padding: 1rem 2.5rem;
-          font-size: 1.2rem;
-          background-color: #ff6600;
-          color: white;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-          transition: background-color 0.3s ease;
-        }
+         .press-button {
+           padding: 1rem 2.5rem;
+           font-size: 1.2rem;
+           background-color: #ff6600;
+           color: white;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+           transition: background-color 0.3s ease;
+         }
 
-        .press-button:hover {
-          background-color: #e65c00;
-        }
+         .press-button:hover {
+           background-color: #e65c00;
+         }
 
-        .question-icon {
-          position: absolute;
-          top: 2rem;
-          right: 2rem;
-          font-size: 1.8rem;
-          cursor: pointer;
-        }
-        
-        .modal {
-          position: fixed;
-          z-index: 1000;
-          inset: 0;
-          background: rgba(0, 0, 0, 0.8);
-          display: flex;
-        }
+         .question-icon {
+           position: absolute;
+           top: 2rem;
+           right: 2rem;
+           font-size: 1.8rem;
+           cursor: pointer;
+         }
 
-        .modal-content {
-          position: relative;
-          background: white;
-          padding: 2rem;
-          border-radius: 10px;
-          width: 90%;
-          max-width: 500px;
-          margin: auto;
-          color: black;
-          max-height: 80vh;
-          overflow-y: auto;
-        }
+         .modal {
+           position: fixed;
+           z-index: 1000;
+           inset: 0;
+           background: rgba(0, 0, 0, 0.8);
+           display: flex;
+         }
 
-        .close {
-          position: absolute;
-          right: 1rem;
-          top: 1rem;
-          font-size: 2rem;
-          cursor: pointer;
-          color: #666;
-        }
-      
-        .content-page {
-          position: relative;
-          width: 100vw;
-          height: 100vh;
-          overflow: hidden;
-        }
-        
-        .content-iframe {
-          width: 100vw; /* viewport width */
-          height: calc(100vh - 70px);
-          border: none;
-          position: absolute;
-          left: 0;
-          right: 0;
-        }
+         .modal-content {
+           position: relative;
+           background: white;
+           padding: 2rem;
+           border-radius: 10px;
+           width: 90%;
+           max-width: 500px;
+           margin: auto;
+           color: black;
+           max-height: 80vh;
+           overflow-y: auto;
+         }
 
-        .footer-banner {
-          position: fixed;  /* or absolute, depending on your needs */
-          bottom: 0;
-          left: 0;  /* add this */
-          right: 0; /* add this */
-          width: 100%;
-          height: 60px;
-          background-color: #ff6600;
-          color: white;
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-        }
+         .close {
+           position: absolute;
+           right: 1rem;
+           top: 1rem;
+           font-size: 2rem;
+           cursor: pointer;
+           color: #666;
+         }
 
-        .footer-content {
-          display: flex;
-          align-items: center;
-          gap: 1rem;
-          justify-content: center;
-          width: 100%;
-        }
+         .content-page {
+           position: relative;
+           width: 100vw;
+           height: 100vh;
+           overflow: hidden;
+         }
 
-        .home-icon,
-        .world-icon,
-        .share-icon {
-          font-size: 1.5rem;
-          cursor: pointer;
-        }
+         .content-iframe {
+           width: 100vw;
+           height: calc(100vh - 70px);
+           border: none;
+           position: absolute;
+           left: 0;
+           right: 0;
+         }
 
-        .go-higher-button {
-          font-size: 1.2rem;
-          padding: 0.5rem 1.5rem;
-          background-color: white;
-          color: #ff6600;
-          border: none;
-          border-radius: 5px;
-          cursor: pointer;
-        }
-      `}</style>
+         .footer-banner {
+           position: fixed;
+           bottom: 0;
+           left: 0;
+           right: 0;
+           width: 100%;
+           height: 60px;
+           background-color: #ff6600;
+           color: white;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+         }
+
+         .footer-content {
+           display: flex;
+           align-items: center;
+           gap: 1rem;
+           justify-content: center;
+           width: 100%;
+         }
+
+         .home-icon,
+         .world-icon,
+         .share-icon {
+           font-size: 1.5rem;
+           cursor: pointer;
+         }
+
+         .go-higher-button {
+           font-size: 1.2rem;
+           padding: 0.5rem 1.5rem;
+           background-color: white;
+           color: #ff6600;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+         }
+        `}</style>
     </div>
   );
 }
