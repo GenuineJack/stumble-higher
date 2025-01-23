@@ -1,15 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
   const [resource, setResource] = useState(null);
   const [resources, setResources] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
-
-  useEffect(() => {
-    // Remove auto-trigger for "Press to Go Higher" on page load
-    fetchResources();
-  }, []);
 
   async function fetchResources() {
     try {
@@ -55,11 +50,11 @@ export default function Home() {
   }
 
   function handleStumbleClick() {
-    if (resources) {
+    if (!resources) {
+      fetchResources();
+    } else {
       const randomResource = getRandomResource(resources);
       setResource(randomResource);
-    } else {
-      fetchResources();
     }
   }
 
@@ -96,6 +91,8 @@ export default function Home() {
           <p className="description">
             Stumble into curated ideas that elevate your mind, inspire your journey, and take you higher.
           </p>
+          <p className="project-credit">A Higher Market Project</p>
+          <p className="author-credit">Built by Genuine Jack</p>
           <button onClick={handleStumbleClick} className="press-button">
             PRESS TO GO HIGHER
           </button>
@@ -134,16 +131,19 @@ export default function Home() {
           <iframe src={resource.Link} className="content-iframe" title="Resource Viewer" />
           <footer className="footer-banner">
             <div className="footer-content">
-              <span onClick={() => window.location.href = '/'} className="footer-icon" title="Home">
+              <span onClick={() => window.location.href = '/'} className="home-icon" title="Home">
                 🏠
               </span>
               <span className="resource-info">
                 {resource.Title} by {resource.Author}
               </span>
-              <span onClick={handleWorldClick} className="footer-icon" title="Open in New Tab">
+              <button onClick={handleStumbleClick} className="go-higher-button">
+                Go Higher
+              </button>
+              <span onClick={handleWorldClick} className="world-icon" title="Open in New Tab">
                 🌐
               </span>
-              <span onClick={handleShareClick} className="footer-icon" title="Share">
+              <span onClick={handleShareClick} className="share-icon" title="Share">
                 📢
               </span>
             </div>
@@ -159,13 +159,14 @@ export default function Home() {
           overflow: hidden;
         }
 
-        .homepage, .content-page {
+        .homepage {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
           text-align: center;
           height: 100vh;
+          padding: 2rem;
         }
 
         .logo {
@@ -182,6 +183,12 @@ export default function Home() {
         .description {
           font-size: 1.4rem;
           margin-bottom: 2rem;
+        }
+
+        .project-credit,
+        .author-credit {
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
         }
 
         .press-button {
@@ -220,35 +227,33 @@ export default function Home() {
           width: 100%;
           height: 70px;
           background-color: #ff6600;
+          color: white;
           display: flex;
           justify-content: space-around;
           align-items: center;
-          color: white;
         }
 
         .footer-content {
           display: flex;
-          justify-content: space-around;
           align-items: center;
-          width: 100%;
-          max-width: 1200px;
-          padding: 0 1rem;
+          gap: 1rem;
         }
 
-        .footer-icon {
+        .home-icon,
+        .world-icon,
+        .share-icon {
           font-size: 1.5rem;
           cursor: pointer;
-          transition: transform 0.2s;
         }
 
-        .footer-icon:hover {
-          transform: scale(1.2);
-        }
-
-        .resource-info {
-          flex: 1;
-          text-align: center;
+        .go-higher-button {
           font-size: 1.2rem;
+          padding: 0.5rem 1.5rem;
+          background-color: white;
+          color: #ff6600;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
         }
       `}</style>
     </div>
