@@ -132,13 +132,11 @@ export default function Home() {
             <a href="https://highermarket.xyz/" target="_blank" rel="noopener noreferrer" className="footer-link">
               A Higher Market Project
             </a>
-            {' | '}
-            <a href="https://warpcast.com/genuinejack" target="_blank" rel="noopener noreferrer" className="footer-link">
-              Built by Genuine Jack
-            </a>
-            {' | '}
             <a href="https://www.aimhigher.net/" target="_blank" rel="noopener noreferrer" className="footer-link">
               ↑
+            </a>
+            <a href="https://warpcast.com/genuinejack" target="_blank" rel="noopener noreferrer" className="footer-link">
+              Built by Genuine Jack
             </a>
           </footer>
         </div>
@@ -207,14 +205,15 @@ export default function Home() {
           width: 100%;
           background-color: #f5f5f5;
           text-align: center;
-          padding: 1rem;
-          font-size: 1rem;
+          padding: 0.5rem 0;
+          font-size: 0.9rem;
+          display: flex;
+          justify-content: space-around;
         }
 
         .footer-link {
           text-decoration: none;
           color: inherit;
-          margin: 0 1rem;
         }
 
         .press-button {
@@ -239,19 +238,30 @@ export default function Home() {
           font-size: 1.8rem;
           cursor: pointer;
         }
-
+        
+        .content-page {
+          position: relative;
+          width: 100vw;
+          height: 100vh;
+          overflow: hidden;
+        }
+        
         .content-iframe {
-          flex: 1;
-          width: 100%;
+          width: 100vw; /* viewport width */
           height: calc(100vh - 70px);
           border: none;
+          position: absolute;
+          left: 0;
+          right: 0;
         }
 
         .footer-banner {
-          position: fixed;
+          position: fixed;  /* or absolute, depending on your needs */
           bottom: 0;
+          left: 0;  /* add this */
+          right: 0; /* add this */
           width: 100%;
-          height: 70px;
+          height: 60px;
           background-color: #ff6600;
           color: white;
           display: flex;
