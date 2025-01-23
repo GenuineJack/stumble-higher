@@ -105,7 +105,9 @@ export default function Home() {
           {modalOpen && (
             <div className="modal-overlay">
               <div className="modal-container">
-                <button className="modal-close" onClick={handleModalClose}>&times;</button>
+                <button className="modal-close" onClick={handleModalClose}>
+                  &times;
+                </button>
                 <h2>How It Works</h2>
                 <ol>
                   <li>
@@ -164,87 +166,80 @@ export default function Home() {
       )}
 
         <style jsx>{`
-         .container {
-           display: flex;
-           flex-direction: column;
-           min-height: 100vh;
-           overflow: hidden;
-         }
-
-         .homepage {
-           display: flex;
-           flex-direction: column;
-           justify-content: center;
-           align-items: center;
-           text-align: center;
-           height: 100vh;
-           padding: 2rem;
-         }
-
-         .logo {
-           font-size: 4rem;
-           font-weight: bold;
-           margin-bottom: 1rem;
-         }
-
-         .tagline {
-           font-size: 1.8rem;
-           margin-bottom: 1rem;
-         }
-
-         .description {
-           font-size: 1.4rem;
-           margin-bottom: 2rem;
-         }
-
-         .homepage-footer {
-           position: fixed;
-           bottom: 0;
-           width: 100%;
-           background-color: #f5f5f5;
-           text-align: center;
-           padding: 0.5rem 0;
-           font-size: 0.9rem;
-           display: flex;
-           justify-content: space-around;
-         }
-
-         .footer-link {
-           text-decoration: none;
-           color: inherit;
-         }
-
-         .press-button {
-           padding: 1rem 2.5rem;
-           font-size: 1.2rem;
-           background-color: #ff6600;
-           color: white;
-           border: none;
-           border-radius: 5px;
-           cursor: pointer;
-           transition: background-color 0.3s ease;
-         }
-
-         .press-button:hover {
-           background-color: #e65c00;
-         }
-
-         .question-icon {
-           width: 28px;  /* w-7 = 1.75rem = 28px */
-            height: 28px; /* h-7 */
+          .container {
             display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow: hidden;
+          }
+
+          .homepage {
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            border: 1px solid black;
+            text-align: center;
+            height: 100vh;
+            padding: 2rem;
+          }
+
+          .logo {
+            font-size: 4rem;
             font-weight: bold;
+            margin-bottom: 1rem;
+          }
+
+          .tagline {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+          }
+
+          .description {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+          }
+
+          .homepage-footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 0.5rem 0;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: space-around;
+          }
+
+          .footer-link {
+            text-decoration: none;
+            color: inherit;
+          }
+
+          .press-button {
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 5px;
             cursor: pointer;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            transition: background-color 0.3s ease;
+          }
+
+          .press-button:hover {
+            background-color: #e65c00;
+          }
+
+          .question-icon {
             position: absolute;
             top: 2rem;
             right: 2rem;
-         }
+            font-size: 1.8rem;
+            cursor: pointer;
+          }
 
-         .modal-overlay {
+          .modal-overlay {
             position: fixed;
             top: 0;
             left: 0;
@@ -252,8 +247,8 @@ export default function Home() {
             bottom: 0;
             background: rgba(0, 0, 0, 0.75);
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             z-index: 9999;
           }
 
@@ -264,6 +259,7 @@ export default function Home() {
             width: 90%;
             max-width: 500px;
             position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
           }
 
           .modal-close {
@@ -274,62 +270,63 @@ export default function Home() {
             border: none;
             background: none;
             cursor: pointer;
+            color: #333;
           }
 
-         .content-page {
-           position: relative;
-           width: 100vw;
-           height: 100vh;
-           overflow: hidden;
-         }
+          .content-page {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+          }
 
-         .content-iframe {
-           width: 100vw;
-           height: calc(100vh - 70px);
-           border: none;
-           position: absolute;
-           left: 0;
-           right: 0;
-         }
+          .content-iframe {
+            width: 100vw;
+            height: calc(100vh - 70px);
+            border: none;
+            position: absolute;
+            left: 0;
+            right: 0;
+          }
 
-         .footer-banner {
-           position: fixed;
-           bottom: 0;
-           left: 0;
-           right: 0;
-           width: 100%;
-           height: 60px;
-           background-color: #ff6600;
-           color: white;
-           display: flex;
-           justify-content: space-around;
-           align-items: center;
-         }
+          .footer-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 60px;
+            background-color: #ff6600;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          }
 
-         .footer-content {
-           display: flex;
-           align-items: center;
-           gap: 1rem;
-           justify-content: center;
-           width: 100%;
-         }
+          .footer-content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            justify-content: center;
+            width: 100%;
+          }
 
-         .home-icon,
-         .world-icon,
-         .share-icon {
-           font-size: 1.5rem;
-           cursor: pointer;
-         }
+          .home-icon,
+          .world-icon,
+          .share-icon {
+            font-size: 1.5rem;
+            cursor: pointer;
+          }
 
-         .go-higher-button {
-           font-size: 1.2rem;
-           padding: 0.5rem 1.5rem;
-           background-color: white;
-           color: #ff6600;
-           border: none;
-           border-radius: 5px;
-           cursor: pointer;
-         }
+          .go-higher-button {
+            font-size: 1.2rem;
+            padding: 0.5rem 1.5rem;
+            background-color: white;
+            color: #ff6600;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
         `}</style>
     </div>
   );
