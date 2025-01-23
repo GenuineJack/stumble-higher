@@ -232,11 +232,18 @@ export default function Home() {
          }
 
          .question-icon {
-           position: absolute;
-           top: 2rem;
-           right: 2rem;
-           font-size: 1.8rem;
-           cursor: pointer;
+           width: 28px;  /* w-7 = 1.75rem = 28px */
+            height: 28px; /* h-7 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
          }
 
          .modal {
