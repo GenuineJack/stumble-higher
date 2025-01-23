@@ -103,7 +103,7 @@ export default function Home() {
           </div>
 
           {modalOpen && (
-            <div className="modal">
+            <div className="modal" style={{ display: modalOpen ? 'flex' : 'none' }}>
               <div className="modal-content">
                 <span className="close" onClick={handleModalClose}>
                   &times;
@@ -246,22 +246,23 @@ export default function Home() {
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(0,0,0,0.5);
+          background: rgba(0, 0, 0, 0.5);
           display: flex;
           justify-content: center;
           align-items: center;
         }
-        
+
         .modal-content {
           background: white;
           padding: 2rem;
-          border-radius: 5px;
+          border-radius: 10px;
           max-width: 500px;
           width: 90%;
           color: black;
           position: relative;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        
+
         .close {
           position: absolute;
           right: 1rem;
