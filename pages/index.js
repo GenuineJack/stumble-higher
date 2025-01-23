@@ -7,6 +7,7 @@ export default function Home() {
   const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
+    // Remove auto-trigger for "Press to Go Higher" on page load
     fetchResources();
   }, []);
 
@@ -19,8 +20,6 @@ export default function Home() {
       const { content } = await response.json();
       const parsedResources = parseResources(content);
       setResources(parsedResources);
-      const randomResource = getRandomResource(parsedResources);
-      setResource(randomResource);
     } catch (error) {
       console.error('Error fetching resources:', error);
     }
@@ -133,27 +132,20 @@ export default function Home() {
       ) : (
         <div className="content-page">
           <iframe src={resource.Link} className="content-iframe" title="Resource Viewer" />
-          <footer className="footer">
-            <div className="footer-left">
+          <footer className="footer-banner">
+            <div className="footer-content">
+              <span onClick={() => window.location.href = '/'} className="footer-icon" title="Home">
+                🏠
+              </span>
               <span className="resource-info">
                 {resource.Title} by {resource.Author}
               </span>
-            </div>
-            <button onClick={handleStumbleClick} className="go-higher-button">
-              Go Higher
-            </button>
-            <div className="footer-right">
-              <span onClick={handleWorldClick} className="world-icon" title="Open in New Tab">
+              <span onClick={handleWorldClick} className="footer-icon" title="Open in New Tab">
                 🌐
               </span>
-              <span onClick={handleShareClick} className="share-icon" title="Share">
+              <span onClick={handleShareClick} className="footer-icon" title="Share">
                 📢
               </span>
-              <Link href="/">
-                <a className="home-icon" title="Home">
-                  🏠
-                </a>
-              </Link>
             </div>
           </footer>
         </div>
@@ -164,16 +156,16 @@ export default function Home() {
           display: flex;
           flex-direction: column;
           min-height: 100vh;
+          overflow: hidden;
         }
 
-        .homepage {
+        .homepage, .content-page {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
           text-align: center;
           height: 100vh;
-          padding: 2rem;
         }
 
         .logo {
@@ -222,41 +214,41 @@ export default function Home() {
           border: none;
         }
 
-        .footer {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0 2rem;
-          height: 70px;
-          background-color: #f5f5f5;
-          width: 100%;
+        .footer-banner {
           position: fixed;
           bottom: 0;
-        }
-
-        .footer-left {
-          display: flex;
-          flex-direction: column;
-        }
-
-        .footer-right {
-          display: flex;
-          gap: 1rem;
-        }
-
-        .go-higher-button {
-          font-size: 1.2rem;
-          padding: 0.5rem 1.5rem;
+          width: 100%;
+          height: 70px;
           background-color: #ff6600;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
           color: white;
-          border: none;
-          border-radius: 5px;
         }
 
-        .home-icon {
+        .footer-content {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 100%;
+          max-width: 1200px;
+          padding: 0 1rem;
+        }
+
+        .footer-icon {
           font-size: 1.5rem;
-          text-decoration: none;
-          color: inherit;
+          cursor: pointer;
+          transition: transform 0.2s;
+        }
+
+        .footer-icon:hover {
+          transform: scale(1.2);
+        }
+
+        .resource-info {
+          flex: 1;
+          text-align: center;
+          font-size: 1.2rem;
         }
       `}</style>
     </div>
