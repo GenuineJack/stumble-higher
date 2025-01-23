@@ -242,15 +242,10 @@ export default function Home() {
         .modal {
           position: fixed;
           z-index: 1000;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100vh;
+          inset: 0; /* Shorthand for top/right/bottom/left: 0 */
           background: rgba(0, 0, 0, 0.5);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
+          display: grid;
+          place-items: center;
 
         .modal-content {
           background: white;
@@ -258,10 +253,9 @@ export default function Home() {
           border-radius: 10px;
           max-width: 500px;
           width: 90%;
-          margin: auto;
           color: black;
           position: relative;
-          transform: translateY(-10%);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         .close {
