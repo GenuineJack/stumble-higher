@@ -1,10 +1,14 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
   const [resource, setResource] = useState(null);
   const [resources, setResources] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
+
+  useEffect(() => {
+    fetchResources();
+  }, []);
 
   async function fetchResources() {
     try {
@@ -50,11 +54,11 @@ export default function Home() {
   }
 
   function handleStumbleClick() {
-    if (!resources) {
-      fetchResources();
-    } else {
+    if (resources) {
       const randomResource = getRandomResource(resources);
       setResource(randomResource);
+    } else {
+      fetchResources();
     }
   }
 
@@ -132,6 +136,10 @@ export default function Home() {
             <a href="https://warpcast.com/genuinejack" target="_blank" rel="noopener noreferrer" className="footer-link">
               Built by Genuine Jack
             </a>
+            {' | '}
+            <a href="https://www.aimhigher.net/" target="_blank" rel="noopener noreferrer" className="footer-link">
+              ↑
+            </a>
           </footer>
         </div>
       ) : (
@@ -194,13 +202,19 @@ export default function Home() {
         }
 
         .homepage-footer {
-          margin-top: 2rem;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+          background-color: #f5f5f5;
+          text-align: center;
+          padding: 1rem;
           font-size: 1rem;
         }
 
         .footer-link {
           text-decoration: none;
           color: inherit;
+          margin: 0 1rem;
         }
 
         .press-button {
