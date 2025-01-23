@@ -88,6 +88,9 @@ export default function Home() {
 
   return (
     <div className="container">
+    <Head>
+        <meta name="warpcast-frame" content="v2" />
+      </Head>
       {!resource ? (
         <div className="homepage">
           <h1 className="logo">STUMBLE HIGHER</h1>
