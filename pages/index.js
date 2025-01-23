@@ -250,28 +250,25 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
-      }
-      
-      .modal-content {
-        background: white;
-        padding: 2rem;
-        border-radius: 5px;
-        max-width: 500px;
-        width: 90%;
-        position: relative;
-        margin: auto;
-        top: 50%;
-        transform: translateY(-50%);
-        color: black;
-      }
-      
-      .close {
-        position: absolute;
-        right: 1rem;
-        top: 0.5rem;
-        font-size: 2rem;
-        cursor: pointer;
-      }
+        }
+        
+        .modal-content {
+          background: white;
+          padding: 2rem;
+          border-radius: 5px;
+          max-width: 500px;
+          width: 90%;
+          color: black;
+          position: relative;
+        }
+        
+        .close {
+          position: absolute;
+          right: 1rem;
+          top: 0.5rem;
+          font-size: 1.5rem;
+          cursor: pointer;
+        }
       
         .content-page {
           position: relative;
