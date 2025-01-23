@@ -239,6 +239,16 @@ export default function Home() {
           cursor: pointer;
         }
         
+        .modal {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+      }
+      
         .content-page {
           position: relative;
           width: 100vw;
