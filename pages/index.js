@@ -91,8 +91,6 @@ export default function Home() {
           <p className="description">
             Stumble into curated ideas that elevate your mind, inspire your journey, and take you higher.
           </p>
-          <p className="project-credit">A Higher Market Project</p>
-          <p className="author-credit">Built by Genuine Jack</p>
           <button onClick={handleStumbleClick} className="press-button">
             PRESS TO GO HIGHER
           </button>
@@ -125,6 +123,16 @@ export default function Home() {
               </div>
             </div>
           )}
+
+          <footer className="homepage-footer">
+            <a href="https://highermarket.xyz/" target="_blank" className="footer-link">
+              A Higher Market Project
+            </a>
+            {' | '}
+            <a href="https://warpcast.com/genuinejack" target="_blank" className="footer-link">
+              Built by Genuine Jack
+            </a>
+          </footer>
         </div>
       ) : (
         <div className="content-page">
@@ -185,10 +193,14 @@ export default function Home() {
           margin-bottom: 2rem;
         }
 
-        .project-credit,
-        .author-credit {
+        .homepage-footer {
+          margin-top: 2rem;
           font-size: 1rem;
-          margin-bottom: 0.5rem;
+        }
+
+        .footer-link {
+          text-decoration: none;
+          color: inherit;
         }
 
         .press-button {
