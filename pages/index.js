@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Home() {
   const [resource, setResource] = useState(null);
