@@ -248,23 +248,29 @@ export default function Home() {
 
          .modal {
            position: fixed;
-           z-index: 1000;
-           inset: 0;
-           background: rgba(0, 0, 0, 0.8);
-           display: flex;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
          }
 
          .modal-content {
-           position: relative;
-           background: white;
-           padding: 2rem;
-           border-radius: 10px;
-           width: 90%;
-           max-width: 500px;
-           margin: auto;
-           color: black;
-           max-height: 80vh;
-           overflow-y: auto;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: white;
+          padding: 2rem;
+          border-radius: 10px;
+          width: 90%;
+          max-width: 500px;
+          color: black;
          }
 
          .close {
