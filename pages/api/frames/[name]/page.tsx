@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import App from "~/components/App";
 
 const appUrl = process.env.NEXT_PUBLIC_URL;
 
@@ -23,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         name: `StumbleHigher Frame: ${name}`,
         url: `${appUrl}/frames/${name}/`,
         splashImageUrl: `${appUrl}/splash.png`,
-        splashBackgroundColor: "#f7f7f7",
+        splashBackgroundColor: "#f7f7f7`,
       },
     },
   };
@@ -41,7 +40,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// Main component for dynamic frames
+// Render the Frame content directly
 export default function FramePage({ params }: Props) {
-  return <App title={`Welcome to ${params.name}'s Frame!`} />;
+  const { name } = params;
+
+  return (
+    <div style={{ textAlign: "center", padding: "20px" }}>
+      <h1>Welcome to {name}'s Frame!</h1>
+      <p>Explore curated content for {name}.</p>
+    </div>
+  );
 }
