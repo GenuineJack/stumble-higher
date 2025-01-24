@@ -19,25 +19,26 @@ const FrameButton: React.FC<FrameButtonProps> = ({
       target="_blank"
       rel="noopener noreferrer"
       style={{
-        display: "inline-block",
+        display: "block",
         backgroundColor: splashBackgroundColor,
-        padding: "10px 20px",
-        borderRadius: "5px",
         color: "#fff",
-        textDecoration: "none",
+        padding: "1rem",
+        borderRadius: "8px",
         textAlign: "center",
+        textDecoration: "none",
+        overflow: "hidden",
       }}
     >
       <div
         style={{
           backgroundImage: `url(${splashImageUrl})`,
           backgroundSize: "cover",
+          backgroundPosition: "center",
           height: "150px",
-          width: "150px",
-          margin: "0 auto",
-          borderRadius: "50%",
+          width: "100%",
+          marginBottom: "0.5rem",
         }}
-      ></div>
+      />
       <span>{title}</span>
     </a>
   );
