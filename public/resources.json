@@ -1,0 +1,2627 @@
+[
+    {
+        "title": "The Creative Act: A Way of Being",
+        "author": "Rick Rubin",
+        "link": "https://drive.google.com/file/d/1SE6qVh_8JufGtQXrvVqgInro5FnHmk3y/view?usp=drive_link"
+    },
+    {
+        "title": "Zero to One",
+        "author": "Peter Thiel",
+        "link": "https://morfene.com/021.pdf"
+    },
+    {
+        "title": "Show Your Work!",
+        "author": "Austin Kleon",
+        "link": "https://gamedev.soemyatmin.it/books/showyourwork.pdf"
+    },
+    {
+        "title": "The Design of Everyday Things",
+        "author": "Don Norman",
+        "link": "https://dl.icdst.org/pdfs/files4/4bb8d08a9b309df7d86e62ec4056ceef.pdf"
+    },
+    {
+        "title": "The Power of Habit",
+        "author": "Charles Duhigg",
+        "link": "https://ia803102.us.archive.org/35/items/CharlesDuhigg.ThePowerOfHabit_201808/Charles-Duhigg.The-Power-of-Habit.pdf"
+    },
+    {
+        "title": "Thinking in Systems",
+        "author": "Donella H. Meadows",
+        "link": "https://sisr.swissinformatics.org/wp-content/uploads/sites/28/2019/10/Binder1-2008-Donella-Meadows-Thinking-in-Systems-A-Primer.pdf"
+    },
+    {
+        "title": "The War of Art",
+        "author": "Steven Pressfield",
+        "link": "https://www.samuelthomasdavies.com/book-summaries/business/the-war-of-art/"
+    },
+    {
+        "title": "Creativity, Inc.",
+        "author": "Ed Catmull",
+        "link": "https://www.academia.edu/39725079/Creativity_Inc_Overcoming_the_Unseen_Forces_That_Stand_in_the_Way_of_Tru"
+    },
+    {
+        "title": "The Psychology of Money",
+        "author": "Morgan Housel",
+        "link": "https://internetmediagroup.bg/wp-content/uploads/2023/03/the-psychology-of-money-by-morgan-housel.pdf"
+    },
+    {
+        "title": "Essentialism",
+        "author": "Greg McKeown",
+        "link": "https://heream.wordpress.com/wp-content/uploads/2017/12/greg-mckeown-essentialism-the-disciplined-pursuit.pdf"
+    },
+    {
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "link": "https://archive.org/details/deepworkrulesfor0000newp/page/n5/mode/2up"
+    },
+    {
+        "title": "Mindset",
+        "author": "Carol S. Dweck",
+        "link": "https://adrvantage.com/wp-content/uploads/2023/02/Mindset-The-New-Psychology-of-Success-Dweck.pdf"
+    },
+    {
+        "title": "The Innovator's Dilemma",
+        "author": "Clayton Christensen",
+        "link": "http://lib.ysu.am/open_books/413214.pdf"
+    },
+    {
+        "title": "The Artist's Way",
+        "author": "Julia Cameron",
+        "link": "https://archive.org/details/julia-cameron-the-artists-way-a-spiritual-path-to-higher-creativity"
+    },
+    {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "link": "https://dn790007.ca.archive.org/0/items/atomic-habits-pdfdrive/Atomic%20habits%20%28%20PDFDrive%20%29.pdf"
+    },
+    {
+        "title": "Flow",
+        "author": "Mihaly Csikszentmihalyi",
+        "link": "https://blogs.baruch.cuny.edu/authenticityandastonishment2/files/2013/04/Mihaly-Csikszentmihalyi-Flow1.pdf"
+    },
+    {
+        "title": "Start with Why",
+        "author": "Simon Sinek",
+        "link": "https://www.earthgifts.com.au/ebook/simon-sinek-start-with-why.pdf?srsltid=AfmBOophTP699apu92YcK7uIqQe3eakQHKT6H3CA6aAiyEnWEmVWEUG5"
+    },
+    {
+        "title": "The Lean Startup",
+        "author": "Eric Ries",
+        "link": "https://ia800509.us.archive.org/7/items/TheLeanStartupErickRies/The%20Lean%20Startup%20-%20Erick%20Ries.pdf"
+    },
+    {
+        "title": "The Power of Now",
+        "author": "Eckhart Tolle",
+        "link": "https://dn790003.ca.archive.org/0/items/ThePowerOfNowEckhartTolle_201806/The%20Power%20Of%20Now%20-%20Eckhart%20Tolle.pdf"
+    },
+    {
+        "title": "Making Ideas Happen",
+        "author": "Scott Belsky",
+        "link": "http://lib.ysu.am/disciplines_bk/99e14df033688f5402055d4871e82d0b.pdf"
+    },
+    {
+        "title": "Sapiens",
+        "author": "Yuval Noah Harari",
+        "link": "https://staibabussalamsula.ac.id/wp-content/uploads/2023/11/yuval_noah_harari-sapiens_a_brief_histor.pdf"
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "link": "https://icrrd.com/public/media/15-05-2021-084550The-Alchemist-Paulo-Coelho.pdf"
+    },
+    {
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "link": "https://ia600603.us.archive.org/10/items/DanielKahnemanThinkingFastAndSlow/Daniel%20Kahneman-Thinking%2C%20Fast%20and%20Slow%20%20.pdf"
+    },
+    {
+        "title": "The 4-Hour Work Week",
+        "author": "Timothy Ferriss",
+        "link": "https://archive.org/details/the-4-hour-work-week-by-timothy-ferriss"
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "link": "https://online.fliphtml5.com/cwdun/jrza/#p=1"
+    },
+    {
+        "title": "Drive",
+        "author": "Daniel H. Pink",
+        "link": "https://drive.google.com/file/d/1Ayazn37SF6DdWAYZgLXtxV3nTIOE2tnG/view"
+    },
+    {
+        "title": "Good to Great",
+        "author": "Jim Collins",
+        "link": "https://laithaljunaidy.com/books/assets/files/Good-toGreat_WhySomeCompaniesMaketheLeap...AndOthersDontPDFDrive.pdf"
+    },
+    {
+        "title": "The Tipping Point",
+        "author": "Malcolm Gladwell",
+        "link": "https://binyaprak.com/images/blog_articles/123/the-tipping-point.pdf"
+    },
+    {
+        "title": "Snow Crash",
+        "author": "Neal Stephenson",
+        "link": "https://hell.pl/agnus/anglistyka/2211/Neal%20Stephenson%20-%20Snow%20Crash.pdf"
+    },
+    {
+        "title": "Steal Like an Artist",
+        "author": "Austin Kleon",
+        "link": "https://laithaljunaidy.com/books/assets/files/Steal-LikeanArtist.pdf"
+    },
+    {
+        "title": "Hooked",
+        "author": "Nir Eyal",
+        "link": "https://laithaljunaidy.com/books/assets/files/Hooked_-HowtoBuildHabit-FormingProductsPDFDrive.pdf"
+    },
+    {
+        "title": "The $100 Startup",
+        "author": "Chris Guillebeau",
+        "link": "https://theyoungtreps.com/wp-content/uploads/2021/04/The-100-Startup-Chris-Guillebeau.pdf"
+    },
+    {
+        "title": "Rework",
+        "author": "Jason Fried & DHH",
+        "link": "https://laithaljunaidy.com/books/assets/files/Rework-PDFDrive.pdf"
+    },
+    {
+        "title": "The Dip",
+        "author": "Seth Godin",
+        "link": "https://pub.deadnet.se/Books_and_manuals_on_various_stuff/Metaphysics%20&%20Spirituality/Seth%20Godin%20THE%20DIP.pdf"
+    },
+    {
+        "title": "The Hard Thing About Hard Things",
+        "author": "Ben Horowitz",
+        "link": "https://startuphaiphong.vn/images/video/2477the-hard-thing-about-hard-things.pdf"
+    },
+    {
+        "title": "The Laws of Simplicity",
+        "author": "John Maeda",
+        "link": "https://designopendata.wordpress.com/wp-content/uploads/2014/05/lawsofsimplicity_johnmaeda.pdf"
+    },
+    {
+        "title": "The Talent Code",
+        "author": "Daniel Coyle",
+        "link": "https://archive.org/details/the-talent-code.pdf-pdfdrive"
+    },
+    {
+        "title": "This Is Marketing",
+        "author": "Seth Godin",
+        "link": "https://www.advisory21.com.mt/wp-content/uploads/2023/03/This-Is-Marketing.pdf"
+    },
+    {
+        "title": "Linchpin",
+        "author": "Seth Godin",
+        "link": "https://sharkinfestedcustard.wordpress.com/wp-content/uploads/2011/10/seth-godin-linchpin.pdf"
+    },
+    {
+        "title": "The Fountainhead",
+        "author": "Ayn Rand",
+        "link": "https://antilogicalism.com/wp-content/uploads/2017/07/the-fountainhead.pdf"
+    },
+    {
+        "title": "The Art of Possibility",
+        "author": "Rosamund Stone Zander",
+        "link": "https://archive.org/details/artofpossibility00zand"
+    },
+    {
+        "title": "Originals",
+        "author": "Adam Grant",
+        "link": "https://archive.org/details/originalshownonc0000gran"
+    },
+    {
+        "title": "The Culture Code",
+        "author": "Daniel Coyle",
+        "link": "https://media.almashhad.com/archive/1698749822629_wEaGz.pdf"
+    },
+    {
+        "title": "Blue Ocean Strategy",
+        "author": "W. Chan Kim",
+        "link": "http://lib.ysu.am/open_books/413244.pdf"
+    },
+    {
+        "title": "The Obstacle Is the Way",
+        "author": "Ryan Holiday",
+        "link": "https://icrrd.com/public/media/16-05-2021-051456The-Obstacle-Is-the-Way.pdf"
+    },
+    {
+        "title": "Art & Fear",
+        "author": "David Bayles",
+        "link": "https://profilebooks.com/wp-content/uploads/wpallimport/files/PDFs/9781800815971_preview.pdf"
+    },
+    {
+        "title": "Made to Stick",
+        "author": "Chip & Dan Heath",
+        "link": "https://images.penguinrandomhouse.com/teachers_guides/9781400064281.pdf"
+    },
+    {
+        "title": "The Power of Myth",
+        "author": "Joseph Campbell",
+        "link": "https://archive.org/details/the-power-of-myth"
+    },
+    {
+        "title": "The Third Wave",
+        "author": "Steve Case",
+        "link": "https://archive.org/details/thirdwaveentrepr0000case_t5g7"
+    },
+    {
+        "title": "The Gifts of Imperfection",
+        "author": "Brené Brown",
+        "link": "https://ati.dae.gov.in/ati12052021_4.pdf"
+    },
+    {
+        "title": "Purple Cow",
+        "author": "Seth Godin",
+        "link": "https://oxteam.ir/wp-content/uploads/2017/08/Seth-Godin-Purple-Cow-Transform-Your-Business-by-Being-Remarkable.pdf"
+    },
+    {
+        "title": "The Art Spirit",
+        "author": "Robert Henri",
+        "link": "https://s3.amazonaws.com/arena-attachments/2114725/e242ca6462330c9c1d5bbbe8242ffa37.pdf?1525112940"
+    },
+    {
+        "title": "Mindfulness for Creativity",
+        "author": "Danny Penman",
+        "link": "https://archive.org/details/mindfulnessforcr0000dann"
+    },
+    {
+        "title": "The Art of Learning",
+        "author": "Josh Waitzkin",
+        "link": "https://static1.squarespace.com/static/5576de42e4b088027cd59de4/t/5db05fca66a06b2dff9290a9/1571839947057/BOOK+NOTES+-+The+Art+of+Learning.pdf"
+    },
+    {
+        "title": "The Trusted Advisor",
+        "author": "David H. Maister",
+        "link": "https://books.google.com/books?id=inyfxJpR6EgC&printsec=frontcover#v=onepage&q&f=false"
+    },
+    {
+        "title": "The Infinite Game",
+        "author": "Simon Sinek",
+        "link": "https://rpsglearniverse.com/Downloads_PDF/eBooks/The%20Infinite%20Game%20-%20Simon%20Sinek.pdf"
+    },
+    {
+        "title": "The Crossroads of Should and Must",
+        "author": "Elle Luna",
+        "link": "https://archive.org/details/crossroadsofshou0000luna"
+    },
+    {
+        "title": "Daily Rituals",
+        "author": "Mason Currey",
+        "link": "https://upskillshare.com/wp-content/uploads/2021/03/Daily-Rituals-pdf-_-How-Artists-Work-UPSKILLSHARE.pdf"
+    },
+    {
+        "title": "The Richest Man in Babylon",
+        "author": "George S. Clason",
+        "link": "https://icrrd.com/public/media/16-05-2021-070111The-Richest-Man-in-Babylon.pdf"
+    },
+    {
+        "title": "The Art of Game Design",
+        "author": "Jesse Schell",
+        "link": "https://www.inventoridigiochi.it/wp-content/uploads/2020/07/art-of-game-design.pdf"
+    },
+    {
+        "title": "The Craftsman",
+        "author": "Richard Sennett",
+        "link": "https://usc.rarar.com/IML-499/fall-2015/readings/The-Craftsman.pdf"
+    },
+    {
+        "title": "The Rise",
+        "author": "Sarah Lewis",
+        "link": "https://archive.org/details/risecreativitygi0000lewi_e7a6"
+    },
+    {
+        "title": "Contagious",
+        "author": "Jonah Berger",
+        "link": "https://archive.org/details/contagiouswhythi0000berg"
+    },
+    {
+        "title": "The Practice",
+        "author": "Seth Godin",
+        "link": "https://archive.org/details/practice0000unse_a5f4"
+    },
+    {
+        "title": "Big Magic",
+        "author": "Elizabeth Gilbert",
+        "link": "https://humanhomework.wordpress.com/wp-content/uploads/2015/12/big-magic-elizabeth-gilbert2.pdf"
+    },
+    {
+        "title": "The Subtle Art of Not Giving a F*ck",
+        "author": "Mark Manson",
+        "link": "https://nibmehub.com/opac-service/pdf/read/The%20Subtle%20Art%20of%20Not%20Giving%20a%20Fck%20A%20Counterintuitive%20Approach%20to%20Living%20a%20Good%20Life%20by%20Mark%20Manson%20(z-lib.org).pdf"
+    },
+    {
+        "title": "Company of One",
+        "author": "Paul Jarvis",
+        "link": "https://public.summaries.com/files/8-page-summary/company-of-one.pdf"
+    },
+    {
+        "title": "The Nature of Order",
+        "author": "Christopher Alexander",
+        "link": "https://www.are.na/block/7034996"
+    },
+    {
+        "title": "The Creative Habit",
+        "author": "Twyla Tharp",
+        "link": "https://courses.washington.edu/art166sp/documents/Spring2012/readings/week_4/TwylaTharp.pdf"
+    },
+    {
+        "title": "A Whole New Mind",
+        "author": "Daniel H. Pink",
+        "link": "https://static1.squarespace.com/static/5df3bc9a62ff3e45ae9d2b06/t/5e4c5a47da07a66aa540498e/1582062153262/A+Whole+New+MInd+-+Pink.pdf"
+    },
+    {
+        "title": "The Thank You Economy",
+        "author": "Gary Vaynerchuk",
+        "link": "https://writerjournalist.wordpress.com/wp-content/uploads/2013/10/the-thank-you-economy-gary-vaynerchuk.pdf"
+    },
+    {
+        "title": "Inspired",
+        "author": "Marty Cagan",
+        "link": "https://github.com/toandv/book_summaries/blob/master/INSPIRED-BY-MARTY-CAGAN-BOOK-SUMMARY-AND-PDF.pdf"
+    },
+    {
+        "title": "Let My People Go Surfing",
+        "author": "Yvon Chouinard",
+        "link": "https://archive.org/details/2019-Let-My-People-Go-Surfing"
+    },
+    {
+        "title": "The Surprising Power of Liberating Structures",
+        "author": "Keith McCandless and Henri Lipmanowicz",
+        "link": "https://www.liberatingstructures.com/"
+    },
+    {
+        "title": "Finite and Infinite Games",
+        "author": "James P. Carse",
+        "link": "https://wtf.tw/ref/carse.pdf"
+    },
+    {
+        "title": "The Elements of Style",
+        "author": "Strunk & White",
+        "link": "https://faculty.washington.edu/heagerty/Courses/b572/public/StrunkWhite.pdf"
+    },
+    {
+        "title": "The Effective Executive",
+        "author": "Peter F. Drucker",
+        "link": "https://dtleadership.my/wp-content/uploads/2019/05/Drucker-2006-The-Effective-Executive-The-Definitive-Guide-to-Getting-the-Right-Things-Done.pdf"
+    },
+    {
+        "title": "This Is Not a T-Shirt",
+        "author": "Bobby Hundreds",
+        "link": "https://www.shortform.com/pdf/this-is-not-a-t-shirt-pdf-bobby-hundreds"
+    },
+    {
+        "title": "The Attention Merchants",
+        "author": "Tim Wu",
+        "link": "https://archive.org/details/attentionmerchan0000wuti_a1k1"
+    },
+    {
+        "title": "How to Do Nothing",
+        "author": "Jenny Odell",
+        "link": "https://www.deveron-projects.com/site_media/uploads/jenny_odell_how_to_do_nothing_-_introduction.pdf"
+    },
+    {
+        "title": "The Laws of Human Nature",
+        "author": "Robert Greene",
+        "link": "https://dn790003.ca.archive.org/0/items/thelawsofhumannaturebyrobertgreene2018/The_Laws_of_Human_Nature_by_Robert_Greene_2018.pdf"
+    },
+    {
+        "title": "The Timeless Way of Building",
+        "author": "Christopher Alexander",
+        "link": "https://library.uniteddiversity.coop/Ecological_Building/The_Timeless_Way_of_Building_Complete.pdf"
+    },
+    {
+        "title": "The Score Takes Care of Itself",
+        "author": "Bill Walsh",
+        "link": "https://archive.org/details/scoretakescareof0000wals"
+    },
+    {
+        "title": "Factfulness",
+        "author": "Hans Rosling",
+        "link": "https://www.aghalibrary.com/storage/books/1609407472_AghaLibrary.pdf"
+    },
+    {
+        "title": "The Courage to Create",
+        "author": "Rollo May",
+        "link": "https://www.thejungletimes.com/page/downloads/files/eBook%20-The%20Courage%20to%20Create%20by%20Dr.%20Rollo%20May.pdf"
+    },
+    {
+        "title": "Shape Up",
+        "author": "Ryan Singer",
+        "link": "https://basecamp.com/shapeup/shape-up.pdf"
+    },
+    {
+        "title": "Never Eat Alone",
+        "author": "Keith Ferrazzi",
+        "link": "https://www.r-5.org/files/books/ethology/corporate/behaviour/Keith_Ferrazzi_Tahl_Raz-Never_Eat_Alone-EN.pdf"
+    },
+    {
+        "title": "How to Win Friends and Influence People",
+        "author": "Dale Carnegie",
+        "link": "https://www.rfpmm.org/pdf/how-to-win-friends-and-influence-people.pdf"
+    },
+    {
+        "title": "The Almanack of Naval Ravikant",
+        "author": "Eric Jorgenson",
+        "link": "https://navalmanack.s3.amazonaws.com/Eric-Jorgenson_The-Almanack-of-Naval-Ravikant_Final.pdf"
+    },
+    {
+        "title": "Range",
+        "author": "David Epstein",
+        "link": "https://github.com/KAYOKG/BibliotecaDev/blob/main/LivrosDev/Range%20-%20Why%20Generalists%20Triumph%20in%20a%20Specialized%20World%20-%20Autor(David%20Epstein).pdf"
+    },
+    {
+        "title": "The Long Game",
+        "author": "Dorie Clark",
+        "link": "https://www.shortform.com/pdf/the-long-game-pdf-dorie-clark"
+    },
+    {
+        "title": "Zen and the Art of Motorcycle Maintenance",
+        "author": "Robert M. Pirsig",
+        "link": "https://www.bartneck.de/projects/research/pirsig/zen.pdf"
+    },
+    {
+        "title": "The Psychology of Computer Programming",
+        "author": "Gerald M. Weinberg",
+        "link": "https://archive.org/details/psychologyofcomp00unse"
+    },
+    {
+        "title": "The Mythical Man-Month",
+        "author": "Frederick Brooks",
+        "link": "https://web.eecs.umich.edu/~weimerw/2018-481/readings/mythical-man-month.pdf"
+    },
+    {
+        "title": "The Road Less Traveled",
+        "author": "M. Scott Peck",
+        "link": "https://archive.org/details/roadlesstraveled00msco_0"
+    },
+    {
+        "title": "Read Write Own: Building the Next Era of the Internet",
+        "author": "Chris Dixon",
+        "link": "https://readwriteown.com/"
+    },
+    {
+        "title": "Influence",
+        "author": "Robert Cialdini",
+        "link": "https://archive.org/download/ThePsychologyOfPersuasion/The%20Psychology%20of%20Persuasion.pdf"
+    },
+    {
+        "title": "The Score Takes Care of Itself",
+        "author": "Bill Walsh",
+        "link": "https://davekraft.org/wp-content/uploads/BILL-WALSH.pdf"
+    },
+    {
+        "title": "The Art of Possibility",
+        "author": "Benjamin Zander",
+        "link": "https://en.wikipedia.org/wiki/Benjamin_Zander"
+    },
+    {
+        "title": "The Power of Full Engagement",
+        "author": "Jim Loehr",
+        "link": "https://books.google.la/books?id=mDxoSmO2nWsC&printsec=frontcover#v=onepage&q&f=false"
+    },
+    {
+        "title": "1,000 True Fans",
+        "author": "Kevin Kelly",
+        "link": "https://kk.org/thetechnium/1000-true-fans/"
+    },
+    {
+        "title": "How to Start a Startup",
+        "author": "Paul Graham",
+        "link": "https://paulgraham.com/start.html"
+    },
+    {
+        "title": "The Day You Became A Better Writer",
+        "author": "Scott Adams",
+        "link": "https://dilbertblog.typepad.com/the_dilbert_blog/2007/06/the_day_you_bec.html"
+    },
+    {
+        "title": "The Bus Ticket Theory of Genius",
+        "author": "Paul Graham",
+        "link": "http://paulgraham.com/genius.html"
+    },
+    {
+        "title": "Interoperability",
+        "author": "Cory Doctorow",
+        "link": "https://locusmag.com/2021/07/cory-doctorow-tech-monopolies-and-the-insufficient-necessity-of-interoperability/"
+    },
+    {
+        "title": "Smart Cities vs. Breaking Smart Cities",
+        "author": "Venkatesh Rao",
+        "link": "https://contraptions.venkateshrao.com/p/smart-cities-vs-breaking-smart-cities"
+    },
+    {
+        "title": "Fat Protocols",
+        "author": "Joel Monegro",
+        "link": "https://www.usv.com/writing/2016/08/fat-protocols/"
+    },
+    {
+        "title": "The Tyranny of Structurelessness",
+        "author": "Jo Freeman",
+        "link": "https://www.jofreeman.com/joreen/tyranny.htm"
+    },
+    {
+        "title": "Status as a Service",
+        "author": "Eugene Wei",
+        "link": "https://www.eugenewei.com/blog/2019/2/19/status-as-a-service"
+    },
+    {
+        "title": "Why Software Is Eating the World",
+        "author": "Marc Andreessen",
+        "link": "https://a16z.com/2011/08/20/why-software-is-eating-the-world/"
+    },
+    {
+        "title": "The Most Important Thing",
+        "author": "Morgan Housel",
+        "link": "https://collabfund.com/blog/three-big-things-the-most-important-forces-shaping-the-world/"
+    },
+    {
+        "title": "The Rise of Worse is Better",
+        "author": "Richard Gabriel",
+        "link": "https://www.dreamsongs.com/RiseOfWorseIsBetter.html"
+    },
+    {
+        "title": "The Almanack",
+        "author": "James Clear",
+        "link": "https://jamesclear.com/decision-making"
+    },
+    {
+        "title": "Smaller Internet for a Better World",
+        "author": "Maciej Ceglowski",
+        "link": "https://publicinfrastructure.org/podcast/42-maciej-ceglowski/"
+    },
+    {
+        "title": "Schlep Blindness",
+        "author": "Paul Graham",
+        "link": "http://paulgraham.com/schlep.html"
+    },
+    {
+        "title": "Building an Online Community",
+        "author": "Sahra Kahim",
+        "link": "https://www.theseus.fi/handle/10024/872616"
+    },
+    {
+        "title": "Harnessing the Power of Defaults",
+        "author": "Australia Gov",
+        "link": "https://behaviouraleconomics.pmc.gov.au/sites/default/files/resources/harnessing-power-defaults.pdf"
+    },
+    {
+        "title": "The Product Shaping Handbook",
+        "author": "Ryan Singer",
+        "link": "https://basecamp.com/shapeup"
+    },
+    {
+        "title": "The Elephant in the Room",
+        "author": "Nassim Taleb",
+        "link": "https://asiasociety.org/hong-kong/nassim-nicholas-taleb-elephant-room-0"
+    },
+    {
+        "title": "The Value Chain of the Open Metaverse",
+        "author": "Packy McCormick",
+        "link": "https://www.notboring.co/p/the-value-chain-of-the-open-metaverse"
+    },
+    {
+        "title": "The Digital Maginot Line",
+        "author": "Renee DiResta",
+        "link": "https://www.ribbonfarm.com/2018/11/28/the-digital-maginot-line/"
+    },
+    {
+        "title": "The Great Online Game",
+        "author": "Packy McCormick",
+        "link": "https://www.notboring.co/p/the-great-online-game"
+    },
+    {
+        "title": "The Idea Maze",
+        "author": "Chris Dixon",
+        "link": "https://cdixon.org/2013/08/04/the-idea-maze"
+    },
+    {
+        "title": "The Ladder of Abstraction",
+        "author": "Bret Victor",
+        "link": "http://worrydream.com/LadderOfAbstraction/"
+    },
+    {
+        "title": "The Network State",
+        "author": "Balaji Srinivasan",
+        "link": "https://thenetworkstate.com/"
+    },
+    {
+        "title": "The Creator Economy",
+        "author": "Li Jin",
+        "link": "https://perell.com/podcast/li-jin-creating-the-creator-economy/"
+    },
+    {
+        "title": "The Gervais Principle",
+        "author": "Venkatesh Rao",
+        "link": "https://www.ribbonfarm.com/the-gervais-principle/"
+    },
+    {
+        "title": "Markets Are Eating The World",
+        "author": "Alex Danco",
+        "link": "https://knowen.org/nodes/26626"
+    },
+    {
+        "title": "The Bullish Case for Crypto",
+        "author": "Vijay Boyapati",
+        "link": "https://vijayboyapati.medium.com/the-bullish-case-for-bitcoin-6ecc8bdecc1"
+    },
+    {
+        "title": "Radio Darden",
+        "author": "Worldwide Radio",
+        "link": "https://radio.garden/visit/gander/IqHniEXr"
+    },
+    {
+        "title": "It's Time to Build",
+        "author": "Marc Andreessen",
+        "link": "https://a16z.com/2020/04/18/its-time-to-build/"
+    },
+    {
+        "title": "The Power of Pull",
+        "author": "John Hagel",
+        "link": "https://edgeperspectives.typepad.com/edge_perspectives/2010/04/the-power-of-pull.html"
+    },
+    {
+        "title": "Why Decentralization Matters",
+        "author": "Chris Dixon",
+        "link": "https://storeofvalue.substack.com/p/why-decentralization-matters-chris"
+    },
+    {
+        "title": "Yentalist",
+        "author": "Remote Jobs",
+        "link": "https://yentalist.com/"
+    },
+    {
+        "title": "The Tokens Are My Profits",
+        "author": "Fred Ehrsam",
+        "link": "https://www.youtube.com/watch?v=rktHO5R8Y9c"
+    },
+    {
+        "title": "Mochary Method Curriculum",
+        "author": "Matt Mochary",
+        "link": "https://docs.google.com/document/d/18FiJbYn53fTtPmphfdCKT2TMWH-8Y2L-MLqDk-MFV4s/edit?tab=t.0#"
+    },
+    {
+        "title": "The Ownership Economy",
+        "author": "Jesse Walden",
+        "link": "https://variant.fund/the-ownership-economy-crypto-and-consumer-software"
+    },
+    {
+        "title": "The Great Online Game",
+        "author": "Not Boring",
+        "link": "https://www.notboring.co/p/the-great-online-game"
+    },
+    {
+        "title": "A Prehistory of DAOs",
+        "author": "Gnosis",
+        "link": "https://gnosisguild.mirror.xyz/t4F5rItMw4-mlpLZf5JQhElbDfQ2JRVKAzEpanyxW1Q"
+    },
+    {
+        "title": "The Product-Community Fit",
+        "author": "Linda Xie",
+        "link": "https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d"
+    },
+    {
+        "title": "Building Community Leadership: A Guide",
+        "author": "Jono Bacon",
+        "link": "https://www.jonobacon.com/2018/07/10/video-building-community-leadership/"
+    },
+    {
+        "title": "The Pseudonymous Economy",
+        "author": "Balaji Srinivasan",
+        "link": "https://www.bestofbalaji.com/concepts/pseudoanonymous-economy"
+    },
+    {
+        "title": "Minimum Viable Economy",
+        "author": "Nick Grossman",
+        "link": "https://nickgrossman.xyz/minimum-viable-economy"
+    },
+    {
+        "title": "The Great Online Game",
+        "author": "Packy McCormick",
+        "link": "https://www.notboring.co/p/the-great-online-game"
+    },
+    {
+        "title": "Dark Side of the Lens",
+        "author": "A Blaze of Feather",
+        "link": "https://vimeo.com/14074949"
+    },
+    {
+        "title": "The Evolution of the Creator",
+        "author": "Rex Woodbury",
+        "link": "https://www.digitalnative.tech/p/the-evolution-of-the-creator?utm_source=publication-search"
+    },
+    {
+        "title": "The Story of Us",
+        "author": "Wait But Why",
+        "link": "https://waitbutwhy.com/2019/08/story-of-us.html"
+    },
+    {
+        "title": "The Ponzi Career",
+        "author": "Poleg",
+        "link": "https://www.drorpoleg.com/the-ponzi-career/"
+    },
+    {
+        "title": "The Sovereign Individual",
+        "author": "David Friedman",
+        "link": "https://en.wikipedia.org/wiki/The_Sovereign_Individual"
+    },
+    {
+        "title": "The Market for Something to Believe In",
+        "author": "Eugene Wei",
+        "link": "https://www.eugenewei.com/"
+    },
+    {
+        "title": "Shamelessness as a strategy",
+        "author": "Nadia Eghbal",
+        "link": "https://nadia.xyz/shameless"
+    },
+    {
+        "title": "a16z Jobs Board",
+        "author": "a16z",
+        "link": "https://jobs.a16z.com/companies?industries=American+Dynamism"
+    },
+    {
+        "title": "Small b Blogging",
+        "author": "Tom Critchlow",
+        "link": "https://tomcritchlow.com/2018/02/23/small-b-blogging/"
+    },
+    {
+        "title": "The Magic of Small Experiments",
+        "author": "Anne-Laure Le Cunff",
+        "link": "https://nesslabs.com/?s=small+experiments+"
+    },
+    {
+        "title": "Pickaxe Project",
+        "author": "Pickaxe",
+        "link": "https://www.pickaxeproject.com/"
+    },
+    {
+        "title": "Public Work",
+        "author": "Public.Work",
+        "link": "https://public.work/machine"
+    },
+    {
+        "title": "The Metaverse",
+        "author": "Matthew Ball",
+        "link": "https://www.matthewball.co/the-metaverse"
+    },
+    {
+        "title": "176 Patterns",
+        "author": "UIverse",
+        "link": "https://uiverse.io/patterns?t=css"
+    },
+    {
+        "title": "How community accelerates GTM",
+        "author": "CMX Hub",
+        "link": "https://www.cmxhub.com/blog/dani-hao-on-how-apollo-io-leverages-community-to-drive-gtm-success"
+    },
+    {
+        "title": "The End of Organizing",
+        "author": "Shipper",
+        "link": "https://every.to/chain-of-thought/the-end-of-organizing"
+    },
+    {
+        "title": "Memberships Work",
+        "author": "Craig Mod",
+        "link": "https://craigmod.com/essays/memberships_work/"
+    },
+    {
+        "title": "Purple DAO",
+        "author": "Purple",
+        "link": "https://nouns.build/dao/base/0x8de71d80ee2c4700bc9d4f8031a2504ca93f7088/609"
+    },
+    {
+        "title": "Shape Type",
+        "author": "UI",
+        "link": "https://shape.method.ac/"
+    },
+    {
+        "title": "The Rise of The Curator Economy",
+        "author": "Kazuki Nakayashiki",
+        "link": "https://medium.com/@kazuki_sf_/the-rise-of-the-curator-economy-5a40ebfe14d"
+    },
+    {
+        "title": "The Dark Forest Theory",
+        "author": "Yancey Strickler",
+        "link": "https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1"
+    },
+    {
+        "title": "The Creator Manifesto",
+        "author": "Rex Woodbury",
+        "link": "https://www.digitalnative.tech/p/the-creator-manifesto-?utm_source=publication-search"
+    },
+    {
+        "title": "What To Do With Your Life",
+        "author": "Julian Shapiro",
+        "link": "https://www.julian.com/blog/life-planning"
+    },
+    {
+        "title": "Business News",
+        "author": "BizToc",
+        "link": "https://biztoc.com/"
+    },
+    {
+        "title": "Internet Trends",
+        "author": "Mary Meeker",
+        "link": "https://www.bondcap.com/#internettrends"
+    },
+    {
+        "title": "Untitled",
+        "author": "Packy McCormick",
+        "link": "https://www.notboring.co/p/untitled"
+    },
+    {
+        "title": "The Power of Digital Gardens",
+        "author": "Maggie Appleton",
+        "link": "https://maggieappleton.com/garden-history"
+    },
+    {
+        "title": "The Art of Gathering",
+        "author": "Priya Parker",
+        "link": "https://www.priyaparker.com/gathering-toolkit"
+    },
+    {
+        "title": "Proof You Can Do Hard Things",
+        "author": "Nat Eliason",
+        "link": "https://blog.nateliason.com/p/proof-you-can-do-hard-things"
+    },
+    {
+        "title": "(How) Can We Thrive Under Capitalism?",
+        "author": "Nora Rahimian",
+        "link": "https://medium.com/@norarahimian/how-can-we-thrive-under-capitalism-6886737862b2"
+    },
+    {
+        "title": "Law of Universal Uniqueness",
+        "author": "Kevin Kelly",
+        "link": "https://kk.org/thetechnium/law-of-universal-uniqueness/"
+    },
+    {
+        "title": "The end of my childhood",
+        "author": "Vitalik Buterin",
+        "link": "https://vitalik.eth.limo/general/2024/01/31/end.html"
+    },
+    {
+        "title": "The Most Important Scarce Resource is Legitimacy",
+        "author": "Vitalik Buterin",
+        "link": "https://vitalik.eth.limo/general/2021/03/23/legitimacy.html"
+    },
+    {
+        "title": "Against Web3 Maximalism",
+        "author": "Vitalik Buterin",
+        "link": "https://vitalik.eth.limo/general/2022/04/01/maximalist.html"
+    },
+    {
+        "title": "The Loneliest Plant In The World",
+        "author": "Robert Krulwich",
+        "link": "https://www.npr.org/sections/krulwich/2011/05/10/136029423/the-loneliest-plant-in-the-world"
+    },
+    {
+        "title": "The Power of Creator DAOs",
+        "author": "EVOA",
+        "link": "https://evoa.xyz/the-power-of-creator-daos-empowering-content-creators/"
+    },
+    {
+        "title": "The Future of Digital Identity",
+        "author": "Deloitte",
+        "link": "https://www.deloitte.com/na/en/services/risk-advisory/perspectives/the-future-of-digital-identity.html"
+    },
+    {
+        "title": "How Communities Die",
+        "author": "Erik Torenberg",
+        "link": "https://eriktorenberg.substack.com/p/how-communities-die?utm_source=publication-search"
+    },
+    {
+        "title": "Genuine Dead",
+        "author": "Grateful Dead Fan Site",
+        "link": "https://genuinedead.club"
+    },
+    {
+        "title": "White Christian America Needs a Moral Awakening",
+        "author": "Robert P. Jones",
+        "link": "https://www.theatlantic.com/ideas/archive/2020/07/white-christian-america-needs-moral-awakening/614641/"
+    },
+    {
+        "title": "The Squad Wealth Manifesto",
+        "author": "Other Internet",
+        "link": "https://otherinter.net/squad-wealth/"
+    },
+    {
+        "title": "In Defense of Strategy",
+        "author": "Packy McCormick",
+        "link": "https://www.notboring.co/p/in-defense-of-strategy"
+    },
+    {
+        "title": "The Case for Investing in Digital Public Infrastructure",
+        "author": "Bhaskar Chakravorti",
+        "link": "https://hbr.org/2023/05/the-case-for-investing-in-digital-public-infrastructure"
+    },
+    {
+        "title": "Higher Tools",
+        "author": "Nishu",
+        "link": "https://tools.nishu.dev/higher"
+    },
+    {
+        "title": "Community Capitalism",
+        "author": "R1cburton",
+        "link": "https://ricburton.substack.com/p/community-capitalism"
+    },
+    {
+        "title": "Ethereum is a Dark Forest",
+        "author": "Paradigm",
+        "link": "https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest"
+    },
+    {
+        "title": "careers and opportunities in the Paradigm universe.",
+        "author": "Paradigm",
+        "link": "https://www.paradigm.xyz/careers"
+    },
+    {
+        "title": "tooooools",
+        "author": "Design Tools",
+        "link": "https://www.tooooools.app/"
+    },
+    {
+        "title": "The Headless Brand",
+        "author": "Other Internet",
+        "link": "https://otherinter.net/research/headless-brands/"
+    },
+    {
+        "title": "Modeling the Drivers of the Metacrisis",
+        "author": "Daniel Schmachtenberger",
+        "link": "https://civilizationemerging.com/media/modeling-the-drivers-of-the-metacrisis/"
+    },
+    {
+        "title": "Tokenizing Our Desires",
+        "author": "Donovan Choy",
+        "link": "https://www.bankless.com/tokenizing-our-desires"
+    },
+    {
+        "title": "The Value Prop",
+        "author": "Polygon Labs",
+        "link": "https://thevalueprop.io/"
+    },
+    {
+        "title": "Silicon Valley’s Youth Problem",
+        "author": "NYT",
+        "link": "https://www.nytimes.com/2014/03/16/magazine/silicon-valleys-youth-problem.html"
+    },
+    {
+        "title": "Logggos",
+        "author": "Logo Database",
+        "link": "https://www.logggos.club/"
+    },
+    {
+        "title": "Rules of Thumb for Social Learning",
+        "author": "Glenn Ellison and Drew Fudenberg",
+        "link": "https://www.journals.uchicago.edu/doi/10.1086/261890"
+    },
+    {
+        "title": "Armpit Futures",
+        "author": "Venkatesh Rao",
+        "link": "https://www.ribbonfarm.com/2018/07/24/armpit-futures/"
+    },
+    {
+        "title": "The Nature of the Firm",
+        "author": "Ronald Coase",
+        "link": "https://www.jstor.org/stable/2626876"
+    },
+    {
+        "title": "The Cathedral and the Bazaar",
+        "author": "Eric S. Raymond",
+        "link": "http://www.catb.org/~esr/writings/cathedral-bazaar/"
+    },
+    {
+        "title": "Mapping the Creator Economy",
+        "author": "SignalFire Research",
+        "link": "https://signalfire.com/blog/creator-economy/"
+    },
+    {
+        "title": "The Theory of the Long Tail",
+        "author": "Chris Anderson",
+        "link": "https://www.wired.com/2004/10/tail/"
+    },
+    {
+        "title": "The Economics of Superstars",
+        "author": "Sherwin Rosen",
+        "link": "https://www.jstor.org/stable/1803469"
+    },
+    {
+        "title": "Decentralized Society",
+        "author": "E. Glen Weyl et al.",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763"
+    },
+    {
+        "title": "The Market for Lemons",
+        "author": "George Akerlof",
+        "link": "https://www.jstor.org/stable/1879431"
+    },
+    {
+        "title": "Why Fashion Is Rushing to Create 3D Captures of Its Products",
+        "author": "Business of Fashion",
+        "link": "https://www.businessoffashion.com/articles/technology/why-fashion-is-rushing-to-create-3d-captures-of-its-products/"
+    },
+    {
+        "title": "Networks, Crowds, and Markets",
+        "author": "Easley & Kleinberg",
+        "link": "https://www.cs.cornell.edu/home/kleinber/networks-book/"
+    },
+    {
+        "title": "12ft Ladder",
+        "author": "Paywall Helper",
+        "link": "https://12ft.io/"
+    },
+    {
+        "title": "The Psychology of Security",
+        "author": "Bruce Schneier",
+        "link": "https://www.schneier.com/wp-content/uploads/2015/08/paper-psychology-of-security.pdf"
+    },
+    {
+        "title": "Web 3.0 and the Future of Trust",
+        "author": "Ali Yahya",
+        "link": "https://a16z.com/web-3-0-and-the-future-of-trust/"
+    },
+    {
+        "title": "The Future of Work",
+        "author": "MIT Sloan Review",
+        "link": "https://sloanreview.mit.edu/article/the-future-of-work/"
+    },
+    {
+        "title": "Same Energy",
+        "author": "Same Energy",
+        "link": "https://same.energy/"
+    },
+    {
+        "title": "Pollution and Labor Market Search Externalities Over the Business Cycle",
+        "author": "NBER",
+        "link": "https://www.nber.org/papers/w27445"
+    },
+    {
+        "title": "Nonmarket Economies",
+        "author": "Sen. H. John Heinz III",
+        "link": "https://digitalcollections.library.cmu.edu/node/202929?search_api_fulltext=attention%20economy"
+    },
+    {
+        "title": "NFTs and the Future of Art",
+        "author": "Christie's Art",
+        "link": "https://www.christies.com/features/A-Guide-to-Collecting-NFTs-11654-1.aspx"
+    },
+    {
+        "title": "The Big Idea",
+        "author": "Harvard Business Review",
+        "link": "https://hbr.org/big-ideas"
+    },
+    {
+        "title": "Network Effects Manual",
+        "author": "NFX Research",
+        "link": "https://www.nfx.com/post/network-effects-manual"
+    },
+    {
+        "title": "SCVNGR's Secret Game Mechanics Playdeck",
+        "author": "TechCrunch",
+        "link": "https://techcrunch.com/2010/08/25/scvngr-game-mechanics/"
+    },
+    {
+        "title": "Frank Zappa",
+        "author": "Twitter",
+        "link": "https://x.com/cjtackett/status/1637436016637140995?s=20"
+    },
+    {
+        "title": "Publications",
+        "author": "UNESCO Research",
+        "link": "https://en.unesco.org/creativity/publications"
+    },
+    {
+        "title": "Virtual Worlds: A First-Hand Account",
+        "author": "Edward Castronova",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=294828"
+    },
+    {
+        "title": "The Rise of Platform Cooperativism",
+        "author": "Trebor Scholz",
+        "link": "https://www.jstor.org/stable/j.ctv62hfq7"
+    },
+    {
+        "title": "Digital Commons Research",
+        "author": "P2P Foundation",
+        "link": "https://wiki.p2pfoundation.net/Digital_Commons"
+    },
+    {
+        "title": "Designing across the scale, imagining a transformative future",
+        "author": "MIT Media Lab",
+        "link": "https://www.media.mit.edu/groups/critical-matter/overview/"
+    },
+    {
+        "title": "Coordination, Good and Bad",
+        "author": "Vitalik Buterin",
+        "link": "https://vitalik.eth.limo/general/2020/09/11/coordination.html#:~:text=Sometimes%2C%20more%20coordination%20is%20good,coordinate%20to%20disenfranchise%20everyone%20else."
+    },
+    {
+        "title": "A Conceptual Framework for Cryptographic Asset Taxonomies",
+        "author": "MIT Digital Currency Initiative",
+        "link": "https://dci.mit.edu/dci-news/2020/2/21/tokenspace-a-conceptual-framework-for-cryptographic-asset-taxonomies-by-dcis-dr-wassim-z-alsindi?rq=token"
+    },
+    {
+        "title": "Demystifying Technology. Do Smart Contracts Require a New Legal Framework?",
+        "author": "Marco Dell'Erba",
+        "link": "https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3228445"
+    },
+    {
+        "title": "Insights by Standford",
+        "author": "Stanford GSB",
+        "link": "https://www.gsb.stanford.edu/insights/"
+    },
+    {
+        "title": "Oxford Internet Institute",
+        "author": "Oxford University",
+        "link": "https://www.oii.ox.ac.uk/research/"
+    },
+    {
+        "title": "Research at USC Annenberg",
+        "author": "USC Annenberg",
+        "link": "https://annenberg.usc.edu/research"
+    },
+    {
+        "title": "Decentralized Autonomous Society",
+        "author": "P2P Foundation",
+        "link": "https://wiki.p2pfoundation.net/Decentralized_Autonomous_Society"
+    },
+    {
+        "title": "CBS Insights",
+        "author": "Columbia Business School",
+        "link": "https://www8.gsb.columbia.edu/articles/digital-art-economics"
+    },
+    {
+        "title": "UAL Research",
+        "author": "London College of Fashion",
+        "link": "https://www.arts.ac.uk/research"
+    },
+    {
+        "title": "Cryptoeconomic Systems",
+        "author": "MIT Cryptoeconomic Systems",
+        "link": "https://cryptoeconomicsystems.pubpub.org/"
+    },
+    {
+        "title": "The Next Social Revolution: Unlocking the Value of Decentralized Networks",
+        "author": "Berkeley Haas",
+        "link": "https://cmr.berkeley.edu/2024/11/the-next-social-revolution-unlocking-the-value-of-decentralized-networks/"
+    },
+    {
+        "title": "Microsoft Research",
+        "author": "Microsoft Research",
+        "link": "https://www.microsoft.com/en-us/research/"
+    },
+    {
+        "title": "Kellogg Academics & Research",
+        "author": "Northwestern Kellogg",
+        "link": "https://www.kellogg.northwestern.edu/research/"
+    },
+    {
+        "title": "Belief & Progress || the New Technologist Manifesto",
+        "author": "Reggie James",
+        "link": "https://hipcityreg.substack.com/p/belief-and-progress-the-new-technologist"
+    },
+    {
+        "title": "Profiles of energetic muons in the atmosphere",
+        "author": "Cornell University",
+        "link": "https://arxiv.org/abs/2106.12247"
+    },
+    {
+        "title": "UCL Research",
+        "author": "UCL",
+        "link": "https://www.ucl.ac.uk/research/"
+    },
+    {
+        "title": "Network State Theory",
+        "author": "Balaji Srinivasan",
+        "link": "https://thenetworkstate.com/"
+    },
+    {
+        "title": "Digital Commons Network",
+        "author": "DCN",
+        "link": "https://network.bepress.com/"
+    },
+    {
+        "title": "Positive Sum Worlds: Remaking Public Goods",
+        "author": "Other Internet",
+        "link": "https://otherinter.net/research/positive-sum-worlds/"
+    },
+    {
+        "title": "Yale Research",
+        "author": "Yale SOM",
+        "link": "https://som.yale.edu/research"
+    },
+    {
+        "title": "NYU Research",
+        "author": "NYU Tisch",
+        "link": "https://tisch.nyu.edu/research"
+    },
+    {
+        "title": "Ethereum Whitepaper",
+        "author": "Ethereum Foundation",
+        "link": "https://ethereum.org/en/whitepaper/"
+    },
+    {
+        "title": "Raid Guild Handbook",
+        "author": "Raid Guild",
+        "link": "https://handbook.raidguild.org/"
+    },
+    {
+        "title": "Community Coordination Systems",
+        "author": "RadicalxChange",
+        "link": "https://www.radicalxchange.org/"
+    },
+    {
+        "title": "Design Innovation Methodology Handbook",
+        "author": "Singapore University of Technology and Design",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4508284"
+    },
+    {
+        "title": "The Evolution of Trust",
+        "author": "Nicky Case",
+        "link": "https://ncase.me/trust/"
+    },
+    {
+        "title": "Columbia Law Review",
+        "author": "Columbia Law Review",
+        "link": "https://columbialawreview.org/"
+    },
+    {
+        "title": "LSE",
+        "author": "London School of Economics",
+        "link": "https://www.lse.ac.uk/Research"
+    },
+    {
+        "title": "Sheila Warren",
+        "author": "Sheila Warren",
+        "link": "https://cryptoforinnovation.org/team/"
+    },
+    {
+        "title": "Forefront Research",
+        "author": "Forefront Research",
+        "link": "https://forefrontresearch.net/"
+    },
+    {
+        "title": "Andreessen Horowitz",
+        "author": "Andreessen Horowitz",
+        "link": "https://a16z.com/"
+    },
+    {
+        "title": "The Business of Fashion",
+        "author": "The Business of Fashion",
+        "link": "https://www.businessoffashion.com/"
+    },
+    {
+        "title": "Li Jin",
+        "author": "Li Jin",
+        "link": "https://www.li.substack.com/"
+    },
+    {
+        "title": "Protocol Labs",
+        "author": "Protocol Labs",
+        "link": "https://protocol.ai/"
+    },
+    {
+        "title": "Dan Ariely",
+        "author": "Dan Ariely",
+        "link": "https://danariely.com/"
+    },
+    {
+        "title": "Ethereum Foundation",
+        "author": "Ethereum Foundation",
+        "link": "https://ethereum.org/en/foundation/"
+    },
+    {
+        "title": "National Bureau of Economic Research (NBER)",
+        "author": "National Bureau of Economic Research (NBER)",
+        "link": "https://www.nber.org/"
+    },
+    {
+        "title": "Wharton Research",
+        "author": "Wharton Research",
+        "link": "https://research.wharton.upenn.edu/"
+    },
+    {
+        "title": "Edward Castronova",
+        "author": "Edward Castronova",
+        "link": "https://edwardcastronova.com/"
+    },
+    {
+        "title": "MIT Media Lab",
+        "author": "MIT Media Lab",
+        "link": "https://www.media.mit.edu/"
+    },
+    {
+        "title": "Other Internet",
+        "author": "Other Internet",
+        "link": "https://otherinter.net/"
+    },
+    {
+        "title": "Christie's",
+        "author": "Christie's",
+        "link": "https://www.christies.com/"
+    },
+    {
+        "title": "UNESCO",
+        "author": "UNESCO",
+        "link": "https://en.unesco.org/"
+    },
+    {
+        "title": "ConsenSys Research",
+        "author": "ConsenSys Research",
+        "link": "https://consensys.net/research/"
+    },
+    {
+        "title": "Fashion Institute of Technology (FIT)",
+        "author": "Fashion Institute of Technology (FIT)",
+        "link": "https://www.fitnyc.edu/"
+    },
+    {
+        "title": "BlockScience",
+        "author": "BlockScience",
+        "link": "https://block.science/"
+    },
+    {
+        "title": "Harvard Business Review",
+        "author": "Harvard Business Review",
+        "link": "https://hbr.org/"
+    },
+    {
+        "title": "P2P Foundation",
+        "author": "P2P Foundation",
+        "link": "https://p2pfoundation.net/"
+    },
+    {
+        "title": "Royal College of Art",
+        "author": "Royal College of Art",
+        "link": "https://www.rca.ac.uk/"
+    },
+    {
+        "title": "UC Berkeley",
+        "author": "UC Berkeley",
+        "link": "https://www.berkeley.edu/"
+    },
+    {
+        "title": "Balaji Srinivasan",
+        "author": "Balaji Srinivasan",
+        "link": "https://balajis.com/"
+    },
+    {
+        "title": "Central Saint Martins",
+        "author": "Central Saint Martins",
+        "link": "https://www.arts.ac.uk/colleges/central-saint-martins"
+    },
+    {
+        "title": "Independent Researcher Group",
+        "author": "Independent Researcher Group",
+        "link": "https://independent.academia.edu/"
+    },
+    {
+        "title": "Social Fabric Research",
+        "author": "Social Fabric Research",
+        "link": "https://socialfabric.com/"
+    },
+    {
+        "title": "Token Engineering Academy",
+        "author": "Token Engineering Academy",
+        "link": "https://tokenengineering.net/"
+    },
+    {
+        "title": "Sotheby's",
+        "author": "Sotheby's",
+        "link": "https://www.sothebys.com/"
+    },
+    {
+        "title": "MIT Collective Intelligence",
+        "author": "MIT Collective Intelligence",
+        "link": "https://collective.mit.edu/"
+    },
+    {
+        "title": "Identity Foundation",
+        "author": "Identity Foundation",
+        "link": "https://identity.foundation/"
+    },
+    {
+        "title": "Creator Economy DAO",
+        "author": "Creator Economy DAO",
+        "link": "https://creatoreconomydao.com/"
+    },
+    {
+        "title": "Metagovernance Project",
+        "author": "Metagovernance Project",
+        "link": "https://metagov.org/"
+    },
+    {
+        "title": "Oxford Internet Institute",
+        "author": "Oxford Internet Institute",
+        "link": "https://www.oii.ox.ac.uk/"
+    },
+    {
+        "title": "Brand Research Lab",
+        "author": "Brand Research Lab",
+        "link": "https://brandresearchlab.com/"
+    },
+    {
+        "title": "ZenPen",
+        "author": "ZenPen",
+        "link": "https://zenpen.io/"
+    },
+    {
+        "title": "The Web Project Guide",
+        "author": "TWPG",
+        "link": "https://webproject.guide/"
+    },
+    {
+        "title": "HIDDEN.RSRCH Interview",
+        "author": "Phillip T. Annand",
+        "link": "https://www.hiddenrsrch.com/p/hiddenrsrch-interview-phillip-t-annand"
+    },
+    {
+        "title": "Creator Cooperatives",
+        "author": "Platform Cooperativism",
+        "link": "https://platform.coop/research"
+    },
+    {
+        "title": "Social Research Lab",
+        "author": "Social Research Lab",
+        "link": "https://socialresearch.org"
+    },
+    {
+        "title": "Token Research Group",
+        "author": "Token Research Group",
+        "link": "https://tokenresearch.org"
+    },
+    {
+        "title": "Craft Research Center",
+        "author": "Craft Research Center",
+        "link": "https://craftresearch.org"
+    },
+    {
+        "title": "Creator Economy Institute",
+        "author": "Creator Economy Institute",
+        "link": "https://cei.research"
+    },
+    {
+        "title": "Digital Fashion Group",
+        "author": "Digital Fashion Group",
+        "link": "https://digitalfashion.org"
+    },
+    {
+        "title": "Growth Research Lab",
+        "author": "Growth Research Lab",
+        "link": "https://growthlab.research"
+    },
+    {
+        "title": "Art & Technology Lab",
+        "author": "Art & Technology Lab",
+        "link": "https://arttech.research"
+    },
+    {
+        "title": "Digital Craft Institute",
+        "author": "Digital Craft Institute",
+        "link": "https://digitalcraft.org"
+    },
+    {
+        "title": "The Power of Communities",
+        "author": "Petra Dassen",
+        "link": "https://www.youtube.com/watch?v=ksg9YoBS3XQ"
+    },
+    {
+        "title": "The Power of Vulnerability",
+        "author": "Brené Brown",
+        "link": "https://www.youtube.com/watch?v=iCvmsMzlF7o"
+    },
+    {
+        "title": "Do Schools Kill Creativity?",
+        "author": "Sir Ken Robinson",
+        "link": "https://www.youtube.com/watch?v=iG9CE55wbtY"
+    },
+    {
+        "title": "Your Elusive Creative Genius",
+        "author": "Elizabeth Gilbert",
+        "link": "https://www.youtube.com/watch?v=86x-u-tz0MA"
+    },
+    {
+        "title": "The Surprising Habits of Original Thinkers",
+        "author": "Adam Grant",
+        "link": "https://www.youtube.com/watch?v=fxbCHn6gE3U"
+    },
+    {
+        "title": "How Great Leaders Inspire Action",
+        "author": "Simon Sinek",
+        "link": "https://www.youtube.com/watch?v=qp0HIF3SfI4"
+    },
+    {
+        "title": "The Puzzle of Motivation",
+        "author": "Dan Pink",
+        "link": "https://www.youtube.com/watch?v=rrkrvAUbU9Y"
+    },
+    {
+        "title": "Grit: The Power of Passion and Perseverance",
+        "author": "Angela Lee Duckworth",
+        "link": "https://www.youtube.com/watch?v=H14bBuluwB8"
+    },
+    {
+        "title": "The Power of Introverts",
+        "author": "Susan Cain",
+        "link": "https://www.youtube.com/watch?v=c0KYU2j0TM4"
+    },
+    {
+        "title": "What Makes a Good Life? Lessons from the Longest Study on Happiness",
+        "author": "Robert Waldinger",
+        "link": "https://www.youtube.com/watch?v=8KkKuTCFvzI"
+    },
+    {
+        "title": "The Art of Stillness",
+        "author": "Pico Iyer",
+        "link": "https://www.youtube.com/watch?v=aUBawr1hUwo"
+    },
+    {
+        "title": "The Power of Believing That You Can Improve",
+        "author": "Carol Dweck",
+        "link": "https://www.youtube.com/watch?v=_X0mgOOSpLU"
+    },
+    {
+        "title": "The Happy Secret to Better Work",
+        "author": "Shawn Achor",
+        "link": "https://www.youtube.com/watch?v=fLJsdqxnZb0"
+    },
+    {
+        "title": "No Jerks Club",
+        "author": "NJC",
+        "link": "https://nojerksclub.com/"
+    },
+    {
+        "title": "The Transformative Power of Classical Music",
+        "author": "Benjamin Zander",
+        "link": "https://www.youtube.com/watch?v=r9LCwI5iErE"
+    },
+    {
+        "title": "The Power of Time Off",
+        "author": "Stefan Sagmeister",
+        "link": "https://www.youtube.com/watch?v=MNuOmTQdFjA"
+    },
+    {
+        "title": "The Beauty of Being a Misfit",
+        "author": "Lidia Yuknavitch",
+        "link": "https://www.youtube.com/watch?v=3sK3wJAxGfs"
+    },
+    {
+        "title": "The Danger of a Single Story",
+        "author": "Chimamanda Ngozi Adichie",
+        "link": "https://www.youtube.com/watch?v=D9Ihs241zeg"
+    },
+    {
+        "title": "The Power of Mindfulness: What You Practice Grows Stronger",
+        "author": "Shauna Shapiro",
+        "link": "https://www.youtube.com/watch?v=IeblJdB2-Vo"
+    },
+    {
+        "title": "The Skill of Self Confidence",
+        "author": "Dr. Ivan Joseph",
+        "link": "https://www.youtube.com/watch?v=w-HYZv6HzAs"
+    },
+    {
+        "title": "Kaytranada",
+        "author": "Boiler Room",
+        "link": "https://www.youtube.com/watch?v=-5EQIiabJvk"
+    },
+    {
+        "title": "The Power of Belief",
+        "author": "Eduardo Briceno",
+        "link": "https://www.youtube.com/watch?v=pN34FNbOKXc"
+    },
+    {
+        "title": "Vashtie at 214 Mulberry",
+        "author": "Aimé Leon Dore",
+        "link": "https://www.youtube.com/watch?v=_7bjGzbRYKk&t=276s"
+    },
+    {
+        "title": "The Power of Passion and Perseverance",
+        "author": "Angela Duckworth",
+        "link": "https://www.youtube.com/watch?v=H14bBuluwB8"
+    },
+    {
+        "title": "Rick Rubin Shares His Secrets for Creativity",
+        "author": "Joe",
+        "link": "https://youtu.be/36L9cYkHyZM?si=tk3Cf8Pq1rVoYzt_"
+    },
+    {
+        "title": "Why We Do What We Do",
+        "author": "Tony Robbins",
+        "link": "https://www.ted.com/talks/tony_robbins_why_we_do_what_we_do"
+    },
+    {
+        "title": "The Danger of a Single Story",
+        "author": "Chimamanda Ngozi Adichie",
+        "link": "https://www.youtube.com/watch?v=D9Ihs241zeg"
+    },
+    {
+        "title": "Inside the Mind of a Master Procrastinator",
+        "author": "Tim Urban",
+        "link": "https://www.youtube.com/watch?v=arj7oStGLkU"
+    },
+    {
+        "title": "Success is a Continuous Journey",
+        "author": "Richard St. John",
+        "link": "https://www.ted.com/talks/richard_st_john_success_is_a_continuous_journey"
+    },
+    {
+        "title": "Your Body Language Shapes Who You Are",
+        "author": "Amy Cuddy",
+        "link": "https://www.youtube.com/watch?v=Ks-_Mh1QhMc"
+    },
+    {
+        "title": "Try Something New for 30 Days",
+        "author": "Matt Cutts",
+        "link": "https://www.youtube.com/watch?v=JnfBXjWm7hc"
+    },
+    {
+        "title": "How to Spot a Liar",
+        "author": "Pamela Meyer",
+        "link": "https://www.youtube.com/watch?v=P_6vDLq64gE"
+    },
+    {
+        "title": "The Hidden Power of Smiling",
+        "author": "Ron Gutman",
+        "link": "https://www.youtube.com/watch?v=U9cGdRNMdQQ"
+    },
+    {
+        "title": "The Game That Can Give You 10 Extra Years of Life",
+        "author": "Jane McGonigal",
+        "link": "https://www.youtube.com/watch?v=lfBpsV1Hwqs"
+    },
+    {
+        "title": "The Science of Happiness",
+        "author": "Dan Gilbert",
+        "link": "https://www.youtube.com/watch?v=4q1dgn_C0AU"
+    },
+    {
+        "title": "Meetings That Don't Suck",
+        "author": "Google Ventures",
+        "link": "https://www.youtube.com/watch?v=rU8nv38E0Qk&t=2s"
+    },
+    {
+        "title": "Ethereum is Punk",
+        "author": "Green Pill",
+        "link": "https://www.youtube.com/watch?v=7gRtQOPyABg&list=LL&index=25"
+    },
+    {
+        "title": "Living Beyond Limits",
+        "author": "Amy Purdy",
+        "link": "https://www.youtube.com/watch?v=N2QZM7azGoA"
+    },
+    {
+        "title": "\"Virgil Abloh Explains Why Streetwear Is an Art Movement\r\"",
+        "author": "Complex",
+        "link": "https://www.youtube.com/watch?v=KLq-0QU0VXo"
+    },
+    {
+        "title": "How to Make Stress Your Friend",
+        "author": "Kelly McGonigal",
+        "link": "https://www.youtube.com/watch?v=RcGyVTAoXEU"
+    },
+    {
+        "title": "What it Takes to Be a Great Leader",
+        "author": "Roselinde Torres",
+        "link": "https://www.youtube.com/watch?v=aUYSDEYdmzw"
+    },
+    {
+        "title": "Learning How to Learn",
+        "author": "Barbara Oakley",
+        "link": "https://www.youtube.com/watch?v=O96fE1E-rf8"
+    },
+    {
+        "title": "Bobby Hundreds at Emerge",
+        "author": "Native Ground",
+        "link": "https://www.youtube.com/watch?v=sRnpKmtAq5Y"
+    },
+    {
+        "title": "How KAWS Became the Face Of Contemporary Art",
+        "author": "Complex",
+        "link": "https://youtu.be/UMH8b-Ip5uM?si=HGS229v05kMaS6BH"
+    },
+    {
+        "title": "How to Gain Control of Your Free Time",
+        "author": "Laura Vanderkam",
+        "link": "https://www.youtube.com/watch?v=n3kNlFMXslo"
+    },
+    {
+        "title": "BASQUIAT's work ethic",
+        "author": "MANC",
+        "link": "https://www.youtube.com/watch?v=8G9pnE0bnfE"
+    },
+    {
+        "title": "Pharrell Williams & Rick Rubin",
+        "author": "Tetragrammaton",
+        "link": "https://www.youtube.com/watch?v=in9sub7cDFM"
+    },
+    {
+        "title": "A Simple Way to Break a Bad Habit",
+        "author": "Judson Brewer",
+        "link": "https://www.youtube.com/watch?v=-moW9jvvMr4"
+    },
+    {
+        "title": "What Fear Can Teach Us",
+        "author": "Karen Thompson Walker",
+        "link": "https://www.youtube.com/watch?v=KphWsnhZ4Ag"
+    },
+    {
+        "title": "The Art of Asking",
+        "author": "Amanda Palmer",
+        "link": "https://www.youtube.com/watch?v=xMj_P_6H69g"
+    },
+    {
+        "title": "The Journey of Purpose - A Story That Will Change Your Life",
+        "author": "Fearless Soul",
+        "link": "https://www.youtube.com/watch?v=TQMbvJNRpLE"
+    },
+    {
+        "title": "All Star Series: Tyler Talk, Los Angeles",
+        "author": "Converse",
+        "link": "https://youtu.be/eAQUeUzcbNY?si=v02lKsCDxY0IW5_3"
+    },
+    {
+        "title": "The Most Motivational Video You’ll Ever Watch",
+        "author": "Mateusz M",
+        "link": "https://www.youtube.com/watch?v=mgmVOuLgFB0"
+    },
+    {
+        "title": "Why You Should Define Your Fears Instead of Your Goals",
+        "author": "Tim Ferriss (Big Think)",
+        "link": "https://www.youtube.com/watch?v=5J6jAC6XxAI"
+    },
+    {
+        "title": "Alan Watts - What If Money Was No Object",
+        "author": "Tragedy and Hope",
+        "link": "https://www.youtube.com/watch?v=khOaAHK7efc"
+    },
+    {
+        "title": "The Last Lecture: Achieving Your Childhood Dreams",
+        "author": "Randy Pausch",
+        "link": "https://www.youtube.com/watch?v=ji5_MqicxSo"
+    },
+    {
+        "title": "Collecting With Tyler, The Creator",
+        "author": "Tyler",
+        "link": "https://www.youtube.com/watch?v=1GHGvwlCxXk"
+    },
+    {
+        "title": "The Laws of Human Nature: 48 Laws of Power Author's Advice",
+        "author": "Robert Greene (Valuetainment)",
+        "link": "https://www.youtube.com/watch?v=sY8aFSY2zv4"
+    },
+    {
+        "title": "The Real You - Alan Watts",
+        "author": "Alan Watts Wisdom Channel",
+        "link": "https://www.youtube.com/watch?v=mMRrCYPxD0I"
+    },
+    {
+        "title": "The Greatest Motivational Speech of All Time",
+        "author": "Mulligan Brothers",
+        "link": "https://www.youtube.com/watch?v=mgmVOuLgFB0"
+    },
+    {
+        "title": "The Story of Stuff",
+        "author": "The Story of Stuff Project",
+        "link": "https://www.youtube.com/watch?v=9GorqroigqM"
+    },
+    {
+        "title": "A Day in the Life of a Minimalist",
+        "author": "Matt D'Avella",
+        "link": "https://www.youtube.com/watch?v=wCzS2FZoB-I"
+    },
+    {
+        "title": "Takashi Murakami",
+        "author": "Museum of Contemporary Art Chicago",
+        "link": "https://www.youtube.com/watch?v=-YPOWBQAd1M"
+    },
+    {
+        "title": "How to Think Critically in a World of Fake News",
+        "author": "Veritasium",
+        "link": "https://www.youtube.com/watch?v=pLlv2o6UfTU"
+    },
+    {
+        "title": "Brain Hacking",
+        "author": "60 Minutes",
+        "link": "https://www.youtube.com/watch?v=awAMTQZmvPE"
+    },
+    {
+        "title": "Inside Porsche Collector Magnus Walker's House",
+        "author": "Everhouse",
+        "link": "https://www.youtube.com/watch?v=4XumTRutQd0"
+    },
+    {
+        "title": "Uncovering Bobby Hundreds' Design Philosophy and Influences",
+        "author": "Complex",
+        "link": "https://www.youtube.com/watch?v=dxRK-GSndW8"
+    },
+    {
+        "title": "[AOMIX] EP.19",
+        "author": "Spray",
+        "link": "https://youtu.be/IEt_FpwTD4c?si=6dON-_sXXp08pNns"
+    },
+    {
+        "title": "Ideas for things worth building",
+        "author": "Vitalik Buterin",
+        "link": "https://youtu.be/rp3cDq2LiBM?si=EUrXsubsm48wfc13"
+    },
+    {
+        "title": "AMA with CryptoBushi (DAOPunks Co-Founder)",
+        "author": "ParticleDAO",
+        "link": "https://youtu.be/m6nYx9YL1ME?si=TvwVgPmldwL8T4GC"
+    },
+    {
+        "title": "Building Sustainable Organizations",
+        "author": "Dennison Bertram",
+        "link": "https://youtu.be/7r19n5jtNy4?si=ztqF-38WbZzFrtM_"
+    },
+    {
+        "title": "DANNY NEDELKO",
+        "author": "IDLES",
+        "link": "https://youtu.be/QkF_G-RF66M?si=638_NjTLVcmZd3A1"
+    },
+    {
+        "title": "The Man Who Solved the Universe",
+        "author": "Marcus Aurelius",
+        "link": "https://youtu.be/tv6W0Nv5ev0?si=q9YbcJkwo-illJVf"
+    },
+    {
+        "title": "The Man in the Arena",
+        "author": "Teddy Roosevelt",
+        "link": "https://youtu.be/A311CnTjfos?si=MufzHbOhyB-thlv-"
+    },
+    {
+        "title": "Take It Personal.",
+        "author": "HYPE",
+        "link": "https://youtu.be/oOEUCXoi6eA?si=91YNLJjwnTv4AAls"
+    },
+    {
+        "title": "There Is No Tomorrow",
+        "author": "Rocky",
+        "link": "https://youtu.be/elmJQTKLC6c?si=R4s_MrhEDIHq92Zf"
+    },
+    {
+        "title": "Steve Jobs Insult Response",
+        "author": "Apple",
+        "link": "https://youtu.be/oeqPrUmVz-o?si=nWVPrdS640y1H--g"
+    },
+    {
+        "title": "A Simple Guide to Chaos Theory",
+        "author": "BBC",
+        "link": "https://youtu.be/r_ahZOgPTsk?si=KbAPmI4rmZM82ePW"
+    },
+    {
+        "title": "Overcoming Fear",
+        "author": "Martin Luther King",
+        "link": "https://youtu.be/vdE4wHX_5fI?si=e0dJ6bKX-3fRHGQq"
+    },
+    {
+        "title": "Raise the Level",
+        "author": "Shepard Fairey",
+        "link": "https://youtu.be/6YOo8KhBQyw?si=sG2EuugsPLGAt-Py"
+    },
+    {
+        "title": "Lessons on Creativity",
+        "author": "Rick Rubin",
+        "link": "https://youtu.be/ABTbvfkYKBg?si=EmADdNpjvQjat1Zl"
+    },
+    {
+        "title": "the Craft of Short Story Writing",
+        "author": "Stephen King",
+        "link": "https://youtu.be/s1qItKJ8RiQ?si=uJ30IYwY7B9pUKE3"
+    },
+    {
+        "title": "Shapes of Stories",
+        "author": "Kurt Vonnegut",
+        "link": "https://youtu.be/oP3c1h8v2ZQ?si=CD2LPs54cm0ymvQi"
+    },
+    {
+        "title": "On Being Truly Educated",
+        "author": "Noam Chomsky",
+        "link": "https://youtu.be/eYHQcXVp4F4?si=8ba95Ct3w4QfCDrn"
+    },
+    {
+        "title": "On Being Entirely Yourself",
+        "author": "David Foster Wallace",
+        "link": "https://youtu.be/YRVNTtyqmQA?si=-JBY43P7d16HZrHg"
+    },
+    {
+        "title": "Quentin Tarantino on Self Discipline",
+        "author": "QT",
+        "link": "https://youtu.be/G6PoZreqlZ4?si=XlaBAchP14Bcu9PS"
+    },
+    {
+        "title": "The Grateful Dead Movie",
+        "author": "Grateful Dead",
+        "link": "https://youtu.be/pZPJ_VN3Iis?si=Wyfm4vrszgyBnu8O"
+    },
+    {
+        "title": "David Bowie Interview",
+        "author": "Charlie Rose",
+        "link": "https://youtu.be/t8CNhakfB7c?si=l86I1A83s5Hyey0x"
+    },
+    {
+        "title": "You Can Make a Netflix Style Doco About Literally Anything",
+        "author": "Paul ET",
+        "link": "https://youtu.be/9BUrNe3Vhtk?si=WO0T4-QouVTmj8wd"
+    },
+    {
+        "title": "Make Art Out of Curiosity not Fear",
+        "author": "David Choe",
+        "link": "https://youtu.be/cifhF0mCouA?si=nKfA2FN_jBlgAF5h"
+    },
+    {
+        "title": "Interview with Keith Hufnagel",
+        "author": "Hypebeast",
+        "link": "https://youtu.be/STYmQ3-O_5s?si=JBa6fAI0SNuf34MJ"
+    },
+    {
+        "title": "Africa's Cowboy Capitalists",
+        "author": "Vice",
+        "link": "https://www.youtube.com/watch?v=NUFvfuDAMsw&list=PL413299DC95044CED"
+    },
+    {
+        "title": "Cherry",
+        "author": "Supreme",
+        "link": "https://youtu.be/0zIVTDbve7k?si=nL-p0mBXF2citekf"
+    },
+    {
+        "title": "Rapping, deconstructed",
+        "author": "Vox",
+        "link": "https://youtu.be/QWveXdj6oZU?si=TinZnyTBqOAmsTJO"
+    },
+    {
+        "title": "PET Program",
+        "author": "Hubspot Inc",
+        "link": "https://youtu.be/HTP5FSHGWGQ?si=R2G6Pf0yYsvUDlED"
+    },
+    {
+        "title": "A Pep Talk from Kid President",
+        "author": "Kid President",
+        "link": "https://youtu.be/l-gQLqv9f4o?si=RfA0AL9jCSkMCCtv"
+    },
+    {
+        "title": "Coffee & Cigarettes...",
+        "author": "GZ, RZA, Bill Murray",
+        "link": "https://youtu.be/H6EZkIaJcCI?si=3N9UD-K3ON3Gquba"
+    },
+    {
+        "title": "BanklessDAO Governance 2.0",
+        "author": "0x.Justice",
+        "link": "https://youtu.be/Z-w5RWHzyBw?si=F0V5AvT2-c-GxBZG"
+    },
+    {
+        "title": "POAP Masterclass",
+        "author": "POAP",
+        "link": "https://www.youtube.com/live/veTvoW9-g6M?si=8KfhKxbY4fuH4zh7"
+    },
+    {
+        "title": "Meditations on Moloch",
+        "author": "Allen Ginsberg",
+        "link": "https://slatestarcodex.com/2014/07/30/meditations-on-moloch/"
+    },
+    {
+        "title": "Figma",
+        "author": "Figma Inc",
+        "link": "https://www.figma.com"
+    },
+    {
+        "title": "Blender",
+        "author": "Blender Foundation",
+        "link": "https://www.blender.org"
+    },
+    {
+        "title": "Discord",
+        "author": "Discord Inc",
+        "link": "https://discord.com"
+    },
+    {
+        "title": "Notion",
+        "author": "Notion Labs",
+        "link": "https://www.notion.so"
+    },
+    {
+        "title": "OpenSea",
+        "author": "OpenSea",
+        "link": "https://opensea.io"
+    },
+    {
+        "title": "Metamask",
+        "author": "ConsenSys",
+        "link": "https://metamask.io"
+    },
+    {
+        "title": "Mirror",
+        "author": "Mirror XYZ",
+        "link": "https://mirror.xyz"
+    },
+    {
+        "title": "DRESSX",
+        "author": "DRESSX",
+        "link": "https://dressx.com"
+    },
+    {
+        "title": "Webflow",
+        "author": "Webflow Inc",
+        "link": "https://webflow.com"
+    },
+    {
+        "title": "Airtable",
+        "author": "Airtable",
+        "link": "https://airtable.com"
+    },
+    {
+        "title": "CLO3D",
+        "author": "CLO Virtual Fashion",
+        "link": "https://clo3d.com"
+    },
+    {
+        "title": "Ethereum",
+        "author": "Ethereum Foundation",
+        "link": "https://ethereum.org"
+    },
+    {
+        "title": "Foundation",
+        "author": "Foundation Labs",
+        "link": "https://foundation.app"
+    },
+    {
+        "title": "Palettes",
+        "author": "Genuine Jack & Johnson",
+        "link": "https://www.palettes.fun/"
+    },
+    {
+        "title": "Unreal Engine",
+        "author": "Epic Games",
+        "link": "https://unrealengine.com"
+    },
+    {
+        "title": "Circle",
+        "author": "Circle App",
+        "link": "https://circle.so"
+    },
+    {
+        "title": "Adobe Creative Cloud",
+        "author": "Adobe",
+        "link": "https://adobe.com/creativecloud"
+    },
+    {
+        "title": "Aragon",
+        "author": "Aragon One",
+        "link": "https://aragon.org"
+    },
+    {
+        "title": "Substack",
+        "author": "Substack Inc",
+        "link": "https://substack.com"
+    },
+    {
+        "title": "Lens Protocol",
+        "author": "Aave",
+        "link": "https://lens.xyz"
+    },
+    {
+        "title": "Asana",
+        "author": "Asana Inc",
+        "link": "https://asana.com"
+    },
+    {
+        "title": "Gitcoin",
+        "author": "Gitcoin Holdings",
+        "link": "https://gitcoin.co"
+    },
+    {
+        "title": "Spatial",
+        "author": "Spatial Systems",
+        "link": "https://spatial.io"
+    },
+    {
+        "title": "Ghost",
+        "author": "Ghost Foundation",
+        "link": "https://ghost.org"
+    },
+    {
+        "title": "Alchemy",
+        "author": "Alchemy Insights",
+        "link": "https://alchemy.com"
+    },
+    {
+        "title": "Miro",
+        "author": "Miro",
+        "link": "https://miro.com"
+    },
+    {
+        "title": "IPFS",
+        "author": "Protocol Labs",
+        "link": "https://ipfs.io"
+    },
+    {
+        "title": "Buildspace",
+        "author": "Buildspace",
+        "link": "https://buildspace.so"
+    },
+    {
+        "title": "SuperRare",
+        "author": "SuperRare",
+        "link": "https://superrare.com"
+    },
+    {
+        "title": "Snapshot",
+        "author": "Snapshot Labs",
+        "link": "https://snapshot.org"
+    },
+    {
+        "title": "Calendly",
+        "author": "Calendly LLC",
+        "link": "https://calendly.com"
+    },
+    {
+        "title": "Discourse",
+        "author": "Civilized Discourse",
+        "link": "https://discourse.org"
+    },
+    {
+        "title": "Framer",
+        "author": "Framer BV",
+        "link": "https://framer.com"
+    },
+    {
+        "title": "ENS",
+        "author": "ENS Labs",
+        "link": "https://ens.domains"
+    },
+    {
+        "title": "Typeform",
+        "author": "Typeform",
+        "link": "https://typeform.com"
+    },
+    {
+        "title": "Zora",
+        "author": "Zora Labs",
+        "link": "https://zora.co"
+    },
+    {
+        "title": "Canva",
+        "author": "Canva",
+        "link": "https://canva.com"
+    },
+    {
+        "title": "Colony",
+        "author": "Colony Lab",
+        "link": "https://colony.io"
+    },
+    {
+        "title": "Chainlink",
+        "author": "Chainlink Labs",
+        "link": "https://chain.link"
+    },
+    {
+        "title": "Zapier",
+        "author": "Zapier Inc",
+        "link": "https://zapier.com"
+    },
+    {
+        "title": "Brave",
+        "author": "Brave Software",
+        "link": "https://brave.com"
+    },
+    {
+        "title": "Roll",
+        "author": "Roll",
+        "link": "https://tryroll.com"
+    },
+    {
+        "title": "Obsidian",
+        "author": "Obsidian",
+        "link": "https://obsidian.md"
+    },
+    {
+        "title": "Squarespace",
+        "author": "Squarespace Inc",
+        "link": "https://squarespace.com"
+    },
+    {
+        "title": "Polygon",
+        "author": "Polygon",
+        "link": "https://polygon.technology"
+    },
+    {
+        "title": "Trello",
+        "author": "Atlassian",
+        "link": "https://trello.com"
+    },
+    {
+        "title": "Rarible",
+        "author": "Rarible",
+        "link": "https://rarible.com"
+    },
+    {
+        "title": "Linear",
+        "author": "Linear",
+        "link": "https://linear.app"
+    },
+    {
+        "title": "Mailchimp",
+        "author": "Mailchimp",
+        "link": "https://mailchimp.com"
+    },
+    {
+        "title": "Unity",
+        "author": "Unity Technologies",
+        "link": "https://unity.com"
+    },
+    {
+        "title": "Slack",
+        "author": "Slack Technologies",
+        "link": "https://slack.com"
+    },
+    {
+        "title": "Cryptovoxels",
+        "author": "Cryptovoxels",
+        "link": "https://cryptovoxels.com"
+    },
+    {
+        "title": "Affinity Designer",
+        "author": "Serif",
+        "link": "https://affinity.serif.com"
+    },
+    {
+        "title": "Solidity",
+        "author": "Ethereum",
+        "link": "https://soliditylang.org"
+    },
+    {
+        "title": "Sketch",
+        "author": "Sketch B.V.",
+        "link": "https://sketch.com"
+    },
+    {
+        "title": "Compound",
+        "author": "Compound Labs",
+        "link": "https://compound.finance"
+    },
+    {
+        "title": "ClickUp",
+        "author": "ClickUp",
+        "link": "https://clickup.com"
+    },
+    {
+        "title": "Decentraland",
+        "author": "Decentraland",
+        "link": "https://decentraland.org"
+    },
+    {
+        "title": "Teachable",
+        "author": "Teachable",
+        "link": "https://teachable.com"
+    },
+    {
+        "title": "Art Blocks",
+        "author": "Art Blocks",
+        "link": "https://artblocks.io"
+    },
+    {
+        "title": "Stripe",
+        "author": "Stripe Inc",
+        "link": "https://stripe.com"
+    },
+    {
+        "title": "Hubspot",
+        "author": "Hubspot Inc",
+        "link": "https://hubspot.com"
+    },
+    {
+        "title": "POAP",
+        "author": "POAP",
+        "link": "https://poap.xyz"
+    },
+    {
+        "title": "InVision",
+        "author": "InVision",
+        "link": "https://invisionapp.com"
+    },
+    {
+        "title": "Aave",
+        "author": "Aave",
+        "link": "https://aave.com"
+    },
+    {
+        "title": "Pitch",
+        "author": "Pitch Software",
+        "link": "https://pitch.com"
+    },
+    {
+        "title": "Unlock",
+        "author": "Unlock Inc",
+        "link": "https://unlock-protocol.com"
+    },
+    {
+        "title": "Loom",
+        "author": "Loom Inc",
+        "link": "https://loom.com"
+    },
+    {
+        "title": "Darkblock",
+        "author": "Darkblock",
+        "link": "https://darkblock.io"
+    },
+    {
+        "title": "Frame.io",
+        "author": "Frame.io",
+        "link": "https://frame.io"
+    },
+    {
+        "title": "Uniswap",
+        "author": "Uniswap Labs",
+        "link": "https://uniswap.org"
+    },
+    {
+        "title": "Keybase",
+        "author": "Keybase",
+        "link": "https://keybase.io"
+    },
+    {
+        "title": "Whereby",
+        "author": "Whereby",
+        "link": "https://whereby.com"
+    },
+    {
+        "title": "Intercom",
+        "author": "Intercom Inc",
+        "link": "https://intercom.com"
+    },
+    {
+        "title": "Ceramic",
+        "author": "3Box Labs",
+        "link": "https://ceramic.network"
+    },
+    {
+        "title": "Procreate",
+        "author": "Savage Interactive",
+        "link": "https://procreate.art"
+    },
+    {
+        "title": "Chainlist",
+        "author": "DefiLlama",
+        "link": "https://chainlist.org"
+    },
+    {
+        "title": "Carrd",
+        "author": "Carrd Inc",
+        "link": "https://carrd.co"
+    },
+    {
+        "title": "Boardroom",
+        "author": "Board Labs",
+        "link": "https://boardroom.info"
+    },
+    {
+        "title": "Farcaster",
+        "author": "Merkle Manufactory",
+        "link": "https://farcaster.xyz"
+    },
+    {
+        "title": "Storyblok",
+        "author": "Storyblok GmbH",
+        "link": "https://storyblok.com"
+    },
+    {
+        "title": "Ambient",
+        "author": "Ambient Labs",
+        "link": "https://ambient.run"
+    },
+    {
+        "title": "Mintbase",
+        "author": "Mintbase",
+        "link": "https://mintbase.io"
+    },
+    {
+        "title": "Highlight",
+        "author": "Highlight",
+        "link": "https://highlight.xyz"
+    },
+    {
+        "title": "Pinata",
+        "author": "Pinata",
+        "link": "https://pinata.cloud"
+    },
+    {
+        "title": "Sismo",
+        "author": "Sismo",
+        "link": "https://sismo.io"
+    },
+    {
+        "title": "Supernova",
+        "author": "Supernova",
+        "link": "https://supernova.io"
+    },
+    {
+        "title": "Base Colors",
+        "author": "Jake",
+        "link": "https://www.basecolors.com/"
+    },
+    {
+        "title": "Higher Market",
+        "author": "Genuine Jack",
+        "link": "https://highermarket.xyz/"
+    },
+    {
+        "title": "PartyBid",
+        "author": "PartyDAO",
+        "link": "https://party.app"
+    },
+    {
+        "title": "Etherscan",
+        "author": "Etherscan",
+        "link": "https://etherscan.io"
+    },
+    {
+        "title": "Nouns Space",
+        "author": "Nouns DAO",
+        "link": "https://www.nounspace.com/explore"
+    },
+    {
+        "title": "Arweave",
+        "author": "Arweave",
+        "link": "https://arweave.org"
+    },
+    {
+        "title": "Coordinape",
+        "author": "Coordinape",
+        "link": "https://coordinape.com"
+    },
+    {
+        "title": "Dendron",
+        "author": "Dendron",
+        "link": "https://dendron.so"
+    },
+    {
+        "title": "Snapshot Labs",
+        "author": "Snapshot Labs",
+        "link": "https://snapshot.org"
+    },
+    {
+        "title": "Mintgate",
+        "author": "Mintgate",
+        "link": "https://mintgate.app"
+    },
+    {
+        "title": "Flipside",
+        "author": "Flipside Crypto",
+        "link": "https://flipsidecrypto.xyz"
+    },
+    {
+        "title": "Charmverse",
+        "author": "Charmverse",
+        "link": "https://charmverse.io"
+    },
+    {
+        "title": "Nouns Builder",
+        "author": "Nouns DAO",
+        "link": "https://nouns.build"
+    },
+    {
+        "title": "The Greenpaper: Explaining Higher Network",
+        "author": "Jihad Esmail & LGHT",
+        "link": "https://lght.mirror.xyz/QmhfjvR_Ug-XGbTeybBCfST4_JWqDfyvdTu96yZHgHA"
+    },
+    {
+        "title": "Technocapitalism",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/EnqAVNDoVu3nhUJ_RRgxWn4m8QikD1ATT7v9gi04QZ8"
+    },
+    {
+        "title": "Higher???",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/sj2ZD56v80Dk51VEVFrtoK63eBMQMfo0e6p0IDQQRog"
+    },
+    {
+        "title": "Left-Curving DAOs",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/zgnQyci9HqYQ8KTRcomh2_CCDepcwqrigCFQZFQz5QA"
+    },
+    {
+        "title": "The Token/Vibe Paradox",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/Kxt2YEeRI-QR-Aurb5OxjXfbbnBl0XXKbfeo6k1S5Cs"
+    },
+    {
+        "title": "Eccentric-Led Protocols and Systems",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/_vKFrUuzJdR3Kghm-OQDKKXZi4UcBM4VF3GAEJERKis"
+    },
+    {
+        "title": "\"We Are So Early.. as Creatives\r\"",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/YiI3Uqn0x1yF6nfG7BCtyT6nf46dizJoXp4bUDzw078"
+    },
+    {
+        "title": "Impressions & The Next Paradigm for Social Metrics?",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/geaXZMo28oKO1tFuYixgBfn5lvBGdT7JyVQgk4NYPa8"
+    },
+    {
+        "title": "The Course of Memepire 1: The Savage State",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/PyVamFjuDpQIOKMe9jB4JDSlJu11go14L-PbCIUlfSg"
+    },
+    {
+        "title": "Mascot Memetics",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/Y6ZwMhUwZBkrd7ljI2Hfbv5w2HvNr_znEn3gtTVyD3A"
+    },
+    {
+        "title": "Personally Online",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/-zEu_4nca8DX8n5ciCyOesotOeY40z25IBDBgnjz6fc"
+    },
+    {
+        "title": "The Memetics Department",
+        "author": "LGHT",
+        "link": "https://lght.mirror.xyz/yvg_cLMo1OlVxGY6JStYucMRtnPIwPJpk7L5VyNc37g"
+    },
+    {
+        "title": "HIGHER: Expression, Action, Education",
+        "author": "The Network Company",
+        "link": "https://drive.google.com/file/d/1Wi3lAX8eVBA_0LYWQiCOngXc2eiPqUr8/view?usp=drive_link"
+    },
+    {
+        "title": "Micro Campaigns",
+        "author": "The Network Company",
+        "link": "https://drive.google.com/file/d/1uiIj1HkuBA8XAt6aItMY1zdOL1sXPSji/view?usp=drive_link"
+    },
+    {
+        "title": "Helping Build the First Open-Source Network: A Network for Net-Work",
+        "author": "The Network Company",
+        "link": "https://thenetworkcompany.substack.com/p/the-open-source-network-theory"
+    },
+    {
+        "title": "Creative Direction Notes re: Higher",
+        "author": "The Network Company",
+        "link": "https://thenetworkcompany.substack.com/p/creative-direction-notes-re-higher"
+    },
+    {
+        "title": "The Faux Founder’s Dilemma",
+        "author": "The Network Company",
+        "link": "https://thenetworkcompany.substack.com/p/the-faux-founders-dilemma"
+    },
+    {
+        "title": "Software Spirituality",
+        "author": "The Network Company",
+        "link": "https://thenetworkcompany.substack.com/p/software-spirituality"
+    },
+    {
+        "title": "Higher FM",
+        "author": "Higher FM",
+        "link": "https://higher.fm/"
+    },
+    {
+        "title": "Higher Athletics",
+        "author": "Higher Athletics",
+        "link": "https://warpcast.com/higherathletics"
+    },
+    {
+        "title": "Higher Homepage",
+        "author": "Higher",
+        "link": "https://www.aimhigher.net/"
+    },
+    {
+        "title": "Higherio",
+        "author": "Higher",
+        "link": "https://higherio.xyz/"
+    },
+    {
+        "title": "Higher Warpcast Channel",
+        "author": "Higher",
+        "link": "https://warpcast.com/~/channel/higher"
+    },
+    {
+        "title": "Higher on Zora",
+        "author": "Zora",
+        "link": "https://zora.co/explore/higher"
+    },
+    {
+        "title": "Higher Notes",
+        "author": "Simple Cohort",
+        "link": "https://apps.apple.com/us/app/higher-notes/id6736860942"
+    }
+]
