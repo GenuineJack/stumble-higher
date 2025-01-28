@@ -38,18 +38,18 @@ export default function Home() {
   }, []);
 
   async function fetchResources() {
-    try {
-      const response = await fetch('/api/resources');
-      if (!response.ok) {
-        throw new Error('Failed to fetch resources');
-      }
-      const { content } = await response.json();
-      const parsedResources = parseResources(content);
-      setResources(parsedResources);
-    } catch (error) {
-      console.error('Error fetching resources:', error);
+  try {
+    const response = await fetch('/api/resources'); // Call the API
+    if (response.ok) {
+      const data = await response.json();
+      setResources(data); // Store the resources in state
+    } else {
+      console.error('Failed to fetch resources:', response.statusText);
     }
+  } catch (error) {
+    console.error('Error fetching resources:', error);
   }
+}
 
   function parseResources(markdownData) {
     try {
