@@ -28,17 +28,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 
-  return {
-    title: `Discover: ${name}`,
-    description: `Explore curated content about ${name}.`,
-    openGraph: {
-      title: `Discover: ${name}`,
-      description: `Explore curated content about ${name}.`,
-    },
-    other: {
-      "fc:frame": JSON.stringify(frame),
-    },
-  };
+  return (
+  <App title={`Welcome to ${params.name}'s Frame!`}>
+    <div>
+      <p>This is your frame content for {params.name}.</p>
+    </div>
+  </App>
+);
 }
 
 // Main component for dynamic frames
