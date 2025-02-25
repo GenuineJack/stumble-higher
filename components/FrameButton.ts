@@ -22,7 +22,7 @@ const FrameButton: React.FC<FrameButtonProps> = ({
         backgroundColor: splashBackgroundColor || '#0070f3',
         color: '#fff',
         textDecoration: 'none',
-        borderRadius: '4px'
+        borderRadius: '4px',
       }}
     >
       {title}
