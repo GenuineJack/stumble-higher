@@ -7,12 +7,8 @@ interface FrameButtonProps {
   splashBackgroundColor?: string;
 }
 
-const FrameButton: React.FC<FrameButtonProps> = ({
-  title,
-  url,
-  splashImageUrl,
-  splashBackgroundColor,
-}) => {
+function FrameButton(props: FrameButtonProps): JSX.Element {
+  const { title, url, splashImageUrl, splashBackgroundColor } = props;
   return (
     <a
       href={url}
@@ -28,6 +24,6 @@ const FrameButton: React.FC<FrameButtonProps> = ({
       {title}
     </a>
   );
-};
+}
 
 export default FrameButton;
