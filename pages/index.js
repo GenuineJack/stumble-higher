@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      {/* Top-right “?” button to open modal */}
+      {/* “?” info button in the top-right corner */}
       <button className={styles.infoBtn} onClick={() => setModalVisible(true)}>?</button>
 
       <main className={styles.main}>
@@ -24,7 +24,7 @@ export default function Home() {
         </Link>
       </main>
 
-      {/* How It Works Modal */}
+      {/* “How It Works” Modal */}
       {modalVisible && (
         <div
           className={styles.modal}
@@ -39,11 +39,10 @@ export default function Home() {
             </span>
             <h2>How It Works</h2>
             <ol>
-              <li>Press "Press To Go Higher" to start your journey</li>
-              <li>You will be taken to a curated "Higher-Aligned" idea on the web</li>
-              <li>Explore the resource and discover the wonders of the web</li>
-              <li>Ready to move on? Click the "Go Higher" button to see the next idea</li>
-              <li>Note: If a page fails to load, click the 🌐 button to open the page</li>
+              <li>Press "Press To Go Higher" to start your journey.</li>
+              <li>You will be taken to a resource page with a curated idea.</li>
+              <li>Explore the resource and enjoy your discovery.</li>
+              <li>Share your inspiration to keep the energy going.</li>
             </ol>
           </div>
         </div>
