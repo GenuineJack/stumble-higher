@@ -1,4 +1,6 @@
 /* styles/globals.css */
+
+/* Basic resets */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,6 +32,13 @@ body {
   line-height: 1;
 }
 
+/* Force the page to occupy full viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -47,10 +56,4 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
