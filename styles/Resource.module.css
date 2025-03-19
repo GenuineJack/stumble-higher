@@ -1,24 +1,28 @@
 /* styles/Resource.module.css */
 
+/* Make the container fill the screen */
 .container {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #f5f5f5;
+  height: 100%; /* Fill entire viewport */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #f5f5f5;
 }
 
+/* main area holds the iframe + spinner */
 .main {
-  flex: 1;
+  flex: 1; /* expands to fill space above footer */
   position: relative;
+  display: flex; /* so iframe can flex to fill space */
 }
 
+/* Let the iframe fill .main area */
 .iframe {
-  width: 100%;
-  height: 100%;
+  flex: 1;
   border: none;
 }
 
+/* The loading spinner, centered absolutely */
 .spinner {
   border: 8px solid #f3f3f3;
   border-top: 8px solid #ff6600;
@@ -39,6 +43,7 @@
   100% { transform: rotate(360deg); }
 }
 
+/* Footer pinned to the bottom */
 .footer {
   background: #fff;
   padding: 10px 20px;
@@ -51,9 +56,7 @@
 }
 
 .footerLeft {}
-
 .footerCenter {}
-
 .footerRight {}
 
 .footerRight button {
@@ -69,6 +72,7 @@
   color: #007acc;
 }
 
+/* The orange "Go Higher" button in the footer */
 .mainBtn {
   background: #ff6600;
   color: #fff;
