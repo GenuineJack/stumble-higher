@@ -4,8 +4,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  position: relative; /* So we can absolutely position the info button */
-  background: #f5f5f5; /* Light grey background to match the second screenshot style */
+  position: relative;
+  background: #f5f5f5;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -75,7 +75,7 @@
   background: #e65c00;
 }
 
-/* The “How It Works” modal overlay */
+/* “How It Works” modal overlay */
 .modal {
   position: fixed;
   top: 0;
@@ -89,7 +89,7 @@
   z-index: 1000;
 }
 
-/* The white modal content box */
+/* White modal content box */
 .modalContent {
   background: #fff;
   padding: 20px 30px;
@@ -99,7 +99,7 @@
   position: relative;
 }
 
-/* The “X” close button inside the modal */
+/* “X” close button inside the modal */
 .close {
   position: absolute;
   top: 10px;
@@ -108,7 +108,7 @@
   cursor: pointer;
 }
 
-/* The home page footer with credit link */
+/* Home page footer */
 .footer {
   text-align: center;
   font-size: 0.8em;
