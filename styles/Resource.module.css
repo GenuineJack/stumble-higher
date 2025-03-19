@@ -1,28 +1,28 @@
 /* styles/Resource.module.css */
 
-/* Make the container fill the screen */
+/* Let the container fill the screen */
 .container {
   display: flex;
   flex-direction: column;
-  height: 100%; /* Fill entire viewport */
+  height: 100%;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: #f5f5f5;
 }
 
-/* main area holds the iframe + spinner */
+/* The main area for the iframe + spinner */
 .main {
   flex: 1; /* expands to fill space above footer */
   position: relative;
   display: flex; /* so iframe can flex to fill space */
 }
 
-/* Let the iframe fill .main area */
+/* The iframe occupies all available space in .main */
 .iframe {
   flex: 1;
   border: none;
 }
 
-/* The loading spinner, centered absolutely */
+/* The loading spinner, centered absolutely in .main */
 .spinner {
   border: 8px solid #f3f3f3;
   border-top: 8px solid #ff6600;
@@ -43,7 +43,7 @@
   100% { transform: rotate(360deg); }
 }
 
-/* Footer pinned to the bottom */
+/* Footer pinned to the bottom of .container */
 .footer {
   background: #fff;
   padding: 10px 20px;
