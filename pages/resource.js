@@ -7,10 +7,10 @@ export default function Resource() {
   const [currentResource, setCurrentResource] = useState(null)
   const [loading, setLoading] = useState(false)
 
-  // Fetch resource data from public folder
+  // Fetch JSON from public folder
   useEffect(() => {
     fetch('/stumble-higher-resources-final-1.json')
-      .then(response => response.json())
+      .then(res => res.json())
       .then(data => {
         // Filter out header rows
         const validResources = data.Books.filter(
@@ -21,8 +21,8 @@ export default function Resource() {
           loadRandomResource(validResources)
         }
       })
-      .catch(error => {
-        console.error('Error loading resource data:', error)
+      .catch(err => {
+        console.error('Error loading resource data:', err)
       })
   }, [])
 
@@ -36,18 +36,22 @@ export default function Resource() {
     setCurrentResource(randomResource)
 
     const iframe = document.getElementById('resource-iframe')
+
+    // Fallback timer: skip to next resource if load fails after 5s
     const loadTimeout = setTimeout(() => {
       console.warn('Resource took too long to load. Skipping to next resource...')
       setLoading(false)
       loadRandomResource(resourceList)
     }, 5000)
 
+    // If resource loads successfully, clear the timeout
     iframe.onload = () => {
       clearTimeout(loadTimeout)
       setLoading(false)
       console.log('Resource loaded successfully:', randomResource)
     }
 
+    // If there's an error, skip to the next resource
     iframe.onerror = () => {
       clearTimeout(loadTimeout)
       setLoading(false)
@@ -55,7 +59,7 @@ export default function Resource() {
       loadRandomResource(resourceList)
     }
 
-    // In the JSON, the resource URL is stored in the "author" field
+    // The resource link is stored in "author" in your JSON
     iframe.src = randomResource.author
   }
 
@@ -67,12 +71,15 @@ export default function Resource() {
           id="resource-iframe"
           className={styles.iframe}
           title="Resource Viewer"
-        ></iframe>
+        />
       </div>
+
       <footer className={styles.footer}>
         <div className={styles.footerLeft}>
           <span id="resource-info">
-            {currentResource ? `${currentResource.id} by ${currentResource.title}` : 'Loading resource...'}
+            {currentResource
+              ? `${currentResource.id} by ${currentResource.title}`
+              : 'Loading resource...'}
           </span>
         </div>
         <div className={styles.footerCenter}>
@@ -95,15 +102,15 @@ export default function Resource() {
             title="Share"
             onClick={() => {
               if (navigator.share && currentResource) {
-                navigator.share({
-                  title: currentResource.id,
-                  text: `Check out "${currentResource.id}" by ${currentResource.title} on Stumble Higher!`,
-                  url: currentResource.author
-                }).catch(err => console.error('Error sharing:', err))
+                navigator
+                  .share({
+                    title: currentResource.id,
+                    text: `Check out "${currentResource.id}" by ${currentResource.title} on Stumble Higher!`,
+                    url: currentResource.author
+                  })
+                  .catch(err => console.error('Error sharing:', err))
               } else {
-                alert(
-                  'Sharing not supported. Copy the URL: ' + currentResource.author
-                )
+                alert('Sharing not supported. Copy the URL: ' + currentResource.author)
               }
             }}
           >
