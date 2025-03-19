@@ -59,7 +59,7 @@ export default function Resource() {
       loadRandomResource(resourceList)
     }
 
-    // The resource link is stored in "author" in your JSON
+    // The resource link is in "author" in your JSON
     iframe.src = randomResource.author
   }
 
@@ -71,6 +71,7 @@ export default function Resource() {
           id="resource-iframe"
           className={styles.iframe}
           title="Resource Viewer"
+          scrolling="auto" /* ensure scroll if content is bigger */
         />
       </div>
 
