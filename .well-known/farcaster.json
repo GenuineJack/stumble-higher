@@ -1,0 +1,18 @@
+{
+  "frame": {
+    "version": "1",
+    "name": "STUMBLE HIGHER",
+    "homeUrl": "https://www.stumblehigher.press/index.html",
+    "iconUrl": "https://images.squarespace-cdn.com/content/v1/67ad421520b6ba3d357c8fd1/166ad142-790e-4f57-864e-883158e422a8/STUMBLE-HIGHER-MINIAPP-IMAGE.png?format=750w",
+    "splashImageUrl": "https://images.squarespace-cdn.com/content/v1/67ad421520b6ba3d357c8fd1/166ad142-790e-4f57-864e-883158e422a8/STUMBLE-HIGHER-MINIAPP-IMAGE.png?format=750w",
+    "splashBackgroundColor": "#ffffff",
+    "subtitle": "Curated ideas to elevate your mind",
+    "description": "Stumble into curated ideas that elevate your mind and take you higher.",
+    "heroImageUrl": "https://images.squarespace-cdn.com/content/v1/67ad421520b6ba3d357c8fd1/166ad142-790e-4f57-864e-883158e422a8/STUMBLE-HIGHER-MINIAPP-IMAGE.png?format=750w",
+    "tagline": "Elevate your scroll",
+    "ogTitle": "STUMBLE HIGHER",
+    "ogDescription": "Discover curated ideas that elevate your mind.",
+    "ogImageUrl": "https://images.squarespace-cdn.com/content/v1/67ad421520b6ba3d357c8fd1/166ad142-790e-4f57-864e-883158e422a8/STUMBLE-HIGHER-MINIAPP-IMAGE.png?format=750w",
+    "buttonTitle": "Start Stumbling"
+  }
+}
