@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>STUMBLE HIGHER</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="module">
+    import { createMiniApp } from 'https://esm.sh/@farcaster/miniapp';
+
+    const app = createMiniApp();
+
+    app.onReady(() => {
+      console.log("Mini App loaded");
+      const user = app.getUser();
+      if (user) {
+        document.getElementById("fid").textContent = `Hello, FID: ${user.fid}`;
+      }
+
+      document.getElementById("cast-btn").addEventListener("click", async () => {
+        await app.composeCast({
+          text: "Just stumbled upon something great on STUMBLE HIGHER! https://www.stumblehigher.press"
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>STUMBLE HIGHER</h1>
+    <p id="fid">Loading user info...</p>
+    <button id="cast-btn" class="main-btn">Cast This</button>
+    <a href="/resource.html" class="main-btn">Go Higher</a>
+  </div>
+</body>
+</html>
