@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/frame",
+      "destination": "/frame.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/frame",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html"
+        }
+      ]
+    }
+  ]
+}
